@@ -49,7 +49,7 @@ marked.parse("# example markdown");
 The `position` field will be added to the tokens so any other extension can
 use the `position` field in a `walkTokens` function or `processAllTokens` hook.
 
-> [!NOTE]
+> [!CAUTION]
 > The `processAllTokens` hook is used by this extension so any other extension
 > using `processAllTokens` that requires the `position` field must be added
 > before this extension because marked calls the `processAllTokens` hooks in

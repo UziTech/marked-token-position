@@ -2,11 +2,7 @@
 import type { MarkedExtension, Token, Tokens } from 'marked';
 
 export interface TokenWithPosition extends Tokens.Generic {
-  position: {
-    offset: number;
-    line: number;
-    column: number;
-  }
+  position: Position;
 }
 
 interface Position {

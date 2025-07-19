@@ -35,14 +35,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markedjs/marked-token-position.git"
+    "url": "git+https://github.com/UziTech/marked-token-position.git"
   },
   "author": "Tony Brix <Tony@Brix.ninja> (https://Tony.Brix.ninja)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/markedjs/marked-token-position/issues"
+    "url": "https://github.com/UziTech/marked-token-position/issues"
   },
-  "homepage": "https://github.com/markedjs/marked-token-position#readme",
+  "homepage": "https://github.com/UziTech/marked-token-position#readme",
   "peerDependencies": {
     "marked": ">=16 <17"
   },

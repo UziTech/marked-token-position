@@ -10,8 +10,33 @@
 
 Add `position` field for each token.
 
-`token.position.line` = line token starts on
-`token.position.column` = column token starts on
+```ts
+interface Position {
+  /**
+   * position at the beginning of token
+   */
+  start: PositionFields;
+  /**
+   * position at the end of token
+   */
+  end: PositionFields;
+}
+
+interface PositionFields {
+  /**
+   * Number of characters from the beginning of the markdown string
+   */
+  offset: number;
+  /**
+   * Line number of the token. Starts at line 0.
+   */
+  line: number;
+  /**
+   * Column number of the token. Starts at column 0.
+   */
+  column: number;
+}
+```
 
 # Usage
 

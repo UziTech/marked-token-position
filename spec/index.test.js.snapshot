@@ -1,0 +1,7 @@
+exports[`marked-extension-template > markdown not using this extension 1`] = `
+"<p>not example markdown</p>\\n"
+`;
+
+exports[`marked-extension-template > no options 1`] = `
+"<p>example html</p>\\n"
+`;

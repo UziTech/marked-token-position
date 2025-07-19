@@ -1,11 +1,3 @@
-<!-- You may also delete any comments you don't need anymore. -->
-
-# TODO:
-
-- [ ] Uncomment release in `/.github/workflows/main.yml`
-
-<!-- Delete this line and above -->
-
 # marked-token-position
 
 Add `position` field for each token.

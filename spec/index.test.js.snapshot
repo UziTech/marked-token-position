@@ -83,7 +83,7 @@ exports[`markedTokenPosition > childTokens 2`] = `
 "<newTag><strong>some text</strong></newTag>"
 `;
 
-exports[`markedTokenPosition > header 1`] = `
+exports[`markedTokenPosition > example 1`] = `
 [
   {
     "type": "heading",
@@ -126,7 +126,7 @@ exports[`markedTokenPosition > header 1`] = `
 ]
 `;
 
-exports[`markedTokenPosition > header 2`] = `
+exports[`markedTokenPosition > example 2`] = `
 "<h1>example markdown</h1>\\n"
 `;
 
@@ -369,7 +369,7 @@ exports[`markedTokenPosition > table 2`] = `
 "<table>\\n<thead>\\n<tr>\\n<th>a</th>\\n<th>b</th>\\n</tr>\\n</thead>\\n<tbody><tr>\\n<td>1</td>\\n<td>2</td>\\n</tr>\\n</tbody></table>\\n"
 `;
 
-exports[`setPositions > example markdown 1`] = `
+exports[`addTokenPositions > example markdown 1`] = `
 [
   {
     "type": "heading",

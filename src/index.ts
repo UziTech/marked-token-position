@@ -20,27 +20,19 @@ interface PositionFields {
   column: number;
 }
 
-export function setPositions(tokens: Token[], markdown: string) {
-  return setPosition(tokens, 0, 0, 0, markdown).tokens;
+export function addTokenPositions(tokens: Token[]) {
+  return addPosition(tokens, 0, 0, 0, tokens.map(token => token.raw).join('')).tokens;
 }
 
 export default function(options = {}): MarkedExtension {
-  let originalMarkdown = '';
-
   return {
     hooks: {
-      preprocess(md) {
-        originalMarkdown = md;
-        return md;
-      },
-      processAllTokens(tokens) {
-        return setPositions(tokens, originalMarkdown);
-      },
+      processAllTokens: addTokenPositions,
     },
   };
 }
 
-function setPosition(tokens: Token[], offset: number, line: number, column: number, markdown : string) {
+function addPosition(tokens: Token[], offset: number, line: number, column: number, markdown : string) {
   for (const token of tokens) {
     const genericToken = token as Tokens.Generic;
     const raw = genericToken.raw;
@@ -48,7 +40,7 @@ function setPosition(tokens: Token[], offset: number, line: number, column: numb
     genericToken.position = position;
 
     if (genericToken.tokens) {
-      setPosition(genericToken.tokens, position.start.offset, position.start.line, position.start.column, raw);
+      addPosition(genericToken.tokens, position.start.offset, position.start.line, position.start.column, raw);
     }
 
     if (genericToken.childTokens) {
@@ -57,7 +49,7 @@ function setPosition(tokens: Token[], offset: number, line: number, column: numb
       let nextColumn = position.start.column;
       let nextMarkdown = raw;
       for (const childToken of genericToken.childTokens) {
-        const nextPosition = setPosition(genericToken[childToken], nextOffset, nextLine, nextColumn, nextMarkdown);
+        const nextPosition = addPosition(genericToken[childToken], nextOffset, nextLine, nextColumn, nextMarkdown);
         nextOffset = nextPosition.offset;
         nextLine = nextPosition.line;
         nextColumn = nextPosition.column;
@@ -66,7 +58,7 @@ function setPosition(tokens: Token[], offset: number, line: number, column: numb
     }
 
     if (genericToken.type === 'list') {
-      setPosition(genericToken.items, position.start.offset, position.start.line, position.start.column, raw);
+      addPosition(genericToken.items, position.start.offset, position.start.line, position.start.column, raw);
     }
 
     if (genericToken.type === 'table') {
@@ -75,7 +67,7 @@ function setPosition(tokens: Token[], offset: number, line: number, column: numb
       let nextColumn = position.start.column;
       let nextMarkdown = raw;
       for (const headerCell of genericToken.header) {
-        const nextPosition = setPosition(headerCell.tokens, nextOffset, nextLine, nextColumn, nextMarkdown);
+        const nextPosition = addPosition(headerCell.tokens, nextOffset, nextLine, nextColumn, nextMarkdown);
         nextOffset = nextPosition.offset;
         nextLine = nextPosition.line;
         nextColumn = nextPosition.column;
@@ -83,7 +75,7 @@ function setPosition(tokens: Token[], offset: number, line: number, column: numb
       }
       for (const row of genericToken.rows) {
         for (const rowCell of row) {
-          const nextPosition = setPosition(rowCell.tokens, nextOffset, nextLine, nextColumn, nextMarkdown);
+          const nextPosition = addPosition(rowCell.tokens, nextOffset, nextLine, nextColumn, nextMarkdown);
           nextOffset = nextPosition.offset;
           nextLine = nextPosition.line;
           nextColumn = nextPosition.column;

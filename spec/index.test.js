@@ -1,6 +1,6 @@
 import { describe, test } from 'node:test';
 import { Marked } from 'marked';
-import markedTokenPosition, { setPositions } from '../src/index.ts';
+import markedTokenPosition, { addTokenPositions } from '../src/index.ts';
 
 function testPosition(t) {
   return {
@@ -14,7 +14,7 @@ function testPosition(t) {
 }
 
 describe('markedTokenPosition', () => {
-  test('header', (t) => {
+  test('example', (t) => {
     const marked = new Marked(testPosition(t));
     marked.use(markedTokenPosition());
 
@@ -77,11 +77,11 @@ describe('markedTokenPosition', () => {
   });
 });
 
-describe('setPositions', () => {
+describe('addTokenPositions', () => {
   test('example markdown', (t) => {
     const marked = new Marked();
     const md = '# example markdown';
     const tokens = marked.lexer(md);
-    t.assert.snapshot(setPositions(tokens, md));
+    t.assert.snapshot(addTokenPositions(tokens, md));
   });
 });

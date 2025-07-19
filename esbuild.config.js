@@ -18,7 +18,10 @@ await esbuild.build(config({
 
 await esbuild.build(config({
   stdin: {
-    contents: 'module.exports = require("./src/index.ts").default',
+    contents: `
+module.exports = require("./src/index.ts").default;
+module.exports.addTokenPositions = require("./src/index.ts").addTokenPositions;
+`,
     resolveDir: '.',
   },
   format: 'umd',

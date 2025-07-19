@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "marked-extension-template": [
+      "marked-token-position": [
         "lib/index.d.ts"
       ]
     }

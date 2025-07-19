@@ -1,8 +1,8 @@
 import { describe, test } from 'node:test';
 import '../lib/index.umd.js';
 
-describe('marked-extension-template umd', () => {
+describe('marked-token-position umd', () => {
   test('test umd global', (t) => {
-    t.assert.equal(typeof markedExtensionTemplate, 'function');
+    t.assert.equal(typeof markedTokenPosition, 'function');
   });
 });

@@ -1,17 +1,87 @@
 import { describe, test } from 'node:test';
 import { Marked } from 'marked';
-import markedExtensionTemplate from '../src/index.ts';
+import markedTokenPosition, { setPositions } from '../src/index.ts';
 
-describe('marked-extension-template', () => {
-  test('no options', (t) => {
-    const marked = new Marked();
-    marked.use(markedExtensionTemplate());
-    t.assert.snapshot(marked.parse('example markdown'));
+function testPosition(t) {
+  return {
+    hooks: {
+      processAllTokens(tokens) {
+        t.assert.snapshot(tokens);
+        return tokens;
+      },
+    },
+  };
+}
+
+describe('markedTokenPosition', () => {
+  test('header', (t) => {
+    const marked = new Marked(testPosition(t));
+    marked.use(markedTokenPosition());
+
+    t.assert.snapshot(marked.parse('# example markdown'));
   });
 
-  test('markdown not using this extension', (t) => {
+  test('list', (t) => {
+    const marked = new Marked(testPosition(t));
+    marked.use(markedTokenPosition());
+
+    t.assert.snapshot(marked.parse('- example markdown'));
+  });
+
+  test('table', (t) => {
+    const marked = new Marked(testPosition(t));
+    marked.use(markedTokenPosition());
+
+    t.assert.snapshot(marked.parse(`
+| a | b |
+|---|---|
+| 1 | 2 |
+`));
+  });
+
+  test('childTokens', (t) => {
+    const marked = new Marked(testPosition(t));
+    const extension = {
+      extensions: [
+        {
+          name: 'customTag',
+          level: 'block',
+          tokenizer(src) {
+            const match = src.match(/^:(.*?):\n([^]*?)\n:(?:\n|$)/);
+
+            if (match) {
+              return {
+                type: 'customTag',
+                raw: match[0],
+                tag: match[1],
+                text: match[2],
+                childTokens: ['myTokens'],
+                myTokens: this.lexer.inline(match[2]),
+              };
+            }
+          },
+          renderer({ tag, myTokens }) {
+            return `<${tag}>${this.parser.parseInline(myTokens)}</${tag}>`;
+          },
+          childTokens: ['myTokens'],
+        },
+      ],
+    };
+    marked.use(markedTokenPosition(), extension);
+
+    t.assert.snapshot(marked.parse(`
+:newTag:
+**some text**
+:
+`));
+  });
+});
+
+describe('setPositions', () => {
+  test('example markdown', (t) => {
     const marked = new Marked();
-    marked.use(markedExtensionTemplate());
-    t.assert.snapshot(marked.parse('not example markdown'));
+    const md = '# example markdown';
+    const tokens = marked.lexer(md);
+    t.assert.snapshot(setPositions(tokens, md));
   });
 });

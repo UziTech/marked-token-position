@@ -1,5 +1,5 @@
 {
-  "name": "marked-extension-template",
+  "name": "marked-token-position",
   "version": "0.0.0",
   "description": "marked extension template",
   "main": "./lib/index.esm.js",
@@ -30,20 +30,19 @@
     "test": "npm run build:esbuild && node --experimental-transform-types ./spec/test.config.js",
     "test:cover": "npm run build:esbuild && node --experimental-transform-types --experimental-test-coverage ./spec/test.config.js -- --cover",
     "test:only": "npm run build:esbuild && node --experimental-transform-types ./spec/test.config.js -- --only",
-    "test:only:update": "npm run build:esbuild && node --experimental-transform-types --test-update-snapshots ./spec/test.config.js -- --only",
     "test:types": "npm run build:types && tsc --project tsconfig-test-types.json && attw -P --entrypoints . --profile esm-only",
     "test:update": "npm run build:esbuild && node --experimental-transform-types --test-update-snapshots ./spec/test.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markedjs/marked-extension-template.git"
+    "url": "git+https://github.com/markedjs/marked-token-position.git"
   },
   "author": "Tony Brix <Tony@Brix.ninja> (https://Tony.Brix.ninja)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/markedjs/marked-extension-template/issues"
+    "url": "https://github.com/markedjs/marked-token-position/issues"
   },
-  "homepage": "https://github.com/markedjs/marked-extension-template#readme",
+  "homepage": "https://github.com/markedjs/marked-token-position#readme",
   "peerDependencies": {
     "marked": ">=16 <17"
   },

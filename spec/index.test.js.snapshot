@@ -1,7 +1,413 @@
-exports[`marked-extension-template > markdown not using this extension 1`] = `
-"<p>not example markdown</p>\\n"
+exports[`markedTokenPosition > childTokens 1`] = `
+[
+  {
+    "type": "space",
+    "raw": "\\n",
+    "position": {
+      "start": {
+        "offset": 0,
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "customTag",
+    "raw": ":newTag:\\n**some text**\\n:\\n",
+    "tag": "newTag",
+    "text": "**some text**",
+    "childTokens": [
+      "myTokens"
+    ],
+    "myTokens": [
+      {
+        "type": "strong",
+        "raw": "**some text**",
+        "text": "some text",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "some text",
+            "text": "some text",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 12,
+                "line": 2,
+                "column": 2
+              },
+              "end": {
+                "offset": 21,
+                "line": 2,
+                "column": 11
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 10,
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "offset": 23,
+            "line": 2,
+            "column": 13
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "offset": 26,
+        "line": 4,
+        "column": 0
+      }
+    }
+  }
+]
 `;
 
-exports[`marked-extension-template > no options 1`] = `
-"<p>example html</p>\\n"
+exports[`markedTokenPosition > childTokens 2`] = `
+"<newTag><strong>some text</strong></newTag>"
+`;
+
+exports[`markedTokenPosition > header 1`] = `
+[
+  {
+    "type": "heading",
+    "raw": "# example markdown",
+    "depth": 1,
+    "text": "example markdown",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "example markdown",
+        "text": "example markdown",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2,
+            "line": 0,
+            "column": 2
+          },
+          "end": {
+            "offset": 18,
+            "line": 0,
+            "column": 18
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 0,
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "offset": 18,
+        "line": 0,
+        "column": 18
+      }
+    }
+  }
+]
+`;
+
+exports[`markedTokenPosition > header 2`] = `
+"<h1>example markdown</h1>\\n"
+`;
+
+exports[`markedTokenPosition > list 1`] = `
+[
+  {
+    "type": "list",
+    "raw": "- example markdown",
+    "ordered": false,
+    "start": "",
+    "loose": false,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "- example markdown",
+        "task": false,
+        "loose": false,
+        "text": "example markdown",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "example markdown",
+            "text": "example markdown",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "example markdown",
+                "text": "example markdown",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 2,
+                    "line": 0,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 18,
+                    "line": 0,
+                    "column": 18
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 2,
+                "line": 0,
+                "column": 2
+              },
+              "end": {
+                "offset": 18,
+                "line": 0,
+                "column": 18
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 0,
+            "line": 0,
+            "column": 0
+          },
+          "end": {
+            "offset": 18,
+            "line": 0,
+            "column": 18
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 0,
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "offset": 18,
+        "line": 0,
+        "column": 18
+      }
+    }
+  }
+]
+`;
+
+exports[`markedTokenPosition > list 2`] = `
+"<ul>\\n<li>example markdown</li>\\n</ul>\\n"
+`;
+
+exports[`markedTokenPosition > table 1`] = `
+[
+  {
+    "type": "space",
+    "raw": "\\n",
+    "position": {
+      "start": {
+        "offset": 0,
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "offset": 1,
+        "line": 1,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "table",
+    "raw": "| a | b |\\n|---|---|\\n| 1 | 2 |\\n",
+    "header": [
+      {
+        "text": "a",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "a",
+            "text": "a",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 3,
+                "line": 1,
+                "column": 2
+              },
+              "end": {
+                "offset": 4,
+                "line": 1,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "header": true,
+        "align": null
+      },
+      {
+        "text": "b",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "b",
+            "text": "b",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 7,
+                "line": 1,
+                "column": 6
+              },
+              "end": {
+                "offset": 8,
+                "line": 1,
+                "column": 7
+              }
+            }
+          }
+        ],
+        "header": true,
+        "align": null
+      }
+    ],
+    "align": [
+      null,
+      null
+    ],
+    "rows": [
+      [
+        {
+          "text": "1",
+          "tokens": [
+            {
+              "type": "text",
+              "raw": "1",
+              "text": "1",
+              "escaped": false,
+              "position": {
+                "start": {
+                  "offset": 23,
+                  "line": 3,
+                  "column": 2
+                },
+                "end": {
+                  "offset": 24,
+                  "line": 3,
+                  "column": 3
+                }
+              }
+            }
+          ],
+          "header": false,
+          "align": null
+        },
+        {
+          "text": "2",
+          "tokens": [
+            {
+              "type": "text",
+              "raw": "2",
+              "text": "2",
+              "escaped": false,
+              "position": {
+                "start": {
+                  "offset": 27,
+                  "line": 3,
+                  "column": 6
+                },
+                "end": {
+                  "offset": 28,
+                  "line": 3,
+                  "column": 7
+                }
+              }
+            }
+          ],
+          "header": false,
+          "align": null
+        }
+      ]
+    ],
+    "position": {
+      "start": {
+        "offset": 1,
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "offset": 31,
+        "line": 4,
+        "column": 0
+      }
+    }
+  }
+]
+`;
+
+exports[`markedTokenPosition > table 2`] = `
+"<table>\\n<thead>\\n<tr>\\n<th>a</th>\\n<th>b</th>\\n</tr>\\n</thead>\\n<tbody><tr>\\n<td>1</td>\\n<td>2</td>\\n</tr>\\n</tbody></table>\\n"
+`;
+
+exports[`setPositions > example markdown 1`] = `
+[
+  {
+    "type": "heading",
+    "raw": "# example markdown",
+    "depth": 1,
+    "text": "example markdown",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "example markdown",
+        "text": "example markdown",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2,
+            "line": 0,
+            "column": 2
+          },
+          "end": {
+            "offset": 18,
+            "line": 0,
+            "column": 18
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 0,
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "offset": 18,
+        "line": 0,
+        "column": 18
+      }
+    }
+  }
+]
 `;

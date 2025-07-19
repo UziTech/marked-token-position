@@ -7,9 +7,11 @@ marked.use(markedTokenPosition());
 
 const tokens: Token[] = marked.lexer('example markdown');
 const tokensWithPosition: TokenWithPosition[] = addTokenPositions(tokens);
-console.log(tokensWithPosition[0]?.position.start.offset);
-console.log(tokensWithPosition[0]?.position.start.line);
-console.log(tokensWithPosition[0]?.position.start.column);
-console.log(tokensWithPosition[0]?.position.end.offset);
-console.log(tokensWithPosition[0]?.position.end.line);
-console.log(tokensWithPosition[0]?.position.end.column);
+const tokenPosition = tokensWithPosition[0].position;
+
+console.log(tokenPosition.start.offset);
+console.log(tokenPosition.start.line);
+console.log(tokenPosition.start.column);
+console.log(tokenPosition.end.offset);
+console.log(tokenPosition.end.line);
+console.log(tokenPosition.end.column);

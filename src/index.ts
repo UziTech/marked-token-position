@@ -31,10 +31,16 @@ interface PositionFields {
   column: number;
 }
 
+/**
+ * Add position field to tokens
+ */
 export function addTokenPositions(tokens: Token[]) {
   return addPosition(tokens, 0, 0, 0, tokens.map(token => token.raw).join('')).tokens;
 }
 
+/**
+ * Marked extension to add position field to tokens
+ */
 export default function(options = {}): MarkedExtension {
   return {
     hooks: {

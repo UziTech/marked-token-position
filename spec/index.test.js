@@ -4,6 +4,10 @@ import markedTokenPosition, { addTokenPositions } from '../src/index.ts';
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
+function getFixture(path) {
+  return readFile(resolve(import.meta.dirname, 'fixtures', path), { encoding: 'utf-8' });
+}
+
 function testPosition(t) {
   return {
     hooks: {
@@ -84,13 +88,13 @@ describe('addTokenPositions', () => {
     const marked = new Marked();
     const md = '# example markdown';
     const tokens = marked.lexer(md);
-    t.assert.snapshot(addTokenPositions(tokens, md));
+    t.assert.snapshot(addTokenPositions(tokens));
   });
 
   test('reference', async(t) => {
     const marked = new Marked();
-    const md = await readFile(resolve(import.meta.dirname, './fixtures/reference.md'), { encoding: 'utf-8' });
+    const md = await getFixture('reference.md');
     const tokens = marked.lexer(md);
-    t.assert.snapshot(addTokenPositions(tokens, md));
+    t.assert.snapshot(addTokenPositions(tokens));
   });
 });

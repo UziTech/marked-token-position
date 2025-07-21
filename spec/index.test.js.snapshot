@@ -1,3 +1,5384 @@
+exports[`addTokenPositions > example markdown 1`] = `
+[
+  {
+    "type": "heading",
+    "raw": "# example markdown",
+    "depth": 1,
+    "text": "example markdown",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "example markdown",
+        "text": "example markdown",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2,
+            "line": 0,
+            "column": 2
+          },
+          "end": {
+            "offset": 18,
+            "line": 0,
+            "column": 18
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 0,
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "offset": 18,
+        "line": 0,
+        "column": 18
+      }
+    }
+  }
+]
+`;
+
+exports[`addTokenPositions > reference 1`] = `
+[
+  {
+    "type": "heading",
+    "raw": "Markdown Quick Reference\\n========================\\n\\n",
+    "depth": 1,
+    "text": "Markdown Quick Reference",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Markdown Quick Reference",
+        "text": "Markdown Quick Reference",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 0,
+            "line": 0,
+            "column": 0
+          },
+          "end": {
+            "offset": 24,
+            "line": 0,
+            "column": 24
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 0,
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "offset": 51,
+        "line": 3,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "This guide is a very brief overview, with examples, of the syntax that [Markdown] supports. It is itself written in Markdown and you can copy the samples over to the left-hand pane for experimentation. It's shown as *text* and not *rendered HTML*.",
+    "text": "This guide is a very brief overview, with examples, of the syntax that [Markdown] supports. It is itself written in Markdown and you can copy the samples over to the left-hand pane for experimentation. It's shown as *text* and not *rendered HTML*.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "This guide is a very brief overview, with examples, of the syntax that ",
+        "text": "This guide is a very brief overview, with examples, of the syntax that ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 51,
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "offset": 122,
+            "line": 3,
+            "column": 71
+          }
+        }
+      },
+      {
+        "type": "link",
+        "raw": "[Markdown]",
+        "href": "http://daringfireball.net/projects/markdown/",
+        "title": null,
+        "text": "Markdown",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Markdown",
+            "text": "Markdown",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 123,
+                "line": 3,
+                "column": 72
+              },
+              "end": {
+                "offset": 131,
+                "line": 3,
+                "column": 80
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 122,
+            "line": 3,
+            "column": 71
+          },
+          "end": {
+            "offset": 132,
+            "line": 3,
+            "column": 81
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " supports. It is itself written in Markdown and you can copy the samples over to the left-hand pane for experimentation. It's shown as ",
+        "text": " supports. It is itself written in Markdown and you can copy the samples over to the left-hand pane for experimentation. It's shown as ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 132,
+            "line": 3,
+            "column": 81
+          },
+          "end": {
+            "offset": 267,
+            "line": 3,
+            "column": 216
+          }
+        }
+      },
+      {
+        "type": "em",
+        "raw": "*text*",
+        "text": "text",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "text",
+            "text": "text",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 268,
+                "line": 3,
+                "column": 217
+              },
+              "end": {
+                "offset": 272,
+                "line": 3,
+                "column": 221
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 267,
+            "line": 3,
+            "column": 216
+          },
+          "end": {
+            "offset": 273,
+            "line": 3,
+            "column": 222
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " and not ",
+        "text": " and not ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 273,
+            "line": 3,
+            "column": 222
+          },
+          "end": {
+            "offset": 282,
+            "line": 3,
+            "column": 231
+          }
+        }
+      },
+      {
+        "type": "em",
+        "raw": "*rendered HTML*",
+        "text": "rendered HTML",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "rendered HTML",
+            "text": "rendered HTML",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 283,
+                "line": 3,
+                "column": 232
+              },
+              "end": {
+                "offset": 296,
+                "line": 3,
+                "column": 245
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 282,
+            "line": 3,
+            "column": 231
+          },
+          "end": {
+            "offset": 297,
+            "line": 3,
+            "column": 246
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ".",
+        "text": ".",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 297,
+            "line": 3,
+            "column": 246
+          },
+          "end": {
+            "offset": 298,
+            "line": 3,
+            "column": 247
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 51,
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "offset": 298,
+        "line": 3,
+        "column": 247
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 298,
+        "line": 3,
+        "column": 247
+      },
+      "end": {
+        "offset": 300,
+        "line": 5,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "Simple Text Formatting\\n======================\\n\\n",
+    "depth": 1,
+    "text": "Simple Text Formatting",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Simple Text Formatting",
+        "text": "Simple Text Formatting",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 300,
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "offset": 322,
+            "line": 5,
+            "column": 22
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 300,
+        "line": 5,
+        "column": 0
+      },
+      "end": {
+        "offset": 347,
+        "line": 8,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "First thing is first. You can use *stars* or _underscores_ for italics. **Double stars** and __double underscores__ for bold. ***Three together*** for ___both___.",
+    "text": "First thing is first. You can use *stars* or _underscores_ for italics. **Double stars** and __double underscores__ for bold. ***Three together*** for ___both___.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "First thing is first. You can use ",
+        "text": "First thing is first. You can use ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 347,
+            "line": 8,
+            "column": 0
+          },
+          "end": {
+            "offset": 381,
+            "line": 8,
+            "column": 34
+          }
+        }
+      },
+      {
+        "type": "em",
+        "raw": "*stars*",
+        "text": "stars",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "stars",
+            "text": "stars",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 382,
+                "line": 8,
+                "column": 35
+              },
+              "end": {
+                "offset": 387,
+                "line": 8,
+                "column": 40
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 381,
+            "line": 8,
+            "column": 34
+          },
+          "end": {
+            "offset": 388,
+            "line": 8,
+            "column": 41
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " or ",
+        "text": " or ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 388,
+            "line": 8,
+            "column": 41
+          },
+          "end": {
+            "offset": 392,
+            "line": 8,
+            "column": 45
+          }
+        }
+      },
+      {
+        "type": "em",
+        "raw": "_underscores_",
+        "text": "underscores",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "underscores",
+            "text": "underscores",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 393,
+                "line": 8,
+                "column": 46
+              },
+              "end": {
+                "offset": 404,
+                "line": 8,
+                "column": 57
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 392,
+            "line": 8,
+            "column": 45
+          },
+          "end": {
+            "offset": 405,
+            "line": 8,
+            "column": 58
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " for italics. ",
+        "text": " for italics. ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 405,
+            "line": 8,
+            "column": 58
+          },
+          "end": {
+            "offset": 419,
+            "line": 8,
+            "column": 72
+          }
+        }
+      },
+      {
+        "type": "strong",
+        "raw": "**Double stars**",
+        "text": "Double stars",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Double stars",
+            "text": "Double stars",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 421,
+                "line": 8,
+                "column": 74
+              },
+              "end": {
+                "offset": 433,
+                "line": 8,
+                "column": 86
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 419,
+            "line": 8,
+            "column": 72
+          },
+          "end": {
+            "offset": 435,
+            "line": 8,
+            "column": 88
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " and ",
+        "text": " and ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 435,
+            "line": 8,
+            "column": 88
+          },
+          "end": {
+            "offset": 440,
+            "line": 8,
+            "column": 93
+          }
+        }
+      },
+      {
+        "type": "strong",
+        "raw": "__double underscores__",
+        "text": "double underscores",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "double underscores",
+            "text": "double underscores",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 442,
+                "line": 8,
+                "column": 95
+              },
+              "end": {
+                "offset": 460,
+                "line": 8,
+                "column": 113
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 440,
+            "line": 8,
+            "column": 93
+          },
+          "end": {
+            "offset": 462,
+            "line": 8,
+            "column": 115
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " for bold. ",
+        "text": " for bold. ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 462,
+            "line": 8,
+            "column": 115
+          },
+          "end": {
+            "offset": 473,
+            "line": 8,
+            "column": 126
+          }
+        }
+      },
+      {
+        "type": "em",
+        "raw": "***Three together***",
+        "text": "**Three together**",
+        "tokens": [
+          {
+            "type": "strong",
+            "raw": "**Three together**",
+            "text": "Three together",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Three together",
+                "text": "Three together",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 476,
+                    "line": 8,
+                    "column": 129
+                  },
+                  "end": {
+                    "offset": 490,
+                    "line": 8,
+                    "column": 143
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 474,
+                "line": 8,
+                "column": 127
+              },
+              "end": {
+                "offset": 492,
+                "line": 8,
+                "column": 145
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 473,
+            "line": 8,
+            "column": 126
+          },
+          "end": {
+            "offset": 493,
+            "line": 8,
+            "column": 146
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " for ",
+        "text": " for ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 493,
+            "line": 8,
+            "column": 146
+          },
+          "end": {
+            "offset": 498,
+            "line": 8,
+            "column": 151
+          }
+        }
+      },
+      {
+        "type": "em",
+        "raw": "___both___",
+        "text": "__both__",
+        "tokens": [
+          {
+            "type": "strong",
+            "raw": "__both__",
+            "text": "both",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "both",
+                "text": "both",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 501,
+                    "line": 8,
+                    "column": 154
+                  },
+                  "end": {
+                    "offset": 505,
+                    "line": 8,
+                    "column": 158
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 499,
+                "line": 8,
+                "column": 152
+              },
+              "end": {
+                "offset": 507,
+                "line": 8,
+                "column": 160
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 498,
+            "line": 8,
+            "column": 151
+          },
+          "end": {
+            "offset": 508,
+            "line": 8,
+            "column": 161
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ".",
+        "text": ".",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 508,
+            "line": 8,
+            "column": 161
+          },
+          "end": {
+            "offset": 509,
+            "line": 8,
+            "column": 162
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 347,
+        "line": 8,
+        "column": 0
+      },
+      "end": {
+        "offset": 509,
+        "line": 8,
+        "column": 162
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 509,
+        "line": 8,
+        "column": 162
+      },
+      "end": {
+        "offset": 511,
+        "line": 10,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "Paragraphs are pretty easy too. Just have a blank line between chunks of text.",
+    "text": "Paragraphs are pretty easy too. Just have a blank line between chunks of text.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Paragraphs are pretty easy too. Just have a blank line between chunks of text.",
+        "text": "Paragraphs are pretty easy too. Just have a blank line between chunks of text.",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 511,
+            "line": 10,
+            "column": 0
+          },
+          "end": {
+            "offset": 589,
+            "line": 10,
+            "column": 78
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 511,
+        "line": 10,
+        "column": 0
+      },
+      "end": {
+        "offset": 589,
+        "line": 10,
+        "column": 78
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 589,
+        "line": 10,
+        "column": 78
+      },
+      "end": {
+        "offset": 591,
+        "line": 12,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "blockquote",
+    "raw": "> This chunk of text is in a block quote. Its multiple lines will all be\\n> indented a bit from the rest of the text.\\n>\\n> > Multiple levels of block quotes also work.",
+    "tokens": [
+      {
+        "type": "paragraph",
+        "raw": "This chunk of text is in a block quote. Its multiple lines will all be\\nindented a bit from the rest of the text.",
+        "text": "This chunk of text is in a block quote. Its multiple lines will all be\\nindented a bit from the rest of the text.",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "This chunk of text is in a block quote. Its multiple lines will all be\\nindented a bit from the rest of the text.",
+            "text": "This chunk of text is in a block quote. Its multiple lines will all be\\nindented a bit from the rest of the text.",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 755,
+                "line": 15,
+                "column": 45
+              },
+              "end": {
+                "offset": 867,
+                "line": 16,
+                "column": 41
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 755,
+            "line": 15,
+            "column": 45
+          },
+          "end": {
+            "offset": 867,
+            "line": 16,
+            "column": 41
+          }
+        }
+      },
+      {
+        "type": "space",
+        "raw": "\\n\\n",
+        "position": {
+          "start": {
+            "offset": 867,
+            "line": 16,
+            "column": 41
+          },
+          "end": {
+            "offset": 869,
+            "line": 18,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "blockquote",
+        "raw": "> Multiple levels of block quotes also work.",
+        "tokens": [
+          {
+            "type": "paragraph",
+            "raw": "Multiple levels of block quotes also work.",
+            "text": "Multiple levels of block quotes also work.",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Multiple levels of block quotes also work.",
+                "text": "Multiple levels of block quotes also work.",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 871,
+                    "line": 18,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 913,
+                    "line": 18,
+                    "column": 44
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 871,
+                "line": 18,
+                "column": 2
+              },
+              "end": {
+                "offset": 913,
+                "line": 18,
+                "column": 44
+              }
+            }
+          }
+        ],
+        "text": "Multiple levels of block quotes also work.",
+        "position": {
+          "start": {
+            "offset": 869,
+            "line": 18,
+            "column": 0
+          },
+          "end": {
+            "offset": 913,
+            "line": 18,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "text": "This chunk of text is in a block quote. Its multiple lines will all be\\nindented a bit from the rest of the text.\\n\\n> Multiple levels of block quotes also work.",
+    "position": {
+      "start": {
+        "offset": 591,
+        "line": 12,
+        "column": 0
+      },
+      "end": {
+        "offset": 756,
+        "line": 15,
+        "column": 46
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 756,
+        "line": 15,
+        "column": 46
+      },
+      "end": {
+        "offset": 758,
+        "line": 17,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "Sometimes you want to include code, such as when you are explaining how \`<h1>\` HTML tags work, or maybe you are a programmer and you are discussing \`someMethod()\`.",
+    "text": "Sometimes you want to include code, such as when you are explaining how \`<h1>\` HTML tags work, or maybe you are a programmer and you are discussing \`someMethod()\`.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Sometimes you want to include code, such as when you are explaining how ",
+        "text": "Sometimes you want to include code, such as when you are explaining how ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 758,
+            "line": 17,
+            "column": 0
+          },
+          "end": {
+            "offset": 830,
+            "line": 17,
+            "column": 72
+          }
+        }
+      },
+      {
+        "type": "codespan",
+        "raw": "\`<h1>\`",
+        "text": "<h1>",
+        "position": {
+          "start": {
+            "offset": 830,
+            "line": 17,
+            "column": 72
+          },
+          "end": {
+            "offset": 836,
+            "line": 17,
+            "column": 78
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " HTML tags work, or maybe you are a programmer and you are discussing ",
+        "text": " HTML tags work, or maybe you are a programmer and you are discussing ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 836,
+            "line": 17,
+            "column": 78
+          },
+          "end": {
+            "offset": 906,
+            "line": 17,
+            "column": 148
+          }
+        }
+      },
+      {
+        "type": "codespan",
+        "raw": "\`someMethod()\`",
+        "text": "someMethod()",
+        "position": {
+          "start": {
+            "offset": 906,
+            "line": 17,
+            "column": 148
+          },
+          "end": {
+            "offset": 920,
+            "line": 17,
+            "column": 162
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ".",
+        "text": ".",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 920,
+            "line": 17,
+            "column": 162
+          },
+          "end": {
+            "offset": 921,
+            "line": 17,
+            "column": 163
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 758,
+        "line": 17,
+        "column": 0
+      },
+      "end": {
+        "offset": 921,
+        "line": 17,
+        "column": 163
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 921,
+        "line": 17,
+        "column": 163
+      },
+      "end": {
+        "offset": 923,
+        "line": 19,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "If you want to include code and have new\\nlines preserved, indent the line with a tab\\nor at least four spaces:",
+    "text": "If you want to include code and have new\\nlines preserved, indent the line with a tab\\nor at least four spaces:",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "If you want to include code and have new\\nlines preserved, indent the line with a tab\\nor at least four spaces:",
+        "text": "If you want to include code and have new\\nlines preserved, indent the line with a tab\\nor at least four spaces:",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 923,
+            "line": 19,
+            "column": 0
+          },
+          "end": {
+            "offset": 1032,
+            "line": 21,
+            "column": 24
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 923,
+        "line": 19,
+        "column": 0
+      },
+      "end": {
+        "offset": 1032,
+        "line": 21,
+        "column": 24
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 1032,
+        "line": 21,
+        "column": 24
+      },
+      "end": {
+        "offset": 1034,
+        "line": 23,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "code",
+    "raw": "    Extra spaces work here too.\\n    This is also called preformatted text and it is useful for showing examples.\\n    The text will stay as text, so any *markdown* or <u>HTML</u> you add will\\n    not show up formatted. This way you can show markdown examples in a\\n    markdown document.\\n\\n",
+    "codeBlockStyle": "indented",
+    "text": "Extra spaces work here too.\\nThis is also called preformatted text and it is useful for showing examples.\\nThe text will stay as text, so any *markdown* or <u>HTML</u> you add will\\nnot show up formatted. This way you can show markdown examples in a\\nmarkdown document.",
+    "position": {
+      "start": {
+        "offset": 1034,
+        "line": 23,
+        "column": 0
+      },
+      "end": {
+        "offset": 1321,
+        "line": 29,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "blockquote",
+    "raw": ">     You can also use preformatted text with your blockquotes\\n>     as long as you add at least five spaces.",
+    "tokens": [
+      {
+        "type": "code",
+        "raw": "    You can also use preformatted text with your blockquotes\\n    as long as you add at least five spaces.",
+        "codeBlockStyle": "indented",
+        "text": "You can also use preformatted text with your blockquotes\\nas long as you add at least five spaces.",
+        "position": {
+          "start": {
+            "offset": 1429,
+            "line": 30,
+            "column": 45
+          },
+          "end": {
+            "offset": 1534,
+            "line": 31,
+            "column": 44
+          }
+        }
+      }
+    ],
+    "text": "    You can also use preformatted text with your blockquotes\\n    as long as you add at least five spaces.",
+    "position": {
+      "start": {
+        "offset": 1321,
+        "line": 29,
+        "column": 0
+      },
+      "end": {
+        "offset": 1430,
+        "line": 30,
+        "column": 46
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n\\n",
+    "position": {
+      "start": {
+        "offset": 1430,
+        "line": 30,
+        "column": 46
+      },
+      "end": {
+        "offset": 1433,
+        "line": 33,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "Headings\\n========\\n\\n",
+    "depth": 1,
+    "text": "Headings",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Headings",
+        "text": "Headings",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1433,
+            "line": 33,
+            "column": 0
+          },
+          "end": {
+            "offset": 1441,
+            "line": 33,
+            "column": 8
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1433,
+        "line": 33,
+        "column": 0
+      },
+      "end": {
+        "offset": 1452,
+        "line": 36,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "There are a couple of ways to make headings. Using three or more equals signs on a line under a heading makes it into an \\"h1\\" style. Three or more hyphens under a line makes it \\"h2\\" (slightly smaller). You can also use multiple pound symbols (\`#\`) before and after a heading. Pounds after the title are ignored. Here are some examples:",
+    "text": "There are a couple of ways to make headings. Using three or more equals signs on a line under a heading makes it into an \\"h1\\" style. Three or more hyphens under a line makes it \\"h2\\" (slightly smaller). You can also use multiple pound symbols (\`#\`) before and after a heading. Pounds after the title are ignored. Here are some examples:",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "There are a couple of ways to make headings. Using three or more equals signs on a line under a heading makes it into an \\"h1\\" style. Three or more hyphens under a line makes it \\"h2\\" (slightly smaller). You can also use multiple pound symbols (",
+        "text": "There are a couple of ways to make headings. Using three or more equals signs on a line under a heading makes it into an \\"h1\\" style. Three or more hyphens under a line makes it \\"h2\\" (slightly smaller). You can also use multiple pound symbols (",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1452,
+            "line": 36,
+            "column": 0
+          },
+          "end": {
+            "offset": 1695,
+            "line": 36,
+            "column": 243
+          }
+        }
+      },
+      {
+        "type": "codespan",
+        "raw": "\`#\`",
+        "text": "#",
+        "position": {
+          "start": {
+            "offset": 1695,
+            "line": 36,
+            "column": 243
+          },
+          "end": {
+            "offset": 1698,
+            "line": 36,
+            "column": 246
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ") before and after a heading. Pounds after the title are ignored. Here are some examples:",
+        "text": ") before and after a heading. Pounds after the title are ignored. Here are some examples:",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1698,
+            "line": 36,
+            "column": 246
+          },
+          "end": {
+            "offset": 1787,
+            "line": 36,
+            "column": 335
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1452,
+        "line": 36,
+        "column": 0
+      },
+      "end": {
+        "offset": 1787,
+        "line": 36,
+        "column": 335
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 1787,
+        "line": 36,
+        "column": 335
+      },
+      "end": {
+        "offset": 1789,
+        "line": 38,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "This is H1\\n==========\\n\\n",
+    "depth": 1,
+    "text": "This is H1",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "This is H1",
+        "text": "This is H1",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1789,
+            "line": 38,
+            "column": 0
+          },
+          "end": {
+            "offset": 1799,
+            "line": 38,
+            "column": 10
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1789,
+        "line": 38,
+        "column": 0
+      },
+      "end": {
+        "offset": 1812,
+        "line": 41,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "This is H2\\n----------\\n\\n",
+    "depth": 2,
+    "text": "This is H2",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "This is H2",
+        "text": "This is H2",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1812,
+            "line": 41,
+            "column": 0
+          },
+          "end": {
+            "offset": 1822,
+            "line": 41,
+            "column": 10
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1812,
+        "line": 41,
+        "column": 0
+      },
+      "end": {
+        "offset": 1835,
+        "line": 44,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "# This is H1\\n",
+    "depth": 1,
+    "text": "This is H1",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "This is H1",
+        "text": "This is H1",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1837,
+            "line": 44,
+            "column": 2
+          },
+          "end": {
+            "offset": 1847,
+            "line": 44,
+            "column": 12
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1835,
+        "line": 44,
+        "column": 0
+      },
+      "end": {
+        "offset": 1848,
+        "line": 45,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "## This is H2\\n",
+    "depth": 2,
+    "text": "This is H2",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "This is H2",
+        "text": "This is H2",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1851,
+            "line": 45,
+            "column": 3
+          },
+          "end": {
+            "offset": 1861,
+            "line": 45,
+            "column": 13
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1848,
+        "line": 45,
+        "column": 0
+      },
+      "end": {
+        "offset": 1862,
+        "line": 46,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "### This is H3 with some extra pounds ###\\n",
+    "depth": 3,
+    "text": "This is H3 with some extra pounds",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "This is H3 with some extra pounds",
+        "text": "This is H3 with some extra pounds",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1866,
+            "line": 46,
+            "column": 4
+          },
+          "end": {
+            "offset": 1899,
+            "line": 46,
+            "column": 37
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1862,
+        "line": 46,
+        "column": 0
+      },
+      "end": {
+        "offset": 1904,
+        "line": 47,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "#### You get the idea ####\\n",
+    "depth": 4,
+    "text": "You get the idea",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "You get the idea",
+        "text": "You get the idea",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1909,
+            "line": 47,
+            "column": 5
+          },
+          "end": {
+            "offset": 1925,
+            "line": 47,
+            "column": 21
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1904,
+        "line": 47,
+        "column": 0
+      },
+      "end": {
+        "offset": 1931,
+        "line": 48,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "##### I don't need extra pounds at the end\\n",
+    "depth": 5,
+    "text": "I don't need extra pounds at the end",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "I don't need extra pounds at the end",
+        "text": "I don't need extra pounds at the end",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1937,
+            "line": 48,
+            "column": 6
+          },
+          "end": {
+            "offset": 1973,
+            "line": 48,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1931,
+        "line": 48,
+        "column": 0
+      },
+      "end": {
+        "offset": 1974,
+        "line": 49,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "###### H6 is the max\\n\\n\\n",
+    "depth": 6,
+    "text": "H6 is the max",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "H6 is the max",
+        "text": "H6 is the max",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1981,
+            "line": 49,
+            "column": 7
+          },
+          "end": {
+            "offset": 1994,
+            "line": 49,
+            "column": 20
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1974,
+        "line": 49,
+        "column": 0
+      },
+      "end": {
+        "offset": 1997,
+        "line": 52,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "Links\\n=====\\n\\n",
+    "depth": 1,
+    "text": "Links",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Links",
+        "text": "Links",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 1997,
+            "line": 52,
+            "column": 0
+          },
+          "end": {
+            "offset": 2002,
+            "line": 52,
+            "column": 5
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 1997,
+        "line": 52,
+        "column": 0
+      },
+      "end": {
+        "offset": 2010,
+        "line": 55,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "Let's link to a few sites. First, let's use the bare URL, like <https://www.github.com>. Great for text, but ugly for HTML.\\nNext is an inline link to [Google](https://www.google.com). A little nicer.\\nThis is a reference-style link to [Wikipedia] [1].\\nLastly, here's a pretty link to [Yahoo]. The reference-style and pretty links both automatically use the links defined below, but they could be defined *anywhere* in the markdown and are removed from the HTML. The names are also case insensitive, so you can use [YaHoO] and have it link properly.",
+    "text": "Let's link to a few sites. First, let's use the bare URL, like <https://www.github.com>. Great for text, but ugly for HTML.\\nNext is an inline link to [Google](https://www.google.com). A little nicer.\\nThis is a reference-style link to [Wikipedia] [1].\\nLastly, here's a pretty link to [Yahoo]. The reference-style and pretty links both automatically use the links defined below, but they could be defined *anywhere* in the markdown and are removed from the HTML. The names are also case insensitive, so you can use [YaHoO] and have it link properly.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Let's link to a few sites. First, let's use the bare URL, like ",
+        "text": "Let's link to a few sites. First, let's use the bare URL, like ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2010,
+            "line": 55,
+            "column": 0
+          },
+          "end": {
+            "offset": 2073,
+            "line": 55,
+            "column": 63
+          }
+        }
+      },
+      {
+        "type": "link",
+        "raw": "<https://www.github.com>",
+        "text": "https://www.github.com",
+        "href": "https://www.github.com",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "https://www.github.com",
+            "text": "https://www.github.com",
+            "position": {
+              "start": {
+                "offset": 2074,
+                "line": 55,
+                "column": 64
+              },
+              "end": {
+                "offset": 2096,
+                "line": 55,
+                "column": 86
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 2073,
+            "line": 55,
+            "column": 63
+          },
+          "end": {
+            "offset": 2097,
+            "line": 55,
+            "column": 87
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ". Great for text, but ugly for HTML.\\nNext is an inline link to ",
+        "text": ". Great for text, but ugly for HTML.\\nNext is an inline link to ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2097,
+            "line": 55,
+            "column": 87
+          },
+          "end": {
+            "offset": 2160,
+            "line": 56,
+            "column": 26
+          }
+        }
+      },
+      {
+        "type": "link",
+        "raw": "[Google](https://www.google.com)",
+        "href": "https://www.google.com",
+        "title": null,
+        "text": "Google",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Google",
+            "text": "Google",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 2161,
+                "line": 56,
+                "column": 27
+              },
+              "end": {
+                "offset": 2167,
+                "line": 56,
+                "column": 33
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 2160,
+            "line": 56,
+            "column": 26
+          },
+          "end": {
+            "offset": 2192,
+            "line": 56,
+            "column": 58
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ". A little nicer.\\nThis is a reference-style link to [Wikipedia] ",
+        "text": ". A little nicer.\\nThis is a reference-style link to [Wikipedia] ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2192,
+            "line": 56,
+            "column": 58
+          },
+          "end": {
+            "offset": 2256,
+            "line": 57,
+            "column": 46
+          }
+        }
+      },
+      {
+        "type": "link",
+        "raw": "[1]",
+        "href": "https://www.wikipedia.org",
+        "title": null,
+        "text": "1",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "1",
+            "text": "1",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 2257,
+                "line": 57,
+                "column": 47
+              },
+              "end": {
+                "offset": 2258,
+                "line": 57,
+                "column": 48
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 2256,
+            "line": 57,
+            "column": 46
+          },
+          "end": {
+            "offset": 2259,
+            "line": 57,
+            "column": 49
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ".\\nLastly, here's a pretty link to ",
+        "text": ".\\nLastly, here's a pretty link to ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2259,
+            "line": 57,
+            "column": 49
+          },
+          "end": {
+            "offset": 2293,
+            "line": 58,
+            "column": 32
+          }
+        }
+      },
+      {
+        "type": "link",
+        "raw": "[Yahoo]",
+        "href": "https://www.yahoo.com",
+        "title": null,
+        "text": "Yahoo",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Yahoo",
+            "text": "Yahoo",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 2294,
+                "line": 58,
+                "column": 33
+              },
+              "end": {
+                "offset": 2299,
+                "line": 58,
+                "column": 38
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 2293,
+            "line": 58,
+            "column": 32
+          },
+          "end": {
+            "offset": 2300,
+            "line": 58,
+            "column": 39
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ". The reference-style and pretty links both automatically use the links defined below, but they could be defined ",
+        "text": ". The reference-style and pretty links both automatically use the links defined below, but they could be defined ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2300,
+            "line": 58,
+            "column": 39
+          },
+          "end": {
+            "offset": 2413,
+            "line": 58,
+            "column": 152
+          }
+        }
+      },
+      {
+        "type": "em",
+        "raw": "*anywhere*",
+        "text": "anywhere",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "anywhere",
+            "text": "anywhere",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 2414,
+                "line": 58,
+                "column": 153
+              },
+              "end": {
+                "offset": 2422,
+                "line": 58,
+                "column": 161
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 2413,
+            "line": 58,
+            "column": 152
+          },
+          "end": {
+            "offset": 2423,
+            "line": 58,
+            "column": 162
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " in the markdown and are removed from the HTML. The names are also case insensitive, so you can use ",
+        "text": " in the markdown and are removed from the HTML. The names are also case insensitive, so you can use ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2423,
+            "line": 58,
+            "column": 162
+          },
+          "end": {
+            "offset": 2523,
+            "line": 58,
+            "column": 262
+          }
+        }
+      },
+      {
+        "type": "link",
+        "raw": "[YaHoO]",
+        "href": "https://www.yahoo.com",
+        "title": null,
+        "text": "YaHoO",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "YaHoO",
+            "text": "YaHoO",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 2524,
+                "line": 58,
+                "column": 263
+              },
+              "end": {
+                "offset": 2529,
+                "line": 58,
+                "column": 268
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 2523,
+            "line": 58,
+            "column": 262
+          },
+          "end": {
+            "offset": 2530,
+            "line": 58,
+            "column": 269
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " and have it link properly.",
+        "text": " and have it link properly.",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2530,
+            "line": 58,
+            "column": 269
+          },
+          "end": {
+            "offset": 2557,
+            "line": 58,
+            "column": 296
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 2010,
+        "line": 55,
+        "column": 0
+      },
+      "end": {
+        "offset": 2557,
+        "line": 58,
+        "column": 296
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 2557,
+        "line": 58,
+        "column": 296
+      },
+      "end": {
+        "offset": 2559,
+        "line": 60,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "Title attributes may be added to links by adding text after a link.\\nThis is the [inline link](https://www.bing.com \\"Bing\\") with a \\"Bing\\" title.\\nYou can also go to [W3C] [2] and maybe visit a [friend].",
+    "text": "Title attributes may be added to links by adding text after a link.\\nThis is the [inline link](https://www.bing.com \\"Bing\\") with a \\"Bing\\" title.\\nYou can also go to [W3C] [2] and maybe visit a [friend].",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Title attributes may be added to links by adding text after a link.\\nThis is the ",
+        "text": "Title attributes may be added to links by adding text after a link.\\nThis is the ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2559,
+            "line": 60,
+            "column": 0
+          },
+          "end": {
+            "offset": 2639,
+            "line": 61,
+            "column": 12
+          }
+        }
+      },
+      {
+        "type": "link",
+        "raw": "[inline link](https://www.bing.com \\"Bing\\")",
+        "href": "https://www.bing.com",
+        "title": "Bing",
+        "text": "inline link",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "inline link",
+            "text": "inline link",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 2640,
+                "line": 61,
+                "column": 13
+              },
+              "end": {
+                "offset": 2651,
+                "line": 61,
+                "column": 24
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 2639,
+            "line": 61,
+            "column": 12
+          },
+          "end": {
+            "offset": 2681,
+            "line": 61,
+            "column": 54
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " with a \\"Bing\\" title.\\nYou can also go to [W3C] ",
+        "text": " with a \\"Bing\\" title.\\nYou can also go to [W3C] ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2681,
+            "line": 61,
+            "column": 54
+          },
+          "end": {
+            "offset": 2728,
+            "line": 62,
+            "column": 25
+          }
+        }
+      },
+      {
+        "type": "link",
+        "raw": "[2]",
+        "href": "https://w3c.org",
+        "title": "The W3C puts out specs for web-based things",
+        "text": "2",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "2",
+            "text": "2",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 2729,
+                "line": 62,
+                "column": 26
+              },
+              "end": {
+                "offset": 2730,
+                "line": 62,
+                "column": 27
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 2728,
+            "line": 62,
+            "column": 25
+          },
+          "end": {
+            "offset": 2731,
+            "line": 62,
+            "column": 28
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " and maybe visit a ",
+        "text": " and maybe visit a ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2731,
+            "line": 62,
+            "column": 28
+          },
+          "end": {
+            "offset": 2750,
+            "line": 62,
+            "column": 47
+          }
+        }
+      },
+      {
+        "type": "link",
+        "raw": "[friend]",
+        "href": "https://facebook.com",
+        "title": "Facebook!",
+        "text": "friend",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "friend",
+            "text": "friend",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 2751,
+                "line": 62,
+                "column": 48
+              },
+              "end": {
+                "offset": 2757,
+                "line": 62,
+                "column": 54
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 2750,
+            "line": 62,
+            "column": 47
+          },
+          "end": {
+            "offset": 2758,
+            "line": 62,
+            "column": 55
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ".",
+        "text": ".",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2758,
+            "line": 62,
+            "column": 55
+          },
+          "end": {
+            "offset": 2759,
+            "line": 62,
+            "column": 56
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 2559,
+        "line": 60,
+        "column": 0
+      },
+      "end": {
+        "offset": 2759,
+        "line": 62,
+        "column": 56
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 2759,
+        "line": 62,
+        "column": 56
+      },
+      "end": {
+        "offset": 2761,
+        "line": 64,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "Email addresses in plain text are not linked: test@example.com.\\nEmail addresses wrapped in angle brackets are linked: <test@example.com>.\\nThey are also obfuscated so that email harvesting spam robots hopefully won't get them.",
+    "text": "Email addresses in plain text are not linked: test@example.com.\\nEmail addresses wrapped in angle brackets are linked: <test@example.com>.\\nThey are also obfuscated so that email harvesting spam robots hopefully won't get them.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Email addresses in plain text are not linked: ",
+        "text": "Email addresses in plain text are not linked: ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2761,
+            "line": 64,
+            "column": 0
+          },
+          "end": {
+            "offset": 2807,
+            "line": 64,
+            "column": 46
+          }
+        }
+      },
+      {
+        "type": "link",
+        "raw": "test@example.com",
+        "text": "test@example.com",
+        "href": "mailto:test@example.com",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "test@example.com",
+            "text": "test@example.com",
+            "position": {
+              "start": {
+                "offset": 2807,
+                "line": 64,
+                "column": 46
+              },
+              "end": {
+                "offset": 2823,
+                "line": 64,
+                "column": 62
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 2807,
+            "line": 64,
+            "column": 46
+          },
+          "end": {
+            "offset": 2823,
+            "line": 64,
+            "column": 62
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ".\\nEmail addresses wrapped in angle brackets are linked: ",
+        "text": ".\\nEmail addresses wrapped in angle brackets are linked: ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2823,
+            "line": 64,
+            "column": 62
+          },
+          "end": {
+            "offset": 2879,
+            "line": 65,
+            "column": 54
+          }
+        }
+      },
+      {
+        "type": "link",
+        "raw": "<test@example.com>",
+        "text": "test@example.com",
+        "href": "mailto:test@example.com",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "test@example.com",
+            "text": "test@example.com",
+            "position": {
+              "start": {
+                "offset": 2880,
+                "line": 65,
+                "column": 55
+              },
+              "end": {
+                "offset": 2896,
+                "line": 65,
+                "column": 71
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 2879,
+            "line": 65,
+            "column": 54
+          },
+          "end": {
+            "offset": 2897,
+            "line": 65,
+            "column": 72
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ".\\nThey are also obfuscated so that email harvesting spam robots hopefully won't get them.",
+        "text": ".\\nThey are also obfuscated so that email harvesting spam robots hopefully won't get them.",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2897,
+            "line": 65,
+            "column": 72
+          },
+          "end": {
+            "offset": 2986,
+            "line": 66,
+            "column": 87
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 2761,
+        "line": 64,
+        "column": 0
+      },
+      "end": {
+        "offset": 2986,
+        "line": 66,
+        "column": 87
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n\\n",
+    "position": {
+      "start": {
+        "offset": 2986,
+        "line": 66,
+        "column": 87
+      },
+      "end": {
+        "offset": 2989,
+        "line": 69,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "Lists\\n=====\\n\\n",
+    "depth": 1,
+    "text": "Lists",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Lists",
+        "text": "Lists",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 2989,
+            "line": 69,
+            "column": 0
+          },
+          "end": {
+            "offset": 2994,
+            "line": 69,
+            "column": 5
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 2989,
+        "line": 69,
+        "column": 0
+      },
+      "end": {
+        "offset": 3002,
+        "line": 72,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "list",
+    "raw": "* This is a bulleted list\\n* Great for shopping lists\\n",
+    "ordered": false,
+    "start": "",
+    "loose": false,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "* This is a bulleted list\\n",
+        "task": false,
+        "loose": false,
+        "text": "This is a bulleted list",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "This is a bulleted list",
+            "text": "This is a bulleted list",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "This is a bulleted list",
+                "text": "This is a bulleted list",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3004,
+                    "line": 72,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 3027,
+                    "line": 72,
+                    "column": 25
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3004,
+                "line": 72,
+                "column": 2
+              },
+              "end": {
+                "offset": 3027,
+                "line": 72,
+                "column": 25
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3002,
+            "line": 72,
+            "column": 0
+          },
+          "end": {
+            "offset": 3028,
+            "line": 73,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "* Great for shopping lists",
+        "task": false,
+        "loose": false,
+        "text": "Great for shopping lists",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Great for shopping lists",
+            "text": "Great for shopping lists",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Great for shopping lists",
+                "text": "Great for shopping lists",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3030,
+                    "line": 73,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 3054,
+                    "line": 73,
+                    "column": 26
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3030,
+                "line": 73,
+                "column": 2
+              },
+              "end": {
+                "offset": 3054,
+                "line": 73,
+                "column": 26
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3028,
+            "line": 73,
+            "column": 0
+          },
+          "end": {
+            "offset": 3054,
+            "line": 73,
+            "column": 26
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 3002,
+        "line": 72,
+        "column": 0
+      },
+      "end": {
+        "offset": 3055,
+        "line": 74,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "list",
+    "raw": "- You can also use hyphens\\n",
+    "ordered": false,
+    "start": "",
+    "loose": false,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "- You can also use hyphens",
+        "task": false,
+        "loose": false,
+        "text": "You can also use hyphens",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "You can also use hyphens",
+            "text": "You can also use hyphens",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "You can also use hyphens",
+                "text": "You can also use hyphens",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3057,
+                    "line": 74,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 3081,
+                    "line": 74,
+                    "column": 26
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3057,
+                "line": 74,
+                "column": 2
+              },
+              "end": {
+                "offset": 3081,
+                "line": 74,
+                "column": 26
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3055,
+            "line": 74,
+            "column": 0
+          },
+          "end": {
+            "offset": 3081,
+            "line": 74,
+            "column": 26
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 3055,
+        "line": 74,
+        "column": 0
+      },
+      "end": {
+        "offset": 3082,
+        "line": 75,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "list",
+    "raw": "+ Or plus symbols",
+    "ordered": false,
+    "start": "",
+    "loose": false,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "+ Or plus symbols",
+        "task": false,
+        "loose": false,
+        "text": "Or plus symbols",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Or plus symbols",
+            "text": "Or plus symbols",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Or plus symbols",
+                "text": "Or plus symbols",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3084,
+                    "line": 75,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 3099,
+                    "line": 75,
+                    "column": 17
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3084,
+                "line": 75,
+                "column": 2
+              },
+              "end": {
+                "offset": 3099,
+                "line": 75,
+                "column": 17
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3082,
+            "line": 75,
+            "column": 0
+          },
+          "end": {
+            "offset": 3099,
+            "line": 75,
+            "column": 17
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 3082,
+        "line": 75,
+        "column": 0
+      },
+      "end": {
+        "offset": 3099,
+        "line": 75,
+        "column": 17
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 3099,
+        "line": 75,
+        "column": 17
+      },
+      "end": {
+        "offset": 3101,
+        "line": 77,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "The above is an \\"unordered\\" list. Now, on for a bit of order.",
+    "text": "The above is an \\"unordered\\" list. Now, on for a bit of order.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "The above is an \\"unordered\\" list. Now, on for a bit of order.",
+        "text": "The above is an \\"unordered\\" list. Now, on for a bit of order.",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 3101,
+            "line": 77,
+            "column": 0
+          },
+          "end": {
+            "offset": 3162,
+            "line": 77,
+            "column": 61
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 3101,
+        "line": 77,
+        "column": 0
+      },
+      "end": {
+        "offset": 3162,
+        "line": 77,
+        "column": 61
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 3162,
+        "line": 77,
+        "column": 61
+      },
+      "end": {
+        "offset": 3164,
+        "line": 79,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "list",
+    "raw": "1. Numbered lists are also easy\\n2. Just start with a number\\n3738762. However, the actual number doesn't matter when converted to HTML.\\n1. This will still show up as 4.",
+    "ordered": true,
+    "start": 1,
+    "loose": false,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "1. Numbered lists are also easy\\n",
+        "task": false,
+        "loose": false,
+        "text": "Numbered lists are also easy",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Numbered lists are also easy",
+            "text": "Numbered lists are also easy",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Numbered lists are also easy",
+                "text": "Numbered lists are also easy",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3167,
+                    "line": 79,
+                    "column": 3
+                  },
+                  "end": {
+                    "offset": 3195,
+                    "line": 79,
+                    "column": 31
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3167,
+                "line": 79,
+                "column": 3
+              },
+              "end": {
+                "offset": 3195,
+                "line": 79,
+                "column": 31
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3164,
+            "line": 79,
+            "column": 0
+          },
+          "end": {
+            "offset": 3196,
+            "line": 80,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "2. Just start with a number\\n",
+        "task": false,
+        "loose": false,
+        "text": "Just start with a number",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Just start with a number",
+            "text": "Just start with a number",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Just start with a number",
+                "text": "Just start with a number",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3199,
+                    "line": 80,
+                    "column": 3
+                  },
+                  "end": {
+                    "offset": 3223,
+                    "line": 80,
+                    "column": 27
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3199,
+                "line": 80,
+                "column": 3
+              },
+              "end": {
+                "offset": 3223,
+                "line": 80,
+                "column": 27
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3196,
+            "line": 80,
+            "column": 0
+          },
+          "end": {
+            "offset": 3224,
+            "line": 81,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "3738762. However, the actual number doesn't matter when converted to HTML.\\n",
+        "task": false,
+        "loose": false,
+        "text": "However, the actual number doesn't matter when converted to HTML.",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "However, the actual number doesn't matter when converted to HTML.",
+            "text": "However, the actual number doesn't matter when converted to HTML.",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "However, the actual number doesn't matter when converted to HTML.",
+                "text": "However, the actual number doesn't matter when converted to HTML.",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3233,
+                    "line": 81,
+                    "column": 9
+                  },
+                  "end": {
+                    "offset": 3298,
+                    "line": 81,
+                    "column": 74
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3233,
+                "line": 81,
+                "column": 9
+              },
+              "end": {
+                "offset": 3298,
+                "line": 81,
+                "column": 74
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3224,
+            "line": 81,
+            "column": 0
+          },
+          "end": {
+            "offset": 3299,
+            "line": 82,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "1. This will still show up as 4.",
+        "task": false,
+        "loose": false,
+        "text": "This will still show up as 4.",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "This will still show up as 4.",
+            "text": "This will still show up as 4.",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "This will still show up as 4.",
+                "text": "This will still show up as 4.",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3302,
+                    "line": 82,
+                    "column": 3
+                  },
+                  "end": {
+                    "offset": 3331,
+                    "line": 82,
+                    "column": 32
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3302,
+                "line": 82,
+                "column": 3
+              },
+              "end": {
+                "offset": 3331,
+                "line": 82,
+                "column": 32
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3299,
+            "line": 82,
+            "column": 0
+          },
+          "end": {
+            "offset": 3331,
+            "line": 82,
+            "column": 32
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 3164,
+        "line": 79,
+        "column": 0
+      },
+      "end": {
+        "offset": 3331,
+        "line": 82,
+        "column": 32
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 3331,
+        "line": 82,
+        "column": 32
+      },
+      "end": {
+        "offset": 3333,
+        "line": 84,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "You might want a few advanced lists:",
+    "text": "You might want a few advanced lists:",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "You might want a few advanced lists:",
+        "text": "You might want a few advanced lists:",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 3333,
+            "line": 84,
+            "column": 0
+          },
+          "end": {
+            "offset": 3369,
+            "line": 84,
+            "column": 36
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 3333,
+        "line": 84,
+        "column": 0
+      },
+      "end": {
+        "offset": 3369,
+        "line": 84,
+        "column": 36
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 3369,
+        "line": 84,
+        "column": 36
+      },
+      "end": {
+        "offset": 3371,
+        "line": 86,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "list",
+    "raw": "- This top-level list is wrapped in paragraph tags\\n- This generates an extra space between each top-level item.\\n\\n- You do it by adding a blank line\\n\\n- This nested list also has blank lines between the list items.\\n\\n- How to create nested lists\\n  1. Start your regular list\\n  2. Indent nested lists with two spaces\\n  3. Further nesting means you should indent with two more spaces\\n    * This line is indented with four spaces.\\n\\n- List items can be quite lengthy. You can keep typing and either continue\\nthem on the next line with no indentation.\\n\\n- Alternately, if that looks ugly, you can also\\n  indent the next line a bit for a prettier look.\\n\\n- You can put large blocks of text in your list by just indenting with two spaces.\\n\\n  This is formatted the same as code, but you can inspect the HTML\\n  and find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\n  as preformatted text.\\n\\n  You can keep adding more and more paragraphs to a single\\n  list item by adding the traditional blank line and then keep\\n  on indenting the paragraphs with two spaces.\\n\\n  You really only need to indent the first line,\\n",
+    "ordered": false,
+    "start": "",
+    "loose": true,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "- This top-level list is wrapped in paragraph tags\\n",
+        "task": false,
+        "loose": true,
+        "text": "This top-level list is wrapped in paragraph tags",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "This top-level list is wrapped in paragraph tags",
+            "text": "This top-level list is wrapped in paragraph tags",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "This top-level list is wrapped in paragraph tags",
+                "text": "This top-level list is wrapped in paragraph tags",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3373,
+                    "line": 86,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 3421,
+                    "line": 86,
+                    "column": 50
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3373,
+                "line": 86,
+                "column": 2
+              },
+              "end": {
+                "offset": 3421,
+                "line": 86,
+                "column": 50
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3371,
+            "line": 86,
+            "column": 0
+          },
+          "end": {
+            "offset": 3422,
+            "line": 87,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "- This generates an extra space between each top-level item.\\n\\n",
+        "task": false,
+        "loose": true,
+        "text": "This generates an extra space between each top-level item.\\n",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "This generates an extra space between each top-level item.\\n",
+            "text": "This generates an extra space between each top-level item.",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "This generates an extra space between each top-level item.",
+                "text": "This generates an extra space between each top-level item.",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3424,
+                    "line": 87,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 3482,
+                    "line": 87,
+                    "column": 60
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3424,
+                "line": 87,
+                "column": 2
+              },
+              "end": {
+                "offset": 3483,
+                "line": 88,
+                "column": 0
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3422,
+            "line": 87,
+            "column": 0
+          },
+          "end": {
+            "offset": 3484,
+            "line": 89,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "- You do it by adding a blank line\\n\\n",
+        "task": false,
+        "loose": true,
+        "text": "You do it by adding a blank line\\n",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "You do it by adding a blank line\\n",
+            "text": "You do it by adding a blank line",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "You do it by adding a blank line",
+                "text": "You do it by adding a blank line",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3486,
+                    "line": 89,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 3518,
+                    "line": 89,
+                    "column": 34
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3486,
+                "line": 89,
+                "column": 2
+              },
+              "end": {
+                "offset": 3519,
+                "line": 90,
+                "column": 0
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3484,
+            "line": 89,
+            "column": 0
+          },
+          "end": {
+            "offset": 3520,
+            "line": 91,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "- This nested list also has blank lines between the list items.\\n\\n",
+        "task": false,
+        "loose": true,
+        "text": "This nested list also has blank lines between the list items.\\n",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "This nested list also has blank lines between the list items.\\n",
+            "text": "This nested list also has blank lines between the list items.",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "This nested list also has blank lines between the list items.",
+                "text": "This nested list also has blank lines between the list items.",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3522,
+                    "line": 91,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 3583,
+                    "line": 91,
+                    "column": 63
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3522,
+                "line": 91,
+                "column": 2
+              },
+              "end": {
+                "offset": 3584,
+                "line": 92,
+                "column": 0
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3520,
+            "line": 91,
+            "column": 0
+          },
+          "end": {
+            "offset": 3585,
+            "line": 93,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "- How to create nested lists\\n  1. Start your regular list\\n  2. Indent nested lists with two spaces\\n  3. Further nesting means you should indent with two more spaces\\n    * This line is indented with four spaces.\\n\\n",
+        "task": false,
+        "loose": true,
+        "text": "How to create nested lists\\n1. Start your regular list\\n2. Indent nested lists with two spaces\\n3. Further nesting means you should indent with two more spaces\\n  * This line is indented with four spaces.\\n",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "How to create nested lists\\n",
+            "text": "How to create nested lists",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "How to create nested lists",
+                "text": "How to create nested lists",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 3587,
+                    "line": 93,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 3613,
+                    "line": 93,
+                    "column": 28
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3587,
+                "line": 93,
+                "column": 2
+              },
+              "end": {
+                "offset": 3614,
+                "line": 94,
+                "column": 0
+              }
+            }
+          },
+          {
+            "type": "list",
+            "raw": "1. Start your regular list\\n2. Indent nested lists with two spaces\\n3. Further nesting means you should indent with two more spaces\\n",
+            "ordered": true,
+            "start": 1,
+            "loose": false,
+            "items": [
+              {
+                "type": "list_item",
+                "raw": "1. Start your regular list\\n",
+                "task": false,
+                "loose": false,
+                "text": "Start your regular list",
+                "tokens": [
+                  {
+                    "type": "text",
+                    "raw": "Start your regular list",
+                    "text": "Start your regular list",
+                    "tokens": [
+                      {
+                        "type": "text",
+                        "raw": "Start your regular list",
+                        "text": "Start your regular list",
+                        "escaped": false,
+                        "position": {
+                          "start": {
+                            "offset": 3799,
+                            "line": 98,
+                            "column": 3
+                          },
+                          "end": {
+                            "offset": 3822,
+                            "line": 98,
+                            "column": 26
+                          }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "offset": 3799,
+                        "line": 98,
+                        "column": 3
+                      },
+                      "end": {
+                        "offset": 3822,
+                        "line": 98,
+                        "column": 26
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "offset": 3796,
+                    "line": 98,
+                    "column": 0
+                  },
+                  "end": {
+                    "offset": 3823,
+                    "line": 99,
+                    "column": 0
+                  }
+                }
+              },
+              {
+                "type": "list_item",
+                "raw": "2. Indent nested lists with two spaces\\n",
+                "task": false,
+                "loose": false,
+                "text": "Indent nested lists with two spaces",
+                "tokens": [
+                  {
+                    "type": "text",
+                    "raw": "Indent nested lists with two spaces",
+                    "text": "Indent nested lists with two spaces",
+                    "tokens": [
+                      {
+                        "type": "text",
+                        "raw": "Indent nested lists with two spaces",
+                        "text": "Indent nested lists with two spaces",
+                        "escaped": false,
+                        "position": {
+                          "start": {
+                            "offset": 3826,
+                            "line": 99,
+                            "column": 3
+                          },
+                          "end": {
+                            "offset": 3861,
+                            "line": 99,
+                            "column": 38
+                          }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "offset": 3826,
+                        "line": 99,
+                        "column": 3
+                      },
+                      "end": {
+                        "offset": 3861,
+                        "line": 99,
+                        "column": 38
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "offset": 3823,
+                    "line": 99,
+                    "column": 0
+                  },
+                  "end": {
+                    "offset": 3862,
+                    "line": 100,
+                    "column": 0
+                  }
+                }
+              },
+              {
+                "type": "list_item",
+                "raw": "3. Further nesting means you should indent with two more spaces",
+                "task": false,
+                "loose": false,
+                "text": "Further nesting means you should indent with two more spaces",
+                "tokens": [
+                  {
+                    "type": "text",
+                    "raw": "Further nesting means you should indent with two more spaces",
+                    "text": "Further nesting means you should indent with two more spaces",
+                    "tokens": [
+                      {
+                        "type": "text",
+                        "raw": "Further nesting means you should indent with two more spaces",
+                        "text": "Further nesting means you should indent with two more spaces",
+                        "escaped": false,
+                        "position": {
+                          "start": {
+                            "offset": 3865,
+                            "line": 100,
+                            "column": 3
+                          },
+                          "end": {
+                            "offset": 3925,
+                            "line": 100,
+                            "column": 63
+                          }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "offset": 3865,
+                        "line": 100,
+                        "column": 3
+                      },
+                      "end": {
+                        "offset": 3925,
+                        "line": 100,
+                        "column": 63
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "offset": 3862,
+                    "line": 100,
+                    "column": 0
+                  },
+                  "end": {
+                    "offset": 3925,
+                    "line": 100,
+                    "column": 63
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3796,
+                "line": 98,
+                "column": 0
+              },
+              "end": {
+                "offset": 3926,
+                "line": 101,
+                "column": 0
+              }
+            }
+          },
+          {
+            "type": "list",
+            "raw": "  * This line is indented with four spaces.\\n",
+            "ordered": false,
+            "start": "",
+            "loose": false,
+            "items": [
+              {
+                "type": "list_item",
+                "raw": "  * This line is indented with four spaces.",
+                "task": false,
+                "loose": false,
+                "text": "This line is indented with four spaces.",
+                "tokens": [
+                  {
+                    "type": "text",
+                    "raw": "This line is indented with four spaces.",
+                    "text": "This line is indented with four spaces.",
+                    "tokens": [
+                      {
+                        "type": "text",
+                        "raw": "This line is indented with four spaces.",
+                        "text": "This line is indented with four spaces.",
+                        "escaped": false,
+                        "position": {
+                          "start": {
+                            "offset": 3930,
+                            "line": 101,
+                            "column": 4
+                          },
+                          "end": {
+                            "offset": 3969,
+                            "line": 101,
+                            "column": 43
+                          }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "offset": 3930,
+                        "line": 101,
+                        "column": 4
+                      },
+                      "end": {
+                        "offset": 3969,
+                        "line": 101,
+                        "column": 43
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "offset": 3926,
+                    "line": 101,
+                    "column": 0
+                  },
+                  "end": {
+                    "offset": 3969,
+                    "line": 101,
+                    "column": 43
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3926,
+                "line": 101,
+                "column": 0
+              },
+              "end": {
+                "offset": 3970,
+                "line": 102,
+                "column": 0
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3585,
+            "line": 93,
+            "column": 0
+          },
+          "end": {
+            "offset": 3797,
+            "line": 99,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "- List items can be quite lengthy. You can keep typing and either continue\\nthem on the next line with no indentation.\\n\\n",
+        "task": false,
+        "loose": true,
+        "text": "List items can be quite lengthy. You can keep typing and either continue\\nthem on the next line with no indentation.\\n",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "List items can be quite lengthy. You can keep typing and either continue\\n\\nthem on the next line with no indentation.\\n",
+            "text": "List items can be quite lengthy. You can keep typing and either continue\\nthem on the next line with no indentation.",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "List items can be quite lengthy. You can keep typing and either continue\\nthem on the next line with no indentation.",
+                "text": "List items can be quite lengthy. You can keep typing and either continue\\nthem on the next line with no indentation.",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 4031,
+                    "line": 103,
+                    "column": 42
+                  },
+                  "end": {
+                    "offset": 4146,
+                    "line": 104,
+                    "column": 42
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 3915,
+                "line": 101,
+                "column": 0
+              },
+              "end": {
+                "offset": 4032,
+                "line": 104,
+                "column": 0
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3797,
+            "line": 99,
+            "column": 0
+          },
+          "end": {
+            "offset": 3916,
+            "line": 102,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "- Alternately, if that looks ugly, you can also\\n  indent the next line a bit for a prettier look.\\n\\n",
+        "task": false,
+        "loose": true,
+        "text": "Alternately, if that looks ugly, you can also\\nindent the next line a bit for a prettier look.\\n",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Alternately, if that looks ugly, you can also\\n\\nindent the next line a bit for a prettier look.\\n",
+            "text": "Alternately, if that looks ugly, you can also\\nindent the next line a bit for a prettier look.",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Alternately, if that looks ugly, you can also\\nindent the next line a bit for a prettier look.",
+                "text": "Alternately, if that looks ugly, you can also\\nindent the next line a bit for a prettier look.",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 4108,
+                    "line": 106,
+                    "column": 47
+                  },
+                  "end": {
+                    "offset": 4201,
+                    "line": 107,
+                    "column": 47
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 4014,
+                "line": 104,
+                "column": 0
+              },
+              "end": {
+                "offset": 4109,
+                "line": 107,
+                "column": 0
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 3916,
+            "line": 102,
+            "column": 0
+          },
+          "end": {
+            "offset": 4015,
+            "line": 105,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "- You can put large blocks of text in your list by just indenting with two spaces.\\n\\n  This is formatted the same as code, but you can inspect the HTML\\n  and find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\n  as preformatted text.\\n\\n  You can keep adding more and more paragraphs to a single\\n  list item by adding the traditional blank line and then keep\\n  on indenting the paragraphs with two spaces.\\n\\n  You really only need to indent the first line,",
+        "task": false,
+        "loose": true,
+        "text": "You can put large blocks of text in your list by just indenting with two spaces.\\n\\nThis is formatted the same as code, but you can inspect the HTML\\nand find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\nas preformatted text.\\n\\nYou can keep adding more and more paragraphs to a single\\nlist item by adding the traditional blank line and then keep\\non indenting the paragraphs with two spaces.\\n\\nYou really only need to indent the first line,",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "You can put large blocks of text in your list by just indenting with two spaces.",
+            "text": "You can put large blocks of text in your list by just indenting with two spaces.",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "You can put large blocks of text in your list by just indenting with two spaces.",
+                "text": "You can put large blocks of text in your list by just indenting with two spaces.",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 4017,
+                    "line": 105,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 4097,
+                    "line": 105,
+                    "column": 82
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 4017,
+                "line": 105,
+                "column": 2
+              },
+              "end": {
+                "offset": 4097,
+                "line": 105,
+                "column": 82
+              }
+            }
+          },
+          {
+            "type": "space",
+            "raw": "\\n\\n",
+            "position": {
+              "start": {
+                "offset": 4097,
+                "line": 105,
+                "column": 82
+              },
+              "end": {
+                "offset": 4099,
+                "line": 107,
+                "column": 0
+              }
+            }
+          },
+          {
+            "type": "text",
+            "raw": "This is formatted the same as code, but you can inspect the HTML\\n\\nand find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\n\\nas preformatted text.",
+            "text": "This is formatted the same as code, but you can inspect the HTML\\nand find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\nas preformatted text.",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "This is formatted the same as code, but you can inspect the HTML\\nand find that it's just wrapped in a ",
+                "text": "This is formatted the same as code, but you can inspect the HTML\\nand find that it's just wrapped in a ",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 4633,
+                    "line": 119,
+                    "column": 20
+                  },
+                  "end": {
+                    "offset": 4735,
+                    "line": 120,
+                    "column": 37
+                  }
+                }
+              },
+              {
+                "type": "codespan",
+                "raw": "\`<p>\`",
+                "text": "<p>",
+                "position": {
+                  "start": {
+                    "offset": 4735,
+                    "line": 120,
+                    "column": 37
+                  },
+                  "end": {
+                    "offset": 4740,
+                    "line": 120,
+                    "column": 42
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "raw": " tag and ",
+                "text": " tag and ",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 4740,
+                    "line": 120,
+                    "column": 42
+                  },
+                  "end": {
+                    "offset": 4749,
+                    "line": 120,
+                    "column": 51
+                  }
+                }
+              },
+              {
+                "type": "em",
+                "raw": "*won't*",
+                "text": "won't",
+                "tokens": [
+                  {
+                    "type": "text",
+                    "raw": "won't",
+                    "text": "won't",
+                    "escaped": false,
+                    "position": {
+                      "start": {
+                        "offset": 4750,
+                        "line": 120,
+                        "column": 52
+                      },
+                      "end": {
+                        "offset": 4755,
+                        "line": 120,
+                        "column": 57
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "offset": 4749,
+                    "line": 120,
+                    "column": 51
+                  },
+                  "end": {
+                    "offset": 4756,
+                    "line": 120,
+                    "column": 58
+                  }
+                }
+              },
+              {
+                "type": "text",
+                "raw": " be shown\\nas preformatted text.",
+                "text": " be shown\\nas preformatted text.",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 4756,
+                    "line": 120,
+                    "column": 58
+                  },
+                  "end": {
+                    "offset": 4787,
+                    "line": 121,
+                    "column": 21
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 4478,
+                "line": 115,
+                "column": 47
+              },
+              "end": {
+                "offset": 4634,
+                "line": 119,
+                "column": 21
+              }
+            }
+          },
+          {
+            "type": "space",
+            "raw": "\\n\\n",
+            "position": {
+              "start": {
+                "offset": 4634,
+                "line": 119,
+                "column": 21
+              },
+              "end": {
+                "offset": 4636,
+                "line": 121,
+                "column": 0
+              }
+            }
+          },
+          {
+            "type": "text",
+            "raw": "You can keep adding more and more paragraphs to a single\\n\\nlist item by adding the traditional blank line and then keep\\n\\non indenting the paragraphs with two spaces.",
+            "text": "You can keep adding more and more paragraphs to a single\\nlist item by adding the traditional blank line and then keep\\non indenting the paragraphs with two spaces.",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "You can keep adding more and more paragraphs to a single\\nlist item by adding the traditional blank line and then keep\\non indenting the paragraphs with two spaces.",
+                "text": "You can keep adding more and more paragraphs to a single\\nlist item by adding the traditional blank line and then keep\\non indenting the paragraphs with two spaces.",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 4799,
+                    "line": 125,
+                    "column": 43
+                  },
+                  "end": {
+                    "offset": 4961,
+                    "line": 127,
+                    "column": 44
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 4636,
+                "line": 121,
+                "column": 0
+              },
+              "end": {
+                "offset": 4800,
+                "line": 125,
+                "column": 44
+              }
+            }
+          },
+          {
+            "type": "space",
+            "raw": "\\n\\n",
+            "position": {
+              "start": {
+                "offset": 4800,
+                "line": 125,
+                "column": 44
+              },
+              "end": {
+                "offset": 4802,
+                "line": 127,
+                "column": 0
+              }
+            }
+          },
+          {
+            "type": "text",
+            "raw": "You really only need to indent the first line,",
+            "text": "You really only need to indent the first line,",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "You really only need to indent the first line,",
+                "text": "You really only need to indent the first line,",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 4802,
+                    "line": 127,
+                    "column": 0
+                  },
+                  "end": {
+                    "offset": 4848,
+                    "line": 127,
+                    "column": 46
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 4802,
+                "line": 127,
+                "column": 0
+              },
+              "end": {
+                "offset": 4848,
+                "line": 127,
+                "column": 46
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 4015,
+            "line": 105,
+            "column": 0
+          },
+          "end": {
+            "offset": 4479,
+            "line": 115,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 3371,
+        "line": 86,
+        "column": 0
+      },
+      "end": {
+        "offset": 4480,
+        "line": 116,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "but that looks ugly.",
+    "text": "but that looks ugly.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "but that looks ugly.",
+        "text": "but that looks ugly.",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 4480,
+            "line": 116,
+            "column": 0
+          },
+          "end": {
+            "offset": 4500,
+            "line": 116,
+            "column": 20
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 4480,
+        "line": 116,
+        "column": 0
+      },
+      "end": {
+        "offset": 4500,
+        "line": 116,
+        "column": 20
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 4500,
+        "line": 116,
+        "column": 20
+      },
+      "end": {
+        "offset": 4502,
+        "line": 118,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "list",
+    "raw": "- Lists support blockquotes\\n\\n  > Just like this example here. By the way, you can\\n  > nest lists inside blockquotes!\\n  > - Fantastic!\\n\\n- Lists support preformatted text\\n\\n      You just need to indent an additional four spaces.",
+    "ordered": false,
+    "start": "",
+    "loose": true,
+    "items": [
+      {
+        "type": "list_item",
+        "raw": "- Lists support blockquotes\\n\\n  > Just like this example here. By the way, you can\\n  > nest lists inside blockquotes!\\n  > - Fantastic!\\n\\n",
+        "task": false,
+        "loose": true,
+        "text": "Lists support blockquotes\\n\\n> Just like this example here. By the way, you can\\n> nest lists inside blockquotes!\\n> - Fantastic!\\n",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Lists support blockquotes",
+            "text": "Lists support blockquotes",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Lists support blockquotes",
+                "text": "Lists support blockquotes",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 4504,
+                    "line": 118,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 4529,
+                    "line": 118,
+                    "column": 27
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 4504,
+                "line": 118,
+                "column": 2
+              },
+              "end": {
+                "offset": 4529,
+                "line": 118,
+                "column": 27
+              }
+            }
+          },
+          {
+            "type": "space",
+            "raw": "\\n\\n",
+            "position": {
+              "start": {
+                "offset": 4529,
+                "line": 118,
+                "column": 27
+              },
+              "end": {
+                "offset": 4531,
+                "line": 120,
+                "column": 0
+              }
+            }
+          },
+          {
+            "type": "blockquote",
+            "raw": "> Just like this example here. By the way, you can\\n> nest lists inside blockquotes!\\n> - Fantastic!\\n",
+            "tokens": [
+              {
+                "type": "paragraph",
+                "raw": "Just like this example here. By the way, you can\\nnest lists inside blockquotes!\\n",
+                "text": "Just like this example here. By the way, you can\\nnest lists inside blockquotes!",
+                "tokens": [
+                  {
+                    "type": "text",
+                    "raw": "Just like this example here. By the way, you can\\nnest lists inside blockquotes!",
+                    "text": "Just like this example here. By the way, you can\\nnest lists inside blockquotes!",
+                    "escaped": false,
+                    "position": {
+                      "start": {
+                        "offset": 4734,
+                        "line": 125,
+                        "column": 14
+                      },
+                      "end": {
+                        "offset": 4813,
+                        "line": 126,
+                        "column": 30
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "offset": 4734,
+                    "line": 125,
+                    "column": 14
+                  },
+                  "end": {
+                    "offset": 4814,
+                    "line": 127,
+                    "column": 0
+                  }
+                }
+              },
+              {
+                "type": "list",
+                "raw": "- Fantastic!",
+                "ordered": false,
+                "start": "",
+                "loose": false,
+                "items": [
+                  {
+                    "type": "list_item",
+                    "raw": "- Fantastic!",
+                    "task": false,
+                    "loose": false,
+                    "text": "Fantastic!",
+                    "tokens": [
+                      {
+                        "type": "text",
+                        "raw": "Fantastic!",
+                        "text": "Fantastic!",
+                        "tokens": [
+                          {
+                            "type": "text",
+                            "raw": "Fantastic!",
+                            "text": "Fantastic!",
+                            "escaped": false,
+                            "position": {
+                              "start": {
+                                "offset": 4816,
+                                "line": 127,
+                                "column": 2
+                              },
+                              "end": {
+                                "offset": 4826,
+                                "line": 127,
+                                "column": 12
+                              }
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "offset": 4816,
+                            "line": 127,
+                            "column": 2
+                          },
+                          "end": {
+                            "offset": 4826,
+                            "line": 127,
+                            "column": 12
+                          }
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "offset": 4814,
+                        "line": 127,
+                        "column": 0
+                      },
+                      "end": {
+                        "offset": 4826,
+                        "line": 127,
+                        "column": 12
+                      }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "offset": 4814,
+                    "line": 127,
+                    "column": 0
+                  },
+                  "end": {
+                    "offset": 4826,
+                    "line": 127,
+                    "column": 12
+                  }
+                }
+              }
+            ],
+            "text": "Just like this example here. By the way, you can\\nnest lists inside blockquotes!\\n- Fantastic!",
+            "position": {
+              "start": {
+                "offset": 4636,
+                "line": 123,
+                "column": 0
+              },
+              "end": {
+                "offset": 4735,
+                "line": 126,
+                "column": 0
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 4502,
+            "line": 118,
+            "column": 0
+          },
+          "end": {
+            "offset": 4637,
+            "line": 124,
+            "column": 0
+          }
+        }
+      },
+      {
+        "type": "list_item",
+        "raw": "- Lists support preformatted text\\n\\n      You just need to indent an additional four spaces.",
+        "task": false,
+        "loose": true,
+        "text": "Lists support preformatted text\\n\\n    You just need to indent an additional four spaces.",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Lists support preformatted text",
+            "text": "Lists support preformatted text",
+            "tokens": [
+              {
+                "type": "text",
+                "raw": "Lists support preformatted text",
+                "text": "Lists support preformatted text",
+                "escaped": false,
+                "position": {
+                  "start": {
+                    "offset": 4639,
+                    "line": 124,
+                    "column": 2
+                  },
+                  "end": {
+                    "offset": 4670,
+                    "line": 124,
+                    "column": 33
+                  }
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "offset": 4639,
+                "line": 124,
+                "column": 2
+              },
+              "end": {
+                "offset": 4670,
+                "line": 124,
+                "column": 33
+              }
+            }
+          },
+          {
+            "type": "space",
+            "raw": "\\n\\n",
+            "position": {
+              "start": {
+                "offset": 4670,
+                "line": 124,
+                "column": 33
+              },
+              "end": {
+                "offset": 4672,
+                "line": 126,
+                "column": 0
+              }
+            }
+          },
+          {
+            "type": "code",
+            "raw": "    You just need to indent an additional four spaces.",
+            "codeBlockStyle": "indented",
+            "text": "You just need to indent an additional four spaces.",
+            "position": {
+              "start": {
+                "offset": 4674,
+                "line": 126,
+                "column": 2
+              },
+              "end": {
+                "offset": 4728,
+                "line": 126,
+                "column": 56
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 4637,
+            "line": 124,
+            "column": 0
+          },
+          "end": {
+            "offset": 4728,
+            "line": 126,
+            "column": 56
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 4502,
+        "line": 118,
+        "column": 0
+      },
+      "end": {
+        "offset": 4728,
+        "line": 126,
+        "column": 56
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n\\n",
+    "position": {
+      "start": {
+        "offset": 4728,
+        "line": 126,
+        "column": 56
+      },
+      "end": {
+        "offset": 4731,
+        "line": 129,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "Even More\\n=========\\n\\n",
+    "depth": 1,
+    "text": "Even More",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Even More",
+        "text": "Even More",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 4731,
+            "line": 129,
+            "column": 0
+          },
+          "end": {
+            "offset": 4740,
+            "line": 129,
+            "column": 9
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 4731,
+        "line": 129,
+        "column": 0
+      },
+      "end": {
+        "offset": 4752,
+        "line": 132,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "Horizontal Rule\\n---------------\\n\\n",
+    "depth": 2,
+    "text": "Horizontal Rule",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Horizontal Rule",
+        "text": "Horizontal Rule",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 4752,
+            "line": 132,
+            "column": 0
+          },
+          "end": {
+            "offset": 4767,
+            "line": 132,
+            "column": 15
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 4752,
+        "line": 132,
+        "column": 0
+      },
+      "end": {
+        "offset": 4785,
+        "line": 135,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "If you need a horizontal rule you just need to put at least three hyphens, asterisks, or underscores on a line by themselves. You can also even put spaces between the characters.",
+    "text": "If you need a horizontal rule you just need to put at least three hyphens, asterisks, or underscores on a line by themselves. You can also even put spaces between the characters.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "If you need a horizontal rule you just need to put at least three hyphens, asterisks, or underscores on a line by themselves. You can also even put spaces between the characters.",
+        "text": "If you need a horizontal rule you just need to put at least three hyphens, asterisks, or underscores on a line by themselves. You can also even put spaces between the characters.",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 4785,
+            "line": 135,
+            "column": 0
+          },
+          "end": {
+            "offset": 4963,
+            "line": 135,
+            "column": 178
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 4785,
+        "line": 135,
+        "column": 0
+      },
+      "end": {
+        "offset": 4963,
+        "line": 135,
+        "column": 178
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 4963,
+        "line": 135,
+        "column": 178
+      },
+      "end": {
+        "offset": 4965,
+        "line": 137,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "hr",
+    "raw": "---\\n",
+    "position": {
+      "start": {
+        "offset": 4965,
+        "line": 137,
+        "column": 0
+      },
+      "end": {
+        "offset": 4969,
+        "line": 138,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "hr",
+    "raw": "****************************\\n",
+    "position": {
+      "start": {
+        "offset": 4969,
+        "line": 138,
+        "column": 0
+      },
+      "end": {
+        "offset": 4998,
+        "line": 139,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "hr",
+    "raw": "_ _ _ _ _ _ _",
+    "position": {
+      "start": {
+        "offset": 4998,
+        "line": 139,
+        "column": 0
+      },
+      "end": {
+        "offset": 5011,
+        "line": 139,
+        "column": 13
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 5011,
+        "line": 139,
+        "column": 13
+      },
+      "end": {
+        "offset": 5013,
+        "line": 141,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "Those three all produced horizontal lines. Keep in mind that three hyphens under any text turns that text into a heading, so add a blank like if you use hyphens.",
+    "text": "Those three all produced horizontal lines. Keep in mind that three hyphens under any text turns that text into a heading, so add a blank like if you use hyphens.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Those three all produced horizontal lines. Keep in mind that three hyphens under any text turns that text into a heading, so add a blank like if you use hyphens.",
+        "text": "Those three all produced horizontal lines. Keep in mind that three hyphens under any text turns that text into a heading, so add a blank like if you use hyphens.",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5013,
+            "line": 141,
+            "column": 0
+          },
+          "end": {
+            "offset": 5174,
+            "line": 141,
+            "column": 161
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 5013,
+        "line": 141,
+        "column": 0
+      },
+      "end": {
+        "offset": 5174,
+        "line": 141,
+        "column": 161
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 5174,
+        "line": 141,
+        "column": 161
+      },
+      "end": {
+        "offset": 5176,
+        "line": 143,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "Images\\n------\\n\\n",
+    "depth": 2,
+    "text": "Images",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Images",
+        "text": "Images",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5176,
+            "line": 143,
+            "column": 0
+          },
+          "end": {
+            "offset": 5182,
+            "line": 143,
+            "column": 6
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 5176,
+        "line": 143,
+        "column": 0
+      },
+      "end": {
+        "offset": 5191,
+        "line": 146,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "Images work exactly like links, but they have exclamation points in front. They work with references and titles too.",
+    "text": "Images work exactly like links, but they have exclamation points in front. They work with references and titles too.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Images work exactly like links, but they have exclamation points in front. They work with references and titles too.",
+        "text": "Images work exactly like links, but they have exclamation points in front. They work with references and titles too.",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5191,
+            "line": 146,
+            "column": 0
+          },
+          "end": {
+            "offset": 5307,
+            "line": 146,
+            "column": 116
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 5191,
+        "line": 146,
+        "column": 0
+      },
+      "end": {
+        "offset": 5307,
+        "line": 146,
+        "column": 116
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 5307,
+        "line": 146,
+        "column": 116
+      },
+      "end": {
+        "offset": 5309,
+        "line": 148,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "![Google Logo](https://www.google.com/images/errors/logo_sm.gif) and ![Happy].",
+    "text": "![Google Logo](https://www.google.com/images/errors/logo_sm.gif) and ![Happy].",
+    "tokens": [
+      {
+        "type": "image",
+        "raw": "![Google Logo](https://www.google.com/images/errors/logo_sm.gif)",
+        "href": "https://www.google.com/images/errors/logo_sm.gif",
+        "title": null,
+        "text": "Google Logo",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Google Logo",
+            "text": "Google Logo",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 5311,
+                "line": 148,
+                "column": 2
+              },
+              "end": {
+                "offset": 5322,
+                "line": 148,
+                "column": 13
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 5309,
+            "line": 148,
+            "column": 0
+          },
+          "end": {
+            "offset": 5373,
+            "line": 148,
+            "column": 64
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " and ",
+        "text": " and ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5373,
+            "line": 148,
+            "column": 64
+          },
+          "end": {
+            "offset": 5378,
+            "line": 148,
+            "column": 69
+          }
+        }
+      },
+      {
+        "type": "image",
+        "raw": "![Happy]",
+        "href": "https://wpclipart.com/smiley/happy/simple_colors/smiley_face_simple_green_small.png",
+        "title": "\\"Smiley face\\"",
+        "text": "Happy",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "Happy",
+            "text": "Happy",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 5380,
+                "line": 148,
+                "column": 71
+              },
+              "end": {
+                "offset": 5385,
+                "line": 148,
+                "column": 76
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 5378,
+            "line": 148,
+            "column": 69
+          },
+          "end": {
+            "offset": 5386,
+            "line": 148,
+            "column": 77
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ".",
+        "text": ".",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5386,
+            "line": 148,
+            "column": 77
+          },
+          "end": {
+            "offset": 5387,
+            "line": 148,
+            "column": 78
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 5309,
+        "line": 148,
+        "column": 0
+      },
+      "end": {
+        "offset": 5387,
+        "line": 148,
+        "column": 78
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 5387,
+        "line": 148,
+        "column": 78
+      },
+      "end": {
+        "offset": 5389,
+        "line": 150,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "heading",
+    "raw": "Inline HTML\\n-----------\\n\\n",
+    "depth": 2,
+    "text": "Inline HTML",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Inline HTML",
+        "text": "Inline HTML",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5389,
+            "line": 150,
+            "column": 0
+          },
+          "end": {
+            "offset": 5400,
+            "line": 150,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 5389,
+        "line": 150,
+        "column": 0
+      },
+      "end": {
+        "offset": 5414,
+        "line": 153,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "If markdown is too limiting, you can just insert your own <strike>crazy</strike> HTML. Span-level HTML <u>can *still* use markdown</u>. Block level elements must be separated from text by a blank line and must not have any spaces before the opening and closing HTML.",
+    "text": "If markdown is too limiting, you can just insert your own <strike>crazy</strike> HTML. Span-level HTML <u>can *still* use markdown</u>. Block level elements must be separated from text by a blank line and must not have any spaces before the opening and closing HTML.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "If markdown is too limiting, you can just insert your own ",
+        "text": "If markdown is too limiting, you can just insert your own ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5414,
+            "line": 153,
+            "column": 0
+          },
+          "end": {
+            "offset": 5472,
+            "line": 153,
+            "column": 58
+          }
+        }
+      },
+      {
+        "type": "html",
+        "raw": "<strike>",
+        "inLink": false,
+        "inRawBlock": false,
+        "block": false,
+        "text": "<strike>",
+        "position": {
+          "start": {
+            "offset": 5472,
+            "line": 153,
+            "column": 58
+          },
+          "end": {
+            "offset": 5480,
+            "line": 153,
+            "column": 66
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": "crazy",
+        "text": "crazy",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5480,
+            "line": 153,
+            "column": 66
+          },
+          "end": {
+            "offset": 5485,
+            "line": 153,
+            "column": 71
+          }
+        }
+      },
+      {
+        "type": "html",
+        "raw": "</strike>",
+        "inLink": false,
+        "inRawBlock": false,
+        "block": false,
+        "text": "</strike>",
+        "position": {
+          "start": {
+            "offset": 5485,
+            "line": 153,
+            "column": 71
+          },
+          "end": {
+            "offset": 5494,
+            "line": 153,
+            "column": 80
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " HTML. Span-level HTML ",
+        "text": " HTML. Span-level HTML ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5494,
+            "line": 153,
+            "column": 80
+          },
+          "end": {
+            "offset": 5517,
+            "line": 153,
+            "column": 103
+          }
+        }
+      },
+      {
+        "type": "html",
+        "raw": "<u>",
+        "inLink": false,
+        "inRawBlock": false,
+        "block": false,
+        "text": "<u>",
+        "position": {
+          "start": {
+            "offset": 5517,
+            "line": 153,
+            "column": 103
+          },
+          "end": {
+            "offset": 5520,
+            "line": 153,
+            "column": 106
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": "can ",
+        "text": "can ",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5520,
+            "line": 153,
+            "column": 106
+          },
+          "end": {
+            "offset": 5524,
+            "line": 153,
+            "column": 110
+          }
+        }
+      },
+      {
+        "type": "em",
+        "raw": "*still*",
+        "text": "still",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "still",
+            "text": "still",
+            "escaped": false,
+            "position": {
+              "start": {
+                "offset": 5525,
+                "line": 153,
+                "column": 111
+              },
+              "end": {
+                "offset": 5530,
+                "line": 153,
+                "column": 116
+              }
+            }
+          }
+        ],
+        "position": {
+          "start": {
+            "offset": 5524,
+            "line": 153,
+            "column": 110
+          },
+          "end": {
+            "offset": 5531,
+            "line": 153,
+            "column": 117
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": " use markdown",
+        "text": " use markdown",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5531,
+            "line": 153,
+            "column": 117
+          },
+          "end": {
+            "offset": 5544,
+            "line": 153,
+            "column": 130
+          }
+        }
+      },
+      {
+        "type": "html",
+        "raw": "</u>",
+        "inLink": false,
+        "inRawBlock": false,
+        "block": false,
+        "text": "</u>",
+        "position": {
+          "start": {
+            "offset": 5544,
+            "line": 153,
+            "column": 130
+          },
+          "end": {
+            "offset": 5548,
+            "line": 153,
+            "column": 134
+          }
+        }
+      },
+      {
+        "type": "text",
+        "raw": ". Block level elements must be separated from text by a blank line and must not have any spaces before the opening and closing HTML.",
+        "text": ". Block level elements must be separated from text by a blank line and must not have any spaces before the opening and closing HTML.",
+        "escaped": false,
+        "position": {
+          "start": {
+            "offset": 5548,
+            "line": 153,
+            "column": 134
+          },
+          "end": {
+            "offset": 5680,
+            "line": 153,
+            "column": 266
+          }
+        }
+      }
+    ],
+    "position": {
+      "start": {
+        "offset": 5414,
+        "line": 153,
+        "column": 0
+      },
+      "end": {
+        "offset": 5680,
+        "line": 153,
+        "column": 266
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "start": {
+        "offset": 5680,
+        "line": 153,
+        "column": 266
+      },
+      "end": {
+        "offset": 5682,
+        "line": 155,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "html",
+    "block": true,
+    "raw": "<div style='font-family: \\"Comic Sans MS\\", \\"Comic Sans\\", cursive;'>\\nIt is a pity, but markdown does **not** work in here for most markdown parsers.\\n[Marked] handles it pretty well.\\n</div>\\n",
+    "pre": false,
+    "text": "<div style='font-family: \\"Comic Sans MS\\", \\"Comic Sans\\", cursive;'>\\nIt is a pity, but markdown does **not** work in here for most markdown parsers.\\n[Marked] handles it pretty well.\\n</div>\\n",
+    "position": {
+      "start": {
+        "offset": 5682,
+        "line": 155,
+        "column": 0
+      },
+      "end": {
+        "offset": 5869,
+        "line": 159,
+        "column": 0
+      }
+    }
+  }
+]
+`;
+
 exports[`markedTokenPosition > childTokens 1`] = `
 [
   {
@@ -367,47 +5748,4 @@ exports[`markedTokenPosition > table 1`] = `
 
 exports[`markedTokenPosition > table 2`] = `
 "<table>\\n<thead>\\n<tr>\\n<th>a</th>\\n<th>b</th>\\n</tr>\\n</thead>\\n<tbody><tr>\\n<td>1</td>\\n<td>2</td>\\n</tr>\\n</tbody></table>\\n"
-`;
-
-exports[`addTokenPositions > example markdown 1`] = `
-[
-  {
-    "type": "heading",
-    "raw": "# example markdown",
-    "depth": 1,
-    "text": "example markdown",
-    "tokens": [
-      {
-        "type": "text",
-        "raw": "example markdown",
-        "text": "example markdown",
-        "escaped": false,
-        "position": {
-          "start": {
-            "offset": 2,
-            "line": 0,
-            "column": 2
-          },
-          "end": {
-            "offset": 18,
-            "line": 0,
-            "column": 18
-          }
-        }
-      }
-    ],
-    "position": {
-      "start": {
-        "offset": 0,
-        "line": 0,
-        "column": 0
-      },
-      "end": {
-        "offset": 18,
-        "line": 0,
-        "column": 18
-      }
-    }
-  }
-]
 `;

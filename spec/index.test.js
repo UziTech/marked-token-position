@@ -1,6 +1,8 @@
 import { describe, test } from 'node:test';
 import { Marked } from 'marked';
 import markedTokenPosition, { addTokenPositions } from '../src/index.ts';
+import { readFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
 
 function testPosition(t) {
   return {
@@ -81,6 +83,13 @@ describe('addTokenPositions', () => {
   test('example markdown', (t) => {
     const marked = new Marked();
     const md = '# example markdown';
+    const tokens = marked.lexer(md);
+    t.assert.snapshot(addTokenPositions(tokens, md));
+  });
+
+  test('reference', async(t) => {
+    const marked = new Marked();
+    const md = await readFile(resolve(import.meta.dirname, './fixtures/reference.md'), { encoding: 'utf-8' });
     const tokens = marked.lexer(md);
     t.assert.snapshot(addTokenPositions(tokens, md));
   });

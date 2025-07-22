@@ -14,6 +14,10 @@ interface Position {
    * position at the end of token
    */
   end: PositionFields;
+  /**
+   * positions of each line of the token
+   */
+  lines?: Position[];
 }
 
 interface PositionFields {
@@ -58,22 +62,21 @@ export default function(options = {}): MarkedExtension {
   };
 }
 
-function addPosition(tokens: Token[], offset: number, line: number, column: number, markdown : string) {
+function addPosition(tokens: Token[], offset: number, line: number, column: number, markdown: string) {
   for (const token of tokens) {
     const genericToken = token as Tokens.Generic;
-    const raw = genericToken.raw;
-    const position = getPosition(offset, line, column, markdown, raw);
+    const position = getPosition(offset, line, column, markdown, genericToken.raw);
     genericToken.position = position;
 
     if (genericToken.tokens) {
-      addPosition(genericToken.tokens, position.start.offset, position.start.line, position.start.column, genericToken.type === 'blockquote' ? raw.replace(/(?<=^|\n)> /g, '') : raw);
+      addPosition(genericToken.tokens, offset, line, column, markdown);
     }
 
     if (genericToken.childTokens) {
-      let nextOffset = position.start.offset;
-      let nextLine = position.start.line;
-      let nextColumn = position.start.column;
-      let nextMarkdown = raw;
+      let nextOffset = offset;
+      let nextLine = line;
+      let nextColumn = column;
+      let nextMarkdown = markdown;
       for (const childToken of genericToken.childTokens) {
         const nextPosition = addPosition(genericToken[childToken], nextOffset, nextLine, nextColumn, nextMarkdown);
         nextOffset = nextPosition.offset;
@@ -84,14 +87,14 @@ function addPosition(tokens: Token[], offset: number, line: number, column: numb
     }
 
     if (genericToken.type === 'list') {
-      addPosition(genericToken.items, position.start.offset, position.start.line, position.start.column, raw);
+      addPosition(genericToken.items, offset, line, column, markdown);
     }
 
     if (genericToken.type === 'table') {
-      let nextOffset = position.start.offset;
-      let nextLine = position.start.line;
-      let nextColumn = position.start.column;
-      let nextMarkdown = raw;
+      let nextOffset = offset;
+      let nextLine = line;
+      let nextColumn = column;
+      let nextMarkdown = markdown;
       for (const headerCell of genericToken.header) {
         const nextPosition = addPosition(headerCell.tokens, nextOffset, nextLine, nextColumn, nextMarkdown);
         nextOffset = nextPosition.offset;
@@ -127,22 +130,46 @@ function addPosition(tokens: Token[], offset: number, line: number, column: numb
 }
 
 function getPosition(offset: number, line: number, column: number, markdown: string, raw: string): Position {
-  const startOffset = markdown.indexOf(raw);
-  const before = markdown.slice(0, startOffset);
-  const beforeLines = before.split('\n');
+  let lines: Position[] = [];
   const rawLines = raw.split('\n');
-  const start = {
-    offset: offset + before.length,
-    line: line + beforeLines.length - 1,
-    column: (beforeLines.length === 1 ? column : 0) + beforeLines.at(-1)!.length,
-  };
-  const end = {
-    offset: start.offset + raw.length,
-    line: start.line + rawLines.length - 1,
-    column: (rawLines.length === 1 ? start.column : 0) + rawLines.at(-1)!.length,
-  };
+  const markdownLines = markdown.split('\n');
+
+  // eslint-disable-next-line no-labels
+  md: for (let i = 0; i <= markdownLines.length - rawLines.length; i++) {
+    lines = [];
+    for (let j = 0; j < rawLines.length; j++) {
+      const markdownLine = markdownLines[i + j];
+      const rawLine = rawLines[j];
+      const lineStartOffset = markdownLine.indexOf(rawLine);
+
+      if (lineStartOffset === -1) {
+        // eslint-disable-next-line no-labels
+        continue md;
+      }
+
+      const beforeMarkdownLines = markdownLines.slice(0, i + j).join('\n') + (i + j > 0 ? '\n' : '');
+      const start = {
+        offset: offset + beforeMarkdownLines.length + lineStartOffset,
+        line: line + i + j,
+        column: (i + j === 0 ? column : 0) + lineStartOffset,
+      };
+      const end = {
+        offset: start.offset + rawLine.length,
+        line: start.line,
+        column: start.column + rawLine.length,
+      };
+
+      lines.push({
+        start,
+        end,
+      });
+    }
+    break;
+  }
+
   return {
-    start,
-    end,
+    lines,
+    start: lines[0].start,
+    end: lines.at(-1)!.end,
   };
 }

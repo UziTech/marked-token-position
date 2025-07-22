@@ -140,7 +140,7 @@ const marked = new Marked();
 const markdown = "# example markdown";
 const tokens = marked.lexer(markdown);
 
-addTokenPositions(tokens);
+addTokenPositions(tokens, markdown);
 
 // tokens now have a `position` field
 ```

@@ -35,6 +35,7 @@ interface PositionFields {
  * Add position field to tokens
  */
 export function addTokenPositions(tokens: Token[], markdown?: string) {
+  // adding token.raw doesn't work this way if reflinks are used
   markdown ??= tokens.map(token => token.raw).join('');
   return addPosition(tokens, 0, 0, 0, markdown).tokens;
 }

@@ -34,17 +34,25 @@ interface PositionFields {
 /**
  * Add position field to tokens
  */
-export function addTokenPositions(tokens: Token[]) {
-  return addPosition(tokens, 0, 0, 0, tokens.map(token => token.raw).join('')).tokens;
+export function addTokenPositions(tokens: Token[], markdown?: string) {
+  markdown ??= tokens.map(token => token.raw).join('');
+  return addPosition(tokens, 0, 0, 0, markdown).tokens;
 }
 
 /**
  * Marked extension to add position field to tokens
  */
 export default function(options = {}): MarkedExtension {
+  let originalMarkdown = '';
   return {
     hooks: {
-      processAllTokens: addTokenPositions,
+      preprocess(md) {
+        originalMarkdown = md;
+        return md;
+      },
+      processAllTokens(tokens) {
+        return addTokenPositions(tokens, originalMarkdown);
+      },
     },
   };
 }
@@ -57,7 +65,7 @@ function addPosition(tokens: Token[], offset: number, line: number, column: numb
     genericToken.position = position;
 
     if (genericToken.tokens) {
-      addPosition(genericToken.tokens, position.start.offset, position.start.line, position.start.column, raw);
+      addPosition(genericToken.tokens, position.start.offset, position.start.line, position.start.column, genericToken.type === 'blockquote' ? raw.replace(/(?<=^|\n)> /g, '') : raw);
     }
 
     if (genericToken.childTokens) {

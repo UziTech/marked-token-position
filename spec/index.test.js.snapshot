@@ -314,13 +314,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 300,
-            "line": 5,
+            "offset": 359,
+            "line": 8,
             "column": 0
           },
           "end": {
-            "offset": 322,
-            "line": 5,
+            "offset": 381,
+            "line": 8,
             "column": 22
           }
         }
@@ -328,13 +328,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 300,
-        "line": 5,
+        "offset": 359,
+        "line": 8,
         "column": 0
       },
       "end": {
-        "offset": 347,
-        "line": 8,
+        "offset": 406,
+        "line": 11,
         "column": 0
       }
     }
@@ -351,13 +351,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 347,
-            "line": 8,
+            "offset": 406,
+            "line": 11,
             "column": 0
           },
           "end": {
-            "offset": 381,
-            "line": 8,
+            "offset": 440,
+            "line": 11,
             "column": 34
           }
         }
@@ -374,13 +374,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 382,
-                "line": 8,
+                "offset": 441,
+                "line": 11,
                 "column": 35
               },
               "end": {
-                "offset": 387,
-                "line": 8,
+                "offset": 446,
+                "line": 11,
                 "column": 40
               }
             }
@@ -388,13 +388,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 381,
-            "line": 8,
+            "offset": 440,
+            "line": 11,
             "column": 34
           },
           "end": {
-            "offset": 388,
-            "line": 8,
+            "offset": 447,
+            "line": 11,
             "column": 41
           }
         }
@@ -406,13 +406,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 388,
-            "line": 8,
+            "offset": 447,
+            "line": 11,
             "column": 41
           },
           "end": {
-            "offset": 392,
-            "line": 8,
+            "offset": 451,
+            "line": 11,
             "column": 45
           }
         }
@@ -429,13 +429,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 393,
-                "line": 8,
+                "offset": 452,
+                "line": 11,
                 "column": 46
               },
               "end": {
-                "offset": 404,
-                "line": 8,
+                "offset": 463,
+                "line": 11,
                 "column": 57
               }
             }
@@ -443,13 +443,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 392,
-            "line": 8,
+            "offset": 451,
+            "line": 11,
             "column": 45
           },
           "end": {
-            "offset": 405,
-            "line": 8,
+            "offset": 464,
+            "line": 11,
             "column": 58
           }
         }
@@ -461,13 +461,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 405,
-            "line": 8,
+            "offset": 464,
+            "line": 11,
             "column": 58
           },
           "end": {
-            "offset": 419,
-            "line": 8,
+            "offset": 478,
+            "line": 11,
             "column": 72
           }
         }
@@ -484,13 +484,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 421,
-                "line": 8,
+                "offset": 480,
+                "line": 11,
                 "column": 74
               },
               "end": {
-                "offset": 433,
-                "line": 8,
+                "offset": 492,
+                "line": 11,
                 "column": 86
               }
             }
@@ -498,13 +498,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 419,
-            "line": 8,
+            "offset": 478,
+            "line": 11,
             "column": 72
           },
           "end": {
-            "offset": 435,
-            "line": 8,
+            "offset": 494,
+            "line": 11,
             "column": 88
           }
         }
@@ -516,13 +516,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 435,
-            "line": 8,
+            "offset": 494,
+            "line": 11,
             "column": 88
           },
           "end": {
-            "offset": 440,
-            "line": 8,
+            "offset": 499,
+            "line": 11,
             "column": 93
           }
         }
@@ -539,13 +539,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 442,
-                "line": 8,
+                "offset": 501,
+                "line": 11,
                 "column": 95
               },
               "end": {
-                "offset": 460,
-                "line": 8,
+                "offset": 519,
+                "line": 11,
                 "column": 113
               }
             }
@@ -553,13 +553,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 440,
-            "line": 8,
+            "offset": 499,
+            "line": 11,
             "column": 93
           },
           "end": {
-            "offset": 462,
-            "line": 8,
+            "offset": 521,
+            "line": 11,
             "column": 115
           }
         }
@@ -571,13 +571,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 462,
-            "line": 8,
+            "offset": 521,
+            "line": 11,
             "column": 115
           },
           "end": {
-            "offset": 473,
-            "line": 8,
+            "offset": 532,
+            "line": 11,
             "column": 126
           }
         }
@@ -599,13 +599,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 476,
-                    "line": 8,
+                    "offset": 535,
+                    "line": 11,
                     "column": 129
                   },
                   "end": {
-                    "offset": 490,
-                    "line": 8,
+                    "offset": 549,
+                    "line": 11,
                     "column": 143
                   }
                 }
@@ -613,13 +613,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 474,
-                "line": 8,
+                "offset": 533,
+                "line": 11,
                 "column": 127
               },
               "end": {
-                "offset": 492,
-                "line": 8,
+                "offset": 551,
+                "line": 11,
                 "column": 145
               }
             }
@@ -627,13 +627,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 473,
-            "line": 8,
+            "offset": 532,
+            "line": 11,
             "column": 126
           },
           "end": {
-            "offset": 493,
-            "line": 8,
+            "offset": 552,
+            "line": 11,
             "column": 146
           }
         }
@@ -645,13 +645,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 493,
-            "line": 8,
+            "offset": 552,
+            "line": 11,
             "column": 146
           },
           "end": {
-            "offset": 498,
-            "line": 8,
+            "offset": 557,
+            "line": 11,
             "column": 151
           }
         }
@@ -673,13 +673,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 501,
-                    "line": 8,
+                    "offset": 560,
+                    "line": 11,
                     "column": 154
                   },
                   "end": {
-                    "offset": 505,
-                    "line": 8,
+                    "offset": 564,
+                    "line": 11,
                     "column": 158
                   }
                 }
@@ -687,13 +687,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 499,
-                "line": 8,
+                "offset": 558,
+                "line": 11,
                 "column": 152
               },
               "end": {
-                "offset": 507,
-                "line": 8,
+                "offset": 566,
+                "line": 11,
                 "column": 160
               }
             }
@@ -701,13 +701,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 498,
-            "line": 8,
+            "offset": 557,
+            "line": 11,
             "column": 151
           },
           "end": {
-            "offset": 508,
-            "line": 8,
+            "offset": 567,
+            "line": 11,
             "column": 161
           }
         }
@@ -719,13 +719,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 508,
-            "line": 8,
+            "offset": 567,
+            "line": 11,
             "column": 161
           },
           "end": {
-            "offset": 509,
-            "line": 8,
+            "offset": 568,
+            "line": 11,
             "column": 162
           }
         }
@@ -733,13 +733,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 347,
-        "line": 8,
+        "offset": 406,
+        "line": 11,
         "column": 0
       },
       "end": {
-        "offset": 509,
-        "line": 8,
+        "offset": 568,
+        "line": 11,
         "column": 162
       }
     }
@@ -749,13 +749,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 509,
-        "line": 8,
+        "offset": 568,
+        "line": 11,
         "column": 162
       },
       "end": {
-        "offset": 511,
-        "line": 10,
+        "offset": 570,
+        "line": 13,
         "column": 0
       }
     }
@@ -772,13 +772,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 511,
-            "line": 10,
+            "offset": 570,
+            "line": 13,
             "column": 0
           },
           "end": {
-            "offset": 589,
-            "line": 10,
+            "offset": 648,
+            "line": 13,
             "column": 78
           }
         }
@@ -786,13 +786,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 511,
-        "line": 10,
+        "offset": 570,
+        "line": 13,
         "column": 0
       },
       "end": {
-        "offset": 589,
-        "line": 10,
+        "offset": 648,
+        "line": 13,
         "column": 78
       }
     }
@@ -802,13 +802,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 589,
-        "line": 10,
+        "offset": 648,
+        "line": 13,
         "column": 78
       },
       "end": {
-        "offset": 591,
-        "line": 12,
+        "offset": 650,
+        "line": 15,
         "column": 0
       }
     }
@@ -829,12 +829,12 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 755,
+                "offset": 650,
                 "line": 15,
-                "column": 45
+                "column": 0
               },
               "end": {
-                "offset": 867,
+                "offset": 762,
                 "line": 16,
                 "column": 41
               }
@@ -843,12 +843,12 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 755,
+            "offset": 650,
             "line": 15,
-            "column": 45
+            "column": 0
           },
           "end": {
-            "offset": 867,
+            "offset": 762,
             "line": 16,
             "column": 41
           }
@@ -859,13 +859,13 @@ exports[`addTokenPositions > reference 1`] = `
         "raw": "\\n\\n",
         "position": {
           "start": {
-            "offset": 867,
-            "line": 16,
-            "column": 41
+            "offset": 808,
+            "line": 18,
+            "column": 43
           },
           "end": {
-            "offset": 869,
-            "line": 18,
+            "offset": 810,
+            "line": 20,
             "column": 0
           }
         }
@@ -886,28 +886,28 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 871,
-                    "line": 18,
-                    "column": 2
+                    "offset": 810,
+                    "line": 20,
+                    "column": 0
                   },
                   "end": {
-                    "offset": 913,
-                    "line": 18,
-                    "column": 44
+                    "offset": 852,
+                    "line": 20,
+                    "column": 42
                   }
                 }
               }
             ],
             "position": {
               "start": {
-                "offset": 871,
-                "line": 18,
-                "column": 2
+                "offset": 810,
+                "line": 20,
+                "column": 0
               },
               "end": {
-                "offset": 913,
-                "line": 18,
-                "column": 44
+                "offset": 852,
+                "line": 20,
+                "column": 42
               }
             }
           }
@@ -915,13 +915,13 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "Multiple levels of block quotes also work.",
         "position": {
           "start": {
-            "offset": 869,
-            "line": 18,
+            "offset": 810,
+            "line": 20,
             "column": 0
           },
           "end": {
-            "offset": 913,
-            "line": 18,
+            "offset": 854,
+            "line": 20,
             "column": 44
           }
         }
@@ -930,13 +930,13 @@ exports[`addTokenPositions > reference 1`] = `
     "text": "This chunk of text is in a block quote. Its multiple lines will all be\\nindented a bit from the rest of the text.\\n\\n> Multiple levels of block quotes also work.",
     "position": {
       "start": {
-        "offset": 591,
-        "line": 12,
+        "offset": 650,
+        "line": 15,
         "column": 0
       },
       "end": {
-        "offset": 756,
-        "line": 15,
+        "offset": 815,
+        "line": 18,
         "column": 46
       }
     }
@@ -946,13 +946,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 756,
-        "line": 15,
+        "offset": 815,
+        "line": 18,
         "column": 46
       },
       "end": {
-        "offset": 758,
-        "line": 17,
+        "offset": 817,
+        "line": 20,
         "column": 0
       }
     }
@@ -969,13 +969,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 758,
-            "line": 17,
+            "offset": 817,
+            "line": 20,
             "column": 0
           },
           "end": {
-            "offset": 830,
-            "line": 17,
+            "offset": 889,
+            "line": 20,
             "column": 72
           }
         }
@@ -986,13 +986,13 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "<h1>",
         "position": {
           "start": {
-            "offset": 830,
-            "line": 17,
+            "offset": 889,
+            "line": 20,
             "column": 72
           },
           "end": {
-            "offset": 836,
-            "line": 17,
+            "offset": 895,
+            "line": 20,
             "column": 78
           }
         }
@@ -1004,13 +1004,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 836,
-            "line": 17,
+            "offset": 895,
+            "line": 20,
             "column": 78
           },
           "end": {
-            "offset": 906,
-            "line": 17,
+            "offset": 965,
+            "line": 20,
             "column": 148
           }
         }
@@ -1021,13 +1021,13 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "someMethod()",
         "position": {
           "start": {
-            "offset": 906,
-            "line": 17,
+            "offset": 965,
+            "line": 20,
             "column": 148
           },
           "end": {
-            "offset": 920,
-            "line": 17,
+            "offset": 979,
+            "line": 20,
             "column": 162
           }
         }
@@ -1039,13 +1039,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 920,
-            "line": 17,
+            "offset": 979,
+            "line": 20,
             "column": 162
           },
           "end": {
-            "offset": 921,
-            "line": 17,
+            "offset": 980,
+            "line": 20,
             "column": 163
           }
         }
@@ -1053,13 +1053,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 758,
-        "line": 17,
+        "offset": 817,
+        "line": 20,
         "column": 0
       },
       "end": {
-        "offset": 921,
-        "line": 17,
+        "offset": 980,
+        "line": 20,
         "column": 163
       }
     }
@@ -1069,13 +1069,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 921,
-        "line": 17,
+        "offset": 980,
+        "line": 20,
         "column": 163
       },
       "end": {
-        "offset": 923,
-        "line": 19,
+        "offset": 982,
+        "line": 22,
         "column": 0
       }
     }
@@ -1092,13 +1092,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 923,
-            "line": 19,
+            "offset": 982,
+            "line": 22,
             "column": 0
           },
           "end": {
-            "offset": 1032,
-            "line": 21,
+            "offset": 1091,
+            "line": 24,
             "column": 24
           }
         }
@@ -1106,13 +1106,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 923,
-        "line": 19,
+        "offset": 982,
+        "line": 22,
         "column": 0
       },
       "end": {
-        "offset": 1032,
-        "line": 21,
+        "offset": 1091,
+        "line": 24,
         "column": 24
       }
     }
@@ -1122,13 +1122,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 1032,
-        "line": 21,
+        "offset": 1091,
+        "line": 24,
         "column": 24
       },
       "end": {
-        "offset": 1034,
-        "line": 23,
+        "offset": 1093,
+        "line": 26,
         "column": 0
       }
     }
@@ -1140,13 +1140,13 @@ exports[`addTokenPositions > reference 1`] = `
     "text": "Extra spaces work here too.\\nThis is also called preformatted text and it is useful for showing examples.\\nThe text will stay as text, so any *markdown* or <u>HTML</u> you add will\\nnot show up formatted. This way you can show markdown examples in a\\nmarkdown document.",
     "position": {
       "start": {
-        "offset": 1034,
-        "line": 23,
+        "offset": 1093,
+        "line": 26,
         "column": 0
       },
       "end": {
-        "offset": 1321,
-        "line": 29,
+        "offset": 1380,
+        "line": 32,
         "column": 0
       }
     }
@@ -1162,13 +1162,13 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "You can also use preformatted text with your blockquotes\\nas long as you add at least five spaces.",
         "position": {
           "start": {
-            "offset": 1429,
-            "line": 30,
-            "column": 45
+            "offset": 1380,
+            "line": 32,
+            "column": 0
           },
           "end": {
-            "offset": 1534,
-            "line": 31,
+            "offset": 1485,
+            "line": 33,
             "column": 44
           }
         }
@@ -1177,13 +1177,13 @@ exports[`addTokenPositions > reference 1`] = `
     "text": "    You can also use preformatted text with your blockquotes\\n    as long as you add at least five spaces.",
     "position": {
       "start": {
-        "offset": 1321,
-        "line": 29,
+        "offset": 1380,
+        "line": 32,
         "column": 0
       },
       "end": {
-        "offset": 1430,
-        "line": 30,
+        "offset": 1489,
+        "line": 33,
         "column": 46
       }
     }
@@ -1193,13 +1193,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n\\n",
     "position": {
       "start": {
-        "offset": 1430,
-        "line": 30,
+        "offset": 1489,
+        "line": 33,
         "column": 46
       },
       "end": {
-        "offset": 1433,
-        "line": 33,
+        "offset": 1492,
+        "line": 36,
         "column": 0
       }
     }
@@ -1217,13 +1217,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1433,
-            "line": 33,
+            "offset": 1492,
+            "line": 36,
             "column": 0
           },
           "end": {
-            "offset": 1441,
-            "line": 33,
+            "offset": 1500,
+            "line": 36,
             "column": 8
           }
         }
@@ -1231,13 +1231,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 1433,
-        "line": 33,
+        "offset": 1492,
+        "line": 36,
         "column": 0
       },
       "end": {
-        "offset": 1452,
-        "line": 36,
+        "offset": 1511,
+        "line": 39,
         "column": 0
       }
     }
@@ -1254,13 +1254,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1452,
-            "line": 36,
+            "offset": 1511,
+            "line": 39,
             "column": 0
           },
           "end": {
-            "offset": 1695,
-            "line": 36,
+            "offset": 1754,
+            "line": 39,
             "column": 243
           }
         }
@@ -1271,13 +1271,13 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "#",
         "position": {
           "start": {
-            "offset": 1695,
-            "line": 36,
+            "offset": 1754,
+            "line": 39,
             "column": 243
           },
           "end": {
-            "offset": 1698,
-            "line": 36,
+            "offset": 1757,
+            "line": 39,
             "column": 246
           }
         }
@@ -1289,13 +1289,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1698,
-            "line": 36,
+            "offset": 1757,
+            "line": 39,
             "column": 246
           },
           "end": {
-            "offset": 1787,
-            "line": 36,
+            "offset": 1846,
+            "line": 39,
             "column": 335
           }
         }
@@ -1303,13 +1303,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 1452,
-        "line": 36,
+        "offset": 1511,
+        "line": 39,
         "column": 0
       },
       "end": {
-        "offset": 1787,
-        "line": 36,
+        "offset": 1846,
+        "line": 39,
         "column": 335
       }
     }
@@ -1319,13 +1319,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 1787,
-        "line": 36,
+        "offset": 1846,
+        "line": 39,
         "column": 335
       },
       "end": {
-        "offset": 1789,
-        "line": 38,
+        "offset": 1848,
+        "line": 41,
         "column": 0
       }
     }
@@ -1343,13 +1343,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1789,
-            "line": 38,
+            "offset": 1848,
+            "line": 41,
             "column": 0
           },
           "end": {
-            "offset": 1799,
-            "line": 38,
+            "offset": 1858,
+            "line": 41,
             "column": 10
           }
         }
@@ -1357,13 +1357,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 1789,
-        "line": 38,
+        "offset": 1848,
+        "line": 41,
         "column": 0
       },
       "end": {
-        "offset": 1812,
-        "line": 41,
+        "offset": 1871,
+        "line": 44,
         "column": 0
       }
     }
@@ -1381,13 +1381,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1812,
-            "line": 41,
+            "offset": 1871,
+            "line": 44,
             "column": 0
           },
           "end": {
-            "offset": 1822,
-            "line": 41,
+            "offset": 1881,
+            "line": 44,
             "column": 10
           }
         }
@@ -1395,13 +1395,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 1812,
-        "line": 41,
+        "offset": 1871,
+        "line": 44,
         "column": 0
       },
       "end": {
-        "offset": 1835,
-        "line": 44,
+        "offset": 1894,
+        "line": 47,
         "column": 0
       }
     }
@@ -1419,13 +1419,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1837,
-            "line": 44,
+            "offset": 1896,
+            "line": 47,
             "column": 2
           },
           "end": {
-            "offset": 1847,
-            "line": 44,
+            "offset": 1906,
+            "line": 47,
             "column": 12
           }
         }
@@ -1433,13 +1433,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 1835,
-        "line": 44,
+        "offset": 1894,
+        "line": 47,
         "column": 0
       },
       "end": {
-        "offset": 1848,
-        "line": 45,
+        "offset": 1907,
+        "line": 48,
         "column": 0
       }
     }
@@ -1457,13 +1457,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1851,
-            "line": 45,
+            "offset": 1910,
+            "line": 48,
             "column": 3
           },
           "end": {
-            "offset": 1861,
-            "line": 45,
+            "offset": 1920,
+            "line": 48,
             "column": 13
           }
         }
@@ -1471,13 +1471,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 1848,
-        "line": 45,
+        "offset": 1907,
+        "line": 48,
         "column": 0
       },
       "end": {
-        "offset": 1862,
-        "line": 46,
+        "offset": 1921,
+        "line": 49,
         "column": 0
       }
     }
@@ -1495,13 +1495,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1866,
-            "line": 46,
+            "offset": 1925,
+            "line": 49,
             "column": 4
           },
           "end": {
-            "offset": 1899,
-            "line": 46,
+            "offset": 1958,
+            "line": 49,
             "column": 37
           }
         }
@@ -1509,13 +1509,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 1862,
-        "line": 46,
+        "offset": 1921,
+        "line": 49,
         "column": 0
       },
       "end": {
-        "offset": 1904,
-        "line": 47,
+        "offset": 1963,
+        "line": 50,
         "column": 0
       }
     }
@@ -1533,13 +1533,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1909,
-            "line": 47,
+            "offset": 1968,
+            "line": 50,
             "column": 5
           },
           "end": {
-            "offset": 1925,
-            "line": 47,
+            "offset": 1984,
+            "line": 50,
             "column": 21
           }
         }
@@ -1547,13 +1547,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 1904,
-        "line": 47,
+        "offset": 1963,
+        "line": 50,
         "column": 0
       },
       "end": {
-        "offset": 1931,
-        "line": 48,
+        "offset": 1990,
+        "line": 51,
         "column": 0
       }
     }
@@ -1571,13 +1571,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1937,
-            "line": 48,
+            "offset": 1996,
+            "line": 51,
             "column": 6
           },
           "end": {
-            "offset": 1973,
-            "line": 48,
+            "offset": 2032,
+            "line": 51,
             "column": 42
           }
         }
@@ -1585,13 +1585,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 1931,
-        "line": 48,
+        "offset": 1990,
+        "line": 51,
         "column": 0
       },
       "end": {
-        "offset": 1974,
-        "line": 49,
+        "offset": 2033,
+        "line": 52,
         "column": 0
       }
     }
@@ -1609,13 +1609,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1981,
-            "line": 49,
+            "offset": 2040,
+            "line": 52,
             "column": 7
           },
           "end": {
-            "offset": 1994,
-            "line": 49,
+            "offset": 2053,
+            "line": 52,
             "column": 20
           }
         }
@@ -1623,13 +1623,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 1974,
-        "line": 49,
+        "offset": 2033,
+        "line": 52,
         "column": 0
       },
       "end": {
-        "offset": 1997,
-        "line": 52,
+        "offset": 2056,
+        "line": 55,
         "column": 0
       }
     }
@@ -1647,13 +1647,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 1997,
-            "line": 52,
+            "offset": 2056,
+            "line": 55,
             "column": 0
           },
           "end": {
-            "offset": 2002,
-            "line": 52,
+            "offset": 2061,
+            "line": 55,
             "column": 5
           }
         }
@@ -1661,13 +1661,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 1997,
-        "line": 52,
+        "offset": 2056,
+        "line": 55,
         "column": 0
       },
       "end": {
-        "offset": 2010,
-        "line": 55,
+        "offset": 2069,
+        "line": 58,
         "column": 0
       }
     }
@@ -1684,13 +1684,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2010,
-            "line": 55,
+            "offset": 2069,
+            "line": 58,
             "column": 0
           },
           "end": {
-            "offset": 2073,
-            "line": 55,
+            "offset": 2132,
+            "line": 58,
             "column": 63
           }
         }
@@ -1707,13 +1707,13 @@ exports[`addTokenPositions > reference 1`] = `
             "text": "https://www.github.com",
             "position": {
               "start": {
-                "offset": 2074,
-                "line": 55,
+                "offset": 2133,
+                "line": 58,
                 "column": 64
               },
               "end": {
-                "offset": 2096,
-                "line": 55,
+                "offset": 2155,
+                "line": 58,
                 "column": 86
               }
             }
@@ -1721,13 +1721,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 2073,
-            "line": 55,
+            "offset": 2132,
+            "line": 58,
             "column": 63
           },
           "end": {
-            "offset": 2097,
-            "line": 55,
+            "offset": 2156,
+            "line": 58,
             "column": 87
           }
         }
@@ -1739,13 +1739,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2097,
-            "line": 55,
+            "offset": 2156,
+            "line": 58,
             "column": 87
           },
           "end": {
-            "offset": 2160,
-            "line": 56,
+            "offset": 2219,
+            "line": 59,
             "column": 26
           }
         }
@@ -1764,13 +1764,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 2161,
-                "line": 56,
+                "offset": 2220,
+                "line": 59,
                 "column": 27
               },
               "end": {
-                "offset": 2167,
-                "line": 56,
+                "offset": 2226,
+                "line": 59,
                 "column": 33
               }
             }
@@ -1778,13 +1778,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 2160,
-            "line": 56,
+            "offset": 2219,
+            "line": 59,
             "column": 26
           },
           "end": {
-            "offset": 2192,
-            "line": 56,
+            "offset": 2251,
+            "line": 59,
             "column": 58
           }
         }
@@ -1796,13 +1796,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2192,
-            "line": 56,
+            "offset": 2251,
+            "line": 59,
             "column": 58
           },
           "end": {
-            "offset": 2256,
-            "line": 57,
+            "offset": 2315,
+            "line": 60,
             "column": 46
           }
         }
@@ -1821,13 +1821,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 2257,
-                "line": 57,
+                "offset": 2316,
+                "line": 60,
                 "column": 47
               },
               "end": {
-                "offset": 2258,
-                "line": 57,
+                "offset": 2317,
+                "line": 60,
                 "column": 48
               }
             }
@@ -1835,13 +1835,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 2256,
-            "line": 57,
+            "offset": 2315,
+            "line": 60,
             "column": 46
           },
           "end": {
-            "offset": 2259,
-            "line": 57,
+            "offset": 2318,
+            "line": 60,
             "column": 49
           }
         }
@@ -1853,13 +1853,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2259,
-            "line": 57,
+            "offset": 2318,
+            "line": 60,
             "column": 49
           },
           "end": {
-            "offset": 2293,
-            "line": 58,
+            "offset": 2352,
+            "line": 61,
             "column": 32
           }
         }
@@ -1878,13 +1878,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 2294,
-                "line": 58,
+                "offset": 2353,
+                "line": 61,
                 "column": 33
               },
               "end": {
-                "offset": 2299,
-                "line": 58,
+                "offset": 2358,
+                "line": 61,
                 "column": 38
               }
             }
@@ -1892,13 +1892,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 2293,
-            "line": 58,
+            "offset": 2352,
+            "line": 61,
             "column": 32
           },
           "end": {
-            "offset": 2300,
-            "line": 58,
+            "offset": 2359,
+            "line": 61,
             "column": 39
           }
         }
@@ -1910,13 +1910,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2300,
-            "line": 58,
+            "offset": 2359,
+            "line": 61,
             "column": 39
           },
           "end": {
-            "offset": 2413,
-            "line": 58,
+            "offset": 2472,
+            "line": 61,
             "column": 152
           }
         }
@@ -1933,13 +1933,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 2414,
-                "line": 58,
+                "offset": 2473,
+                "line": 61,
                 "column": 153
               },
               "end": {
-                "offset": 2422,
-                "line": 58,
+                "offset": 2481,
+                "line": 61,
                 "column": 161
               }
             }
@@ -1947,13 +1947,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 2413,
-            "line": 58,
+            "offset": 2472,
+            "line": 61,
             "column": 152
           },
           "end": {
-            "offset": 2423,
-            "line": 58,
+            "offset": 2482,
+            "line": 61,
             "column": 162
           }
         }
@@ -1965,13 +1965,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2423,
-            "line": 58,
+            "offset": 2482,
+            "line": 61,
             "column": 162
           },
           "end": {
-            "offset": 2523,
-            "line": 58,
+            "offset": 2582,
+            "line": 61,
             "column": 262
           }
         }
@@ -1990,13 +1990,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 2524,
-                "line": 58,
+                "offset": 2583,
+                "line": 61,
                 "column": 263
               },
               "end": {
-                "offset": 2529,
-                "line": 58,
+                "offset": 2588,
+                "line": 61,
                 "column": 268
               }
             }
@@ -2004,13 +2004,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 2523,
-            "line": 58,
+            "offset": 2582,
+            "line": 61,
             "column": 262
           },
           "end": {
-            "offset": 2530,
-            "line": 58,
+            "offset": 2589,
+            "line": 61,
             "column": 269
           }
         }
@@ -2022,13 +2022,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2530,
-            "line": 58,
+            "offset": 2589,
+            "line": 61,
             "column": 269
           },
           "end": {
-            "offset": 2557,
-            "line": 58,
+            "offset": 2616,
+            "line": 61,
             "column": 296
           }
         }
@@ -2036,13 +2036,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 2010,
-        "line": 55,
+        "offset": 2069,
+        "line": 58,
         "column": 0
       },
       "end": {
-        "offset": 2557,
-        "line": 58,
+        "offset": 2616,
+        "line": 61,
         "column": 296
       }
     }
@@ -2052,13 +2052,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 2557,
-        "line": 58,
+        "offset": 2616,
+        "line": 61,
         "column": 296
       },
       "end": {
-        "offset": 2559,
-        "line": 60,
+        "offset": 2618,
+        "line": 63,
         "column": 0
       }
     }
@@ -2075,13 +2075,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2559,
-            "line": 60,
+            "offset": 2681,
+            "line": 66,
             "column": 0
           },
           "end": {
-            "offset": 2639,
-            "line": 61,
+            "offset": 2761,
+            "line": 67,
             "column": 12
           }
         }
@@ -2100,13 +2100,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 2640,
-                "line": 61,
+                "offset": 2762,
+                "line": 67,
                 "column": 13
               },
               "end": {
-                "offset": 2651,
-                "line": 61,
+                "offset": 2773,
+                "line": 67,
                 "column": 24
               }
             }
@@ -2114,13 +2114,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 2639,
-            "line": 61,
+            "offset": 2761,
+            "line": 67,
             "column": 12
           },
           "end": {
-            "offset": 2681,
-            "line": 61,
+            "offset": 2803,
+            "line": 67,
             "column": 54
           }
         }
@@ -2132,13 +2132,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2681,
-            "line": 61,
+            "offset": 2803,
+            "line": 67,
             "column": 54
           },
           "end": {
-            "offset": 2728,
-            "line": 62,
+            "offset": 2850,
+            "line": 68,
             "column": 25
           }
         }
@@ -2157,13 +2157,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 2729,
-                "line": 62,
+                "offset": 2851,
+                "line": 68,
                 "column": 26
               },
               "end": {
-                "offset": 2730,
-                "line": 62,
+                "offset": 2852,
+                "line": 68,
                 "column": 27
               }
             }
@@ -2171,13 +2171,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 2728,
-            "line": 62,
+            "offset": 2850,
+            "line": 68,
             "column": 25
           },
           "end": {
-            "offset": 2731,
-            "line": 62,
+            "offset": 2853,
+            "line": 68,
             "column": 28
           }
         }
@@ -2189,13 +2189,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2731,
-            "line": 62,
+            "offset": 2853,
+            "line": 68,
             "column": 28
           },
           "end": {
-            "offset": 2750,
-            "line": 62,
+            "offset": 2872,
+            "line": 68,
             "column": 47
           }
         }
@@ -2214,13 +2214,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 2751,
-                "line": 62,
+                "offset": 2873,
+                "line": 68,
                 "column": 48
               },
               "end": {
-                "offset": 2757,
-                "line": 62,
+                "offset": 2879,
+                "line": 68,
                 "column": 54
               }
             }
@@ -2228,13 +2228,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 2750,
-            "line": 62,
+            "offset": 2872,
+            "line": 68,
             "column": 47
           },
           "end": {
-            "offset": 2758,
-            "line": 62,
+            "offset": 2880,
+            "line": 68,
             "column": 55
           }
         }
@@ -2246,13 +2246,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2758,
-            "line": 62,
+            "offset": 2880,
+            "line": 68,
             "column": 55
           },
           "end": {
-            "offset": 2759,
-            "line": 62,
+            "offset": 2881,
+            "line": 68,
             "column": 56
           }
         }
@@ -2260,13 +2260,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 2559,
-        "line": 60,
+        "offset": 2681,
+        "line": 66,
         "column": 0
       },
       "end": {
-        "offset": 2759,
-        "line": 62,
+        "offset": 2881,
+        "line": 68,
         "column": 56
       }
     }
@@ -2276,13 +2276,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 2759,
-        "line": 62,
+        "offset": 2881,
+        "line": 68,
         "column": 56
       },
       "end": {
-        "offset": 2761,
-        "line": 64,
+        "offset": 2883,
+        "line": 70,
         "column": 0
       }
     }
@@ -2299,13 +2299,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2761,
-            "line": 64,
+            "offset": 2994,
+            "line": 73,
             "column": 0
           },
           "end": {
-            "offset": 2807,
-            "line": 64,
+            "offset": 3040,
+            "line": 73,
             "column": 46
           }
         }
@@ -2322,13 +2322,13 @@ exports[`addTokenPositions > reference 1`] = `
             "text": "test@example.com",
             "position": {
               "start": {
-                "offset": 2807,
-                "line": 64,
+                "offset": 3040,
+                "line": 73,
                 "column": 46
               },
               "end": {
-                "offset": 2823,
-                "line": 64,
+                "offset": 3056,
+                "line": 73,
                 "column": 62
               }
             }
@@ -2336,13 +2336,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 2807,
-            "line": 64,
+            "offset": 3040,
+            "line": 73,
             "column": 46
           },
           "end": {
-            "offset": 2823,
-            "line": 64,
+            "offset": 3056,
+            "line": 73,
             "column": 62
           }
         }
@@ -2354,13 +2354,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2823,
-            "line": 64,
+            "offset": 3056,
+            "line": 73,
             "column": 62
           },
           "end": {
-            "offset": 2879,
-            "line": 65,
+            "offset": 3112,
+            "line": 74,
             "column": 54
           }
         }
@@ -2377,13 +2377,13 @@ exports[`addTokenPositions > reference 1`] = `
             "text": "test@example.com",
             "position": {
               "start": {
-                "offset": 2880,
-                "line": 65,
+                "offset": 3113,
+                "line": 74,
                 "column": 55
               },
               "end": {
-                "offset": 2896,
-                "line": 65,
+                "offset": 3129,
+                "line": 74,
                 "column": 71
               }
             }
@@ -2391,13 +2391,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 2879,
-            "line": 65,
+            "offset": 3112,
+            "line": 74,
             "column": 54
           },
           "end": {
-            "offset": 2897,
-            "line": 65,
+            "offset": 3130,
+            "line": 74,
             "column": 72
           }
         }
@@ -2409,13 +2409,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2897,
-            "line": 65,
+            "offset": 3130,
+            "line": 74,
             "column": 72
           },
           "end": {
-            "offset": 2986,
-            "line": 66,
+            "offset": 3219,
+            "line": 75,
             "column": 87
           }
         }
@@ -2423,13 +2423,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 2761,
-        "line": 64,
+        "offset": 2994,
+        "line": 73,
         "column": 0
       },
       "end": {
-        "offset": 2986,
-        "line": 66,
+        "offset": 3219,
+        "line": 75,
         "column": 87
       }
     }
@@ -2439,13 +2439,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n\\n",
     "position": {
       "start": {
-        "offset": 2986,
-        "line": 66,
+        "offset": 3219,
+        "line": 75,
         "column": 87
       },
       "end": {
-        "offset": 2989,
-        "line": 69,
+        "offset": 3222,
+        "line": 78,
         "column": 0
       }
     }
@@ -2463,13 +2463,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 2989,
-            "line": 69,
+            "offset": 3222,
+            "line": 78,
             "column": 0
           },
           "end": {
-            "offset": 2994,
-            "line": 69,
+            "offset": 3227,
+            "line": 78,
             "column": 5
           }
         }
@@ -2477,13 +2477,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 2989,
-        "line": 69,
+        "offset": 3222,
+        "line": 78,
         "column": 0
       },
       "end": {
-        "offset": 3002,
-        "line": 72,
+        "offset": 3235,
+        "line": 81,
         "column": 0
       }
     }
@@ -2514,13 +2514,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3004,
-                    "line": 72,
+                    "offset": 3237,
+                    "line": 81,
                     "column": 2
                   },
                   "end": {
-                    "offset": 3027,
-                    "line": 72,
+                    "offset": 3260,
+                    "line": 81,
                     "column": 25
                   }
                 }
@@ -2528,13 +2528,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3004,
-                "line": 72,
+                "offset": 3237,
+                "line": 81,
                 "column": 2
               },
               "end": {
-                "offset": 3027,
-                "line": 72,
+                "offset": 3260,
+                "line": 81,
                 "column": 25
               }
             }
@@ -2542,13 +2542,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3002,
-            "line": 72,
+            "offset": 3235,
+            "line": 81,
             "column": 0
           },
           "end": {
-            "offset": 3028,
-            "line": 73,
+            "offset": 3261,
+            "line": 82,
             "column": 0
           }
         }
@@ -2572,13 +2572,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3030,
-                    "line": 73,
+                    "offset": 3263,
+                    "line": 82,
                     "column": 2
                   },
                   "end": {
-                    "offset": 3054,
-                    "line": 73,
+                    "offset": 3287,
+                    "line": 82,
                     "column": 26
                   }
                 }
@@ -2586,13 +2586,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3030,
-                "line": 73,
+                "offset": 3263,
+                "line": 82,
                 "column": 2
               },
               "end": {
-                "offset": 3054,
-                "line": 73,
+                "offset": 3287,
+                "line": 82,
                 "column": 26
               }
             }
@@ -2600,13 +2600,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3028,
-            "line": 73,
+            "offset": 3261,
+            "line": 82,
             "column": 0
           },
           "end": {
-            "offset": 3054,
-            "line": 73,
+            "offset": 3287,
+            "line": 82,
             "column": 26
           }
         }
@@ -2614,13 +2614,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 3002,
-        "line": 72,
+        "offset": 3235,
+        "line": 81,
         "column": 0
       },
       "end": {
-        "offset": 3055,
-        "line": 74,
+        "offset": 3288,
+        "line": 83,
         "column": 0
       }
     }
@@ -2651,13 +2651,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3057,
-                    "line": 74,
+                    "offset": 3290,
+                    "line": 83,
                     "column": 2
                   },
                   "end": {
-                    "offset": 3081,
-                    "line": 74,
+                    "offset": 3314,
+                    "line": 83,
                     "column": 26
                   }
                 }
@@ -2665,13 +2665,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3057,
-                "line": 74,
+                "offset": 3290,
+                "line": 83,
                 "column": 2
               },
               "end": {
-                "offset": 3081,
-                "line": 74,
+                "offset": 3314,
+                "line": 83,
                 "column": 26
               }
             }
@@ -2679,13 +2679,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3055,
-            "line": 74,
+            "offset": 3288,
+            "line": 83,
             "column": 0
           },
           "end": {
-            "offset": 3081,
-            "line": 74,
+            "offset": 3314,
+            "line": 83,
             "column": 26
           }
         }
@@ -2693,13 +2693,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 3055,
-        "line": 74,
+        "offset": 3288,
+        "line": 83,
         "column": 0
       },
       "end": {
-        "offset": 3082,
-        "line": 75,
+        "offset": 3315,
+        "line": 84,
         "column": 0
       }
     }
@@ -2730,13 +2730,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3084,
-                    "line": 75,
+                    "offset": 3317,
+                    "line": 84,
                     "column": 2
                   },
                   "end": {
-                    "offset": 3099,
-                    "line": 75,
+                    "offset": 3332,
+                    "line": 84,
                     "column": 17
                   }
                 }
@@ -2744,13 +2744,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3084,
-                "line": 75,
+                "offset": 3317,
+                "line": 84,
                 "column": 2
               },
               "end": {
-                "offset": 3099,
-                "line": 75,
+                "offset": 3332,
+                "line": 84,
                 "column": 17
               }
             }
@@ -2758,13 +2758,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3082,
-            "line": 75,
+            "offset": 3315,
+            "line": 84,
             "column": 0
           },
           "end": {
-            "offset": 3099,
-            "line": 75,
+            "offset": 3332,
+            "line": 84,
             "column": 17
           }
         }
@@ -2772,13 +2772,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 3082,
-        "line": 75,
+        "offset": 3315,
+        "line": 84,
         "column": 0
       },
       "end": {
-        "offset": 3099,
-        "line": 75,
+        "offset": 3332,
+        "line": 84,
         "column": 17
       }
     }
@@ -2788,13 +2788,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 3099,
-        "line": 75,
+        "offset": 3332,
+        "line": 84,
         "column": 17
       },
       "end": {
-        "offset": 3101,
-        "line": 77,
+        "offset": 3334,
+        "line": 86,
         "column": 0
       }
     }
@@ -2811,13 +2811,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 3101,
-            "line": 77,
+            "offset": 3334,
+            "line": 86,
             "column": 0
           },
           "end": {
-            "offset": 3162,
-            "line": 77,
+            "offset": 3395,
+            "line": 86,
             "column": 61
           }
         }
@@ -2825,13 +2825,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 3101,
-        "line": 77,
+        "offset": 3334,
+        "line": 86,
         "column": 0
       },
       "end": {
-        "offset": 3162,
-        "line": 77,
+        "offset": 3395,
+        "line": 86,
         "column": 61
       }
     }
@@ -2841,13 +2841,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 3162,
-        "line": 77,
+        "offset": 3395,
+        "line": 86,
         "column": 61
       },
       "end": {
-        "offset": 3164,
-        "line": 79,
+        "offset": 3397,
+        "line": 88,
         "column": 0
       }
     }
@@ -2878,13 +2878,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3167,
-                    "line": 79,
+                    "offset": 3400,
+                    "line": 88,
                     "column": 3
                   },
                   "end": {
-                    "offset": 3195,
-                    "line": 79,
+                    "offset": 3428,
+                    "line": 88,
                     "column": 31
                   }
                 }
@@ -2892,13 +2892,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3167,
-                "line": 79,
+                "offset": 3400,
+                "line": 88,
                 "column": 3
               },
               "end": {
-                "offset": 3195,
-                "line": 79,
+                "offset": 3428,
+                "line": 88,
                 "column": 31
               }
             }
@@ -2906,13 +2906,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3164,
-            "line": 79,
+            "offset": 3397,
+            "line": 88,
             "column": 0
           },
           "end": {
-            "offset": 3196,
-            "line": 80,
+            "offset": 3429,
+            "line": 89,
             "column": 0
           }
         }
@@ -2936,13 +2936,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3199,
-                    "line": 80,
+                    "offset": 3432,
+                    "line": 89,
                     "column": 3
                   },
                   "end": {
-                    "offset": 3223,
-                    "line": 80,
+                    "offset": 3456,
+                    "line": 89,
                     "column": 27
                   }
                 }
@@ -2950,13 +2950,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3199,
-                "line": 80,
+                "offset": 3432,
+                "line": 89,
                 "column": 3
               },
               "end": {
-                "offset": 3223,
-                "line": 80,
+                "offset": 3456,
+                "line": 89,
                 "column": 27
               }
             }
@@ -2964,13 +2964,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3196,
-            "line": 80,
+            "offset": 3429,
+            "line": 89,
             "column": 0
           },
           "end": {
-            "offset": 3224,
-            "line": 81,
+            "offset": 3457,
+            "line": 90,
             "column": 0
           }
         }
@@ -2994,13 +2994,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3233,
-                    "line": 81,
+                    "offset": 3466,
+                    "line": 90,
                     "column": 9
                   },
                   "end": {
-                    "offset": 3298,
-                    "line": 81,
+                    "offset": 3531,
+                    "line": 90,
                     "column": 74
                   }
                 }
@@ -3008,13 +3008,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3233,
-                "line": 81,
+                "offset": 3466,
+                "line": 90,
                 "column": 9
               },
               "end": {
-                "offset": 3298,
-                "line": 81,
+                "offset": 3531,
+                "line": 90,
                 "column": 74
               }
             }
@@ -3022,13 +3022,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3224,
-            "line": 81,
+            "offset": 3457,
+            "line": 90,
             "column": 0
           },
           "end": {
-            "offset": 3299,
-            "line": 82,
+            "offset": 3532,
+            "line": 91,
             "column": 0
           }
         }
@@ -3052,13 +3052,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3302,
-                    "line": 82,
+                    "offset": 3535,
+                    "line": 91,
                     "column": 3
                   },
                   "end": {
-                    "offset": 3331,
-                    "line": 82,
+                    "offset": 3564,
+                    "line": 91,
                     "column": 32
                   }
                 }
@@ -3066,13 +3066,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3302,
-                "line": 82,
+                "offset": 3535,
+                "line": 91,
                 "column": 3
               },
               "end": {
-                "offset": 3331,
-                "line": 82,
+                "offset": 3564,
+                "line": 91,
                 "column": 32
               }
             }
@@ -3080,13 +3080,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3299,
-            "line": 82,
+            "offset": 3532,
+            "line": 91,
             "column": 0
           },
           "end": {
-            "offset": 3331,
-            "line": 82,
+            "offset": 3564,
+            "line": 91,
             "column": 32
           }
         }
@@ -3094,13 +3094,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 3164,
-        "line": 79,
+        "offset": 3397,
+        "line": 88,
         "column": 0
       },
       "end": {
-        "offset": 3331,
-        "line": 82,
+        "offset": 3564,
+        "line": 91,
         "column": 32
       }
     }
@@ -3110,13 +3110,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 3331,
-        "line": 82,
+        "offset": 3564,
+        "line": 91,
         "column": 32
       },
       "end": {
-        "offset": 3333,
-        "line": 84,
+        "offset": 3566,
+        "line": 93,
         "column": 0
       }
     }
@@ -3133,13 +3133,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 3333,
-            "line": 84,
+            "offset": 3566,
+            "line": 93,
             "column": 0
           },
           "end": {
-            "offset": 3369,
-            "line": 84,
+            "offset": 3602,
+            "line": 93,
             "column": 36
           }
         }
@@ -3147,13 +3147,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 3333,
-        "line": 84,
+        "offset": 3566,
+        "line": 93,
         "column": 0
       },
       "end": {
-        "offset": 3369,
-        "line": 84,
+        "offset": 3602,
+        "line": 93,
         "column": 36
       }
     }
@@ -3163,13 +3163,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 3369,
-        "line": 84,
+        "offset": 3602,
+        "line": 93,
         "column": 36
       },
       "end": {
-        "offset": 3371,
-        "line": 86,
+        "offset": 3604,
+        "line": 95,
         "column": 0
       }
     }
@@ -3200,13 +3200,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3373,
-                    "line": 86,
+                    "offset": 3606,
+                    "line": 95,
                     "column": 2
                   },
                   "end": {
-                    "offset": 3421,
-                    "line": 86,
+                    "offset": 3654,
+                    "line": 95,
                     "column": 50
                   }
                 }
@@ -3214,13 +3214,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3373,
-                "line": 86,
+                "offset": 3606,
+                "line": 95,
                 "column": 2
               },
               "end": {
-                "offset": 3421,
-                "line": 86,
+                "offset": 3654,
+                "line": 95,
                 "column": 50
               }
             }
@@ -3228,13 +3228,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3371,
-            "line": 86,
+            "offset": 3604,
+            "line": 95,
             "column": 0
           },
           "end": {
-            "offset": 3422,
-            "line": 87,
+            "offset": 3655,
+            "line": 96,
             "column": 0
           }
         }
@@ -3258,13 +3258,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3424,
-                    "line": 87,
+                    "offset": 3657,
+                    "line": 96,
                     "column": 2
                   },
                   "end": {
-                    "offset": 3482,
-                    "line": 87,
+                    "offset": 3715,
+                    "line": 96,
                     "column": 60
                   }
                 }
@@ -3272,13 +3272,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3424,
-                "line": 87,
+                "offset": 3657,
+                "line": 96,
                 "column": 2
               },
               "end": {
-                "offset": 3483,
-                "line": 88,
+                "offset": 3716,
+                "line": 97,
                 "column": 0
               }
             }
@@ -3286,13 +3286,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3422,
-            "line": 87,
+            "offset": 3655,
+            "line": 96,
             "column": 0
           },
           "end": {
-            "offset": 3484,
-            "line": 89,
+            "offset": 3717,
+            "line": 98,
             "column": 0
           }
         }
@@ -3316,13 +3316,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3486,
-                    "line": 89,
+                    "offset": 3719,
+                    "line": 98,
                     "column": 2
                   },
                   "end": {
-                    "offset": 3518,
-                    "line": 89,
+                    "offset": 3751,
+                    "line": 98,
                     "column": 34
                   }
                 }
@@ -3330,13 +3330,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3486,
-                "line": 89,
+                "offset": 3719,
+                "line": 98,
                 "column": 2
               },
               "end": {
-                "offset": 3519,
-                "line": 90,
+                "offset": 3752,
+                "line": 99,
                 "column": 0
               }
             }
@@ -3344,13 +3344,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3484,
-            "line": 89,
+            "offset": 3717,
+            "line": 98,
             "column": 0
           },
           "end": {
-            "offset": 3520,
-            "line": 91,
+            "offset": 3753,
+            "line": 100,
             "column": 0
           }
         }
@@ -3374,13 +3374,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3522,
-                    "line": 91,
+                    "offset": 3755,
+                    "line": 100,
                     "column": 2
                   },
                   "end": {
-                    "offset": 3583,
-                    "line": 91,
+                    "offset": 3816,
+                    "line": 100,
                     "column": 63
                   }
                 }
@@ -3388,13 +3388,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3522,
-                "line": 91,
+                "offset": 3755,
+                "line": 100,
                 "column": 2
               },
               "end": {
-                "offset": 3584,
-                "line": 92,
+                "offset": 3817,
+                "line": 101,
                 "column": 0
               }
             }
@@ -3402,13 +3402,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3520,
-            "line": 91,
+            "offset": 3753,
+            "line": 100,
             "column": 0
           },
           "end": {
-            "offset": 3585,
-            "line": 93,
+            "offset": 3818,
+            "line": 102,
             "column": 0
           }
         }
@@ -3432,13 +3432,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 3587,
-                    "line": 93,
+                    "offset": 3820,
+                    "line": 102,
                     "column": 2
                   },
                   "end": {
-                    "offset": 3613,
-                    "line": 93,
+                    "offset": 3846,
+                    "line": 102,
                     "column": 28
                   }
                 }
@@ -3446,13 +3446,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3587,
-                "line": 93,
+                "offset": 3820,
+                "line": 102,
                 "column": 2
               },
               "end": {
-                "offset": 3614,
-                "line": 94,
+                "offset": 3847,
+                "line": 103,
                 "column": 0
               }
             }
@@ -3483,13 +3483,13 @@ exports[`addTokenPositions > reference 1`] = `
                         "escaped": false,
                         "position": {
                           "start": {
-                            "offset": 3799,
-                            "line": 98,
+                            "offset": 4032,
+                            "line": 107,
                             "column": 3
                           },
                           "end": {
-                            "offset": 3822,
-                            "line": 98,
+                            "offset": 4055,
+                            "line": 107,
                             "column": 26
                           }
                         }
@@ -3497,13 +3497,13 @@ exports[`addTokenPositions > reference 1`] = `
                     ],
                     "position": {
                       "start": {
-                        "offset": 3799,
-                        "line": 98,
+                        "offset": 4032,
+                        "line": 107,
                         "column": 3
                       },
                       "end": {
-                        "offset": 3822,
-                        "line": 98,
+                        "offset": 4055,
+                        "line": 107,
                         "column": 26
                       }
                     }
@@ -3511,13 +3511,13 @@ exports[`addTokenPositions > reference 1`] = `
                 ],
                 "position": {
                   "start": {
-                    "offset": 3796,
-                    "line": 98,
+                    "offset": 4029,
+                    "line": 107,
                     "column": 0
                   },
                   "end": {
-                    "offset": 3823,
-                    "line": 99,
+                    "offset": 4056,
+                    "line": 108,
                     "column": 0
                   }
                 }
@@ -3541,13 +3541,13 @@ exports[`addTokenPositions > reference 1`] = `
                         "escaped": false,
                         "position": {
                           "start": {
-                            "offset": 3826,
-                            "line": 99,
+                            "offset": 4059,
+                            "line": 108,
                             "column": 3
                           },
                           "end": {
-                            "offset": 3861,
-                            "line": 99,
+                            "offset": 4094,
+                            "line": 108,
                             "column": 38
                           }
                         }
@@ -3555,13 +3555,13 @@ exports[`addTokenPositions > reference 1`] = `
                     ],
                     "position": {
                       "start": {
-                        "offset": 3826,
-                        "line": 99,
+                        "offset": 4059,
+                        "line": 108,
                         "column": 3
                       },
                       "end": {
-                        "offset": 3861,
-                        "line": 99,
+                        "offset": 4094,
+                        "line": 108,
                         "column": 38
                       }
                     }
@@ -3569,13 +3569,13 @@ exports[`addTokenPositions > reference 1`] = `
                 ],
                 "position": {
                   "start": {
-                    "offset": 3823,
-                    "line": 99,
+                    "offset": 4056,
+                    "line": 108,
                     "column": 0
                   },
                   "end": {
-                    "offset": 3862,
-                    "line": 100,
+                    "offset": 4095,
+                    "line": 109,
                     "column": 0
                   }
                 }
@@ -3599,13 +3599,13 @@ exports[`addTokenPositions > reference 1`] = `
                         "escaped": false,
                         "position": {
                           "start": {
-                            "offset": 3865,
-                            "line": 100,
+                            "offset": 4098,
+                            "line": 109,
                             "column": 3
                           },
                           "end": {
-                            "offset": 3925,
-                            "line": 100,
+                            "offset": 4158,
+                            "line": 109,
                             "column": 63
                           }
                         }
@@ -3613,13 +3613,13 @@ exports[`addTokenPositions > reference 1`] = `
                     ],
                     "position": {
                       "start": {
-                        "offset": 3865,
-                        "line": 100,
+                        "offset": 4098,
+                        "line": 109,
                         "column": 3
                       },
                       "end": {
-                        "offset": 3925,
-                        "line": 100,
+                        "offset": 4158,
+                        "line": 109,
                         "column": 63
                       }
                     }
@@ -3627,13 +3627,13 @@ exports[`addTokenPositions > reference 1`] = `
                 ],
                 "position": {
                   "start": {
-                    "offset": 3862,
-                    "line": 100,
+                    "offset": 4095,
+                    "line": 109,
                     "column": 0
                   },
                   "end": {
-                    "offset": 3925,
-                    "line": 100,
+                    "offset": 4158,
+                    "line": 109,
                     "column": 63
                   }
                 }
@@ -3641,13 +3641,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3796,
-                "line": 98,
+                "offset": 4029,
+                "line": 107,
                 "column": 0
               },
               "end": {
-                "offset": 3926,
-                "line": 101,
+                "offset": 4159,
+                "line": 110,
                 "column": 0
               }
             }
@@ -3678,13 +3678,13 @@ exports[`addTokenPositions > reference 1`] = `
                         "escaped": false,
                         "position": {
                           "start": {
-                            "offset": 3930,
-                            "line": 101,
+                            "offset": 4163,
+                            "line": 110,
                             "column": 4
                           },
                           "end": {
-                            "offset": 3969,
-                            "line": 101,
+                            "offset": 4202,
+                            "line": 110,
                             "column": 43
                           }
                         }
@@ -3692,13 +3692,13 @@ exports[`addTokenPositions > reference 1`] = `
                     ],
                     "position": {
                       "start": {
-                        "offset": 3930,
-                        "line": 101,
+                        "offset": 4163,
+                        "line": 110,
                         "column": 4
                       },
                       "end": {
-                        "offset": 3969,
-                        "line": 101,
+                        "offset": 4202,
+                        "line": 110,
                         "column": 43
                       }
                     }
@@ -3706,13 +3706,13 @@ exports[`addTokenPositions > reference 1`] = `
                 ],
                 "position": {
                   "start": {
-                    "offset": 3926,
-                    "line": 101,
+                    "offset": 4159,
+                    "line": 110,
                     "column": 0
                   },
                   "end": {
-                    "offset": 3969,
-                    "line": 101,
+                    "offset": 4202,
+                    "line": 110,
                     "column": 43
                   }
                 }
@@ -3720,13 +3720,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3926,
-                "line": 101,
+                "offset": 4159,
+                "line": 110,
                 "column": 0
               },
               "end": {
-                "offset": 3970,
-                "line": 102,
+                "offset": 4203,
+                "line": 111,
                 "column": 0
               }
             }
@@ -3734,13 +3734,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3585,
-            "line": 93,
+            "offset": 3818,
+            "line": 102,
             "column": 0
           },
           "end": {
-            "offset": 3797,
-            "line": 99,
+            "offset": 4030,
+            "line": 108,
             "column": 0
           }
         }
@@ -3764,13 +3764,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 4031,
-                    "line": 103,
+                    "offset": 4264,
+                    "line": 112,
                     "column": 42
                   },
                   "end": {
-                    "offset": 4146,
-                    "line": 104,
+                    "offset": 4379,
+                    "line": 113,
                     "column": 42
                   }
                 }
@@ -3778,13 +3778,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 3915,
-                "line": 101,
+                "offset": 4148,
+                "line": 110,
                 "column": 0
               },
               "end": {
-                "offset": 4032,
-                "line": 104,
+                "offset": 4265,
+                "line": 113,
                 "column": 0
               }
             }
@@ -3792,13 +3792,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3797,
-            "line": 99,
+            "offset": 4030,
+            "line": 108,
             "column": 0
           },
           "end": {
-            "offset": 3916,
-            "line": 102,
+            "offset": 4149,
+            "line": 111,
             "column": 0
           }
         }
@@ -3822,13 +3822,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 4108,
-                    "line": 106,
+                    "offset": 4341,
+                    "line": 115,
                     "column": 47
                   },
                   "end": {
-                    "offset": 4201,
-                    "line": 107,
+                    "offset": 4434,
+                    "line": 116,
                     "column": 47
                   }
                 }
@@ -3836,13 +3836,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 4014,
-                "line": 104,
+                "offset": 4247,
+                "line": 113,
                 "column": 0
               },
               "end": {
-                "offset": 4109,
-                "line": 107,
+                "offset": 4342,
+                "line": 116,
                 "column": 0
               }
             }
@@ -3850,13 +3850,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 3916,
-            "line": 102,
+            "offset": 4149,
+            "line": 111,
             "column": 0
           },
           "end": {
-            "offset": 4015,
-            "line": 105,
+            "offset": 4248,
+            "line": 114,
             "column": 0
           }
         }
@@ -3880,13 +3880,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 4017,
-                    "line": 105,
+                    "offset": 4250,
+                    "line": 114,
                     "column": 2
                   },
                   "end": {
-                    "offset": 4097,
-                    "line": 105,
+                    "offset": 4330,
+                    "line": 114,
                     "column": 82
                   }
                 }
@@ -3894,13 +3894,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 4017,
-                "line": 105,
+                "offset": 4250,
+                "line": 114,
                 "column": 2
               },
               "end": {
-                "offset": 4097,
-                "line": 105,
+                "offset": 4330,
+                "line": 114,
                 "column": 82
               }
             }
@@ -3910,13 +3910,13 @@ exports[`addTokenPositions > reference 1`] = `
             "raw": "\\n\\n",
             "position": {
               "start": {
-                "offset": 4097,
-                "line": 105,
+                "offset": 4330,
+                "line": 114,
                 "column": 82
               },
               "end": {
-                "offset": 4099,
-                "line": 107,
+                "offset": 4332,
+                "line": 116,
                 "column": 0
               }
             }
@@ -3933,13 +3933,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 4633,
-                    "line": 119,
+                    "offset": 4866,
+                    "line": 128,
                     "column": 20
                   },
                   "end": {
-                    "offset": 4735,
-                    "line": 120,
+                    "offset": 4968,
+                    "line": 129,
                     "column": 37
                   }
                 }
@@ -3950,13 +3950,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "text": "<p>",
                 "position": {
                   "start": {
-                    "offset": 4735,
-                    "line": 120,
+                    "offset": 4968,
+                    "line": 129,
                     "column": 37
                   },
                   "end": {
-                    "offset": 4740,
-                    "line": 120,
+                    "offset": 4973,
+                    "line": 129,
                     "column": 42
                   }
                 }
@@ -3968,13 +3968,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 4740,
-                    "line": 120,
+                    "offset": 4973,
+                    "line": 129,
                     "column": 42
                   },
                   "end": {
-                    "offset": 4749,
-                    "line": 120,
+                    "offset": 4982,
+                    "line": 129,
                     "column": 51
                   }
                 }
@@ -3991,13 +3991,13 @@ exports[`addTokenPositions > reference 1`] = `
                     "escaped": false,
                     "position": {
                       "start": {
-                        "offset": 4750,
-                        "line": 120,
+                        "offset": 4983,
+                        "line": 129,
                         "column": 52
                       },
                       "end": {
-                        "offset": 4755,
-                        "line": 120,
+                        "offset": 4988,
+                        "line": 129,
                         "column": 57
                       }
                     }
@@ -4005,13 +4005,13 @@ exports[`addTokenPositions > reference 1`] = `
                 ],
                 "position": {
                   "start": {
-                    "offset": 4749,
-                    "line": 120,
+                    "offset": 4982,
+                    "line": 129,
                     "column": 51
                   },
                   "end": {
-                    "offset": 4756,
-                    "line": 120,
+                    "offset": 4989,
+                    "line": 129,
                     "column": 58
                   }
                 }
@@ -4023,13 +4023,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 4756,
-                    "line": 120,
+                    "offset": 4989,
+                    "line": 129,
                     "column": 58
                   },
                   "end": {
-                    "offset": 4787,
-                    "line": 121,
+                    "offset": 5020,
+                    "line": 130,
                     "column": 21
                   }
                 }
@@ -4037,13 +4037,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 4478,
-                "line": 115,
+                "offset": 4711,
+                "line": 124,
                 "column": 47
               },
               "end": {
-                "offset": 4634,
-                "line": 119,
+                "offset": 4867,
+                "line": 128,
                 "column": 21
               }
             }
@@ -4053,13 +4053,13 @@ exports[`addTokenPositions > reference 1`] = `
             "raw": "\\n\\n",
             "position": {
               "start": {
-                "offset": 4634,
-                "line": 119,
+                "offset": 4867,
+                "line": 128,
                 "column": 21
               },
               "end": {
-                "offset": 4636,
-                "line": 121,
+                "offset": 4869,
+                "line": 130,
                 "column": 0
               }
             }
@@ -4076,13 +4076,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 4799,
-                    "line": 125,
+                    "offset": 5032,
+                    "line": 134,
                     "column": 43
                   },
                   "end": {
-                    "offset": 4961,
-                    "line": 127,
+                    "offset": 5194,
+                    "line": 136,
                     "column": 44
                   }
                 }
@@ -4090,13 +4090,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 4636,
-                "line": 121,
+                "offset": 4869,
+                "line": 130,
                 "column": 0
               },
               "end": {
-                "offset": 4800,
-                "line": 125,
+                "offset": 5033,
+                "line": 134,
                 "column": 44
               }
             }
@@ -4106,13 +4106,13 @@ exports[`addTokenPositions > reference 1`] = `
             "raw": "\\n\\n",
             "position": {
               "start": {
-                "offset": 4800,
-                "line": 125,
+                "offset": 5033,
+                "line": 134,
                 "column": 44
               },
               "end": {
-                "offset": 4802,
-                "line": 127,
+                "offset": 5035,
+                "line": 136,
                 "column": 0
               }
             }
@@ -4129,13 +4129,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 4802,
-                    "line": 127,
+                    "offset": 5035,
+                    "line": 136,
                     "column": 0
                   },
                   "end": {
-                    "offset": 4848,
-                    "line": 127,
+                    "offset": 5081,
+                    "line": 136,
                     "column": 46
                   }
                 }
@@ -4143,13 +4143,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 4802,
-                "line": 127,
+                "offset": 5035,
+                "line": 136,
                 "column": 0
               },
               "end": {
-                "offset": 4848,
-                "line": 127,
+                "offset": 5081,
+                "line": 136,
                 "column": 46
               }
             }
@@ -4157,13 +4157,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 4015,
-            "line": 105,
+            "offset": 4248,
+            "line": 114,
             "column": 0
           },
           "end": {
-            "offset": 4479,
-            "line": 115,
+            "offset": 4712,
+            "line": 124,
             "column": 48
           }
         }
@@ -4171,13 +4171,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 3371,
-        "line": 86,
+        "offset": 3604,
+        "line": 95,
         "column": 0
       },
       "end": {
-        "offset": 4480,
-        "line": 116,
+        "offset": 4713,
+        "line": 125,
         "column": 0
       }
     }
@@ -4194,13 +4194,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 4480,
-            "line": 116,
+            "offset": 4713,
+            "line": 125,
             "column": 0
           },
           "end": {
-            "offset": 4500,
-            "line": 116,
+            "offset": 4733,
+            "line": 125,
             "column": 20
           }
         }
@@ -4208,13 +4208,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 4480,
-        "line": 116,
+        "offset": 4713,
+        "line": 125,
         "column": 0
       },
       "end": {
-        "offset": 4500,
-        "line": 116,
+        "offset": 4733,
+        "line": 125,
         "column": 20
       }
     }
@@ -4224,13 +4224,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 4500,
-        "line": 116,
+        "offset": 4733,
+        "line": 125,
         "column": 20
       },
       "end": {
-        "offset": 4502,
-        "line": 118,
+        "offset": 4735,
+        "line": 127,
         "column": 0
       }
     }
@@ -4261,13 +4261,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 4504,
-                    "line": 118,
+                    "offset": 4737,
+                    "line": 127,
                     "column": 2
                   },
                   "end": {
-                    "offset": 4529,
-                    "line": 118,
+                    "offset": 4762,
+                    "line": 127,
                     "column": 27
                   }
                 }
@@ -4275,13 +4275,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 4504,
-                "line": 118,
+                "offset": 4737,
+                "line": 127,
                 "column": 2
               },
               "end": {
-                "offset": 4529,
-                "line": 118,
+                "offset": 4762,
+                "line": 127,
                 "column": 27
               }
             }
@@ -4291,13 +4291,13 @@ exports[`addTokenPositions > reference 1`] = `
             "raw": "\\n\\n",
             "position": {
               "start": {
-                "offset": 4529,
-                "line": 118,
+                "offset": 4762,
+                "line": 127,
                 "column": 27
               },
               "end": {
-                "offset": 4531,
-                "line": 120,
+                "offset": 4764,
+                "line": 129,
                 "column": 0
               }
             }
@@ -4318,13 +4318,13 @@ exports[`addTokenPositions > reference 1`] = `
                     "escaped": false,
                     "position": {
                       "start": {
-                        "offset": 4734,
-                        "line": 125,
-                        "column": 14
+                        "offset": 4869,
+                        "line": 132,
+                        "column": 0
                       },
                       "end": {
-                        "offset": 4813,
-                        "line": 126,
+                        "offset": 4948,
+                        "line": 133,
                         "column": 30
                       }
                     }
@@ -4332,13 +4332,13 @@ exports[`addTokenPositions > reference 1`] = `
                 ],
                 "position": {
                   "start": {
-                    "offset": 4734,
-                    "line": 125,
-                    "column": 14
+                    "offset": 4869,
+                    "line": 132,
+                    "column": 0
                   },
                   "end": {
-                    "offset": 4814,
-                    "line": 127,
+                    "offset": 4949,
+                    "line": 134,
                     "column": 0
                   }
                 }
@@ -4369,13 +4369,13 @@ exports[`addTokenPositions > reference 1`] = `
                             "escaped": false,
                             "position": {
                               "start": {
-                                "offset": 4816,
-                                "line": 127,
+                                "offset": 4951,
+                                "line": 134,
                                 "column": 2
                               },
                               "end": {
-                                "offset": 4826,
-                                "line": 127,
+                                "offset": 4961,
+                                "line": 134,
                                 "column": 12
                               }
                             }
@@ -4383,13 +4383,13 @@ exports[`addTokenPositions > reference 1`] = `
                         ],
                         "position": {
                           "start": {
-                            "offset": 4816,
-                            "line": 127,
+                            "offset": 4951,
+                            "line": 134,
                             "column": 2
                           },
                           "end": {
-                            "offset": 4826,
-                            "line": 127,
+                            "offset": 4961,
+                            "line": 134,
                             "column": 12
                           }
                         }
@@ -4397,13 +4397,13 @@ exports[`addTokenPositions > reference 1`] = `
                     ],
                     "position": {
                       "start": {
-                        "offset": 4814,
-                        "line": 127,
+                        "offset": 4949,
+                        "line": 134,
                         "column": 0
                       },
                       "end": {
-                        "offset": 4826,
-                        "line": 127,
+                        "offset": 4961,
+                        "line": 134,
                         "column": 12
                       }
                     }
@@ -4411,13 +4411,13 @@ exports[`addTokenPositions > reference 1`] = `
                 ],
                 "position": {
                   "start": {
-                    "offset": 4814,
-                    "line": 127,
+                    "offset": 4949,
+                    "line": 134,
                     "column": 0
                   },
                   "end": {
-                    "offset": 4826,
-                    "line": 127,
+                    "offset": 4961,
+                    "line": 134,
                     "column": 12
                   }
                 }
@@ -4426,13 +4426,13 @@ exports[`addTokenPositions > reference 1`] = `
             "text": "Just like this example here. By the way, you can\\nnest lists inside blockquotes!\\n- Fantastic!",
             "position": {
               "start": {
-                "offset": 4636,
-                "line": 123,
+                "offset": 4869,
+                "line": 132,
                 "column": 0
               },
               "end": {
-                "offset": 4735,
-                "line": 126,
+                "offset": 4968,
+                "line": 135,
                 "column": 0
               }
             }
@@ -4440,13 +4440,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 4502,
-            "line": 118,
+            "offset": 4735,
+            "line": 127,
             "column": 0
           },
           "end": {
-            "offset": 4637,
-            "line": 124,
+            "offset": 4870,
+            "line": 133,
             "column": 0
           }
         }
@@ -4470,13 +4470,13 @@ exports[`addTokenPositions > reference 1`] = `
                 "escaped": false,
                 "position": {
                   "start": {
-                    "offset": 4639,
-                    "line": 124,
+                    "offset": 4872,
+                    "line": 133,
                     "column": 2
                   },
                   "end": {
-                    "offset": 4670,
-                    "line": 124,
+                    "offset": 4903,
+                    "line": 133,
                     "column": 33
                   }
                 }
@@ -4484,13 +4484,13 @@ exports[`addTokenPositions > reference 1`] = `
             ],
             "position": {
               "start": {
-                "offset": 4639,
-                "line": 124,
+                "offset": 4872,
+                "line": 133,
                 "column": 2
               },
               "end": {
-                "offset": 4670,
-                "line": 124,
+                "offset": 4903,
+                "line": 133,
                 "column": 33
               }
             }
@@ -4500,13 +4500,13 @@ exports[`addTokenPositions > reference 1`] = `
             "raw": "\\n\\n",
             "position": {
               "start": {
-                "offset": 4670,
-                "line": 124,
+                "offset": 4903,
+                "line": 133,
                 "column": 33
               },
               "end": {
-                "offset": 4672,
-                "line": 126,
+                "offset": 4905,
+                "line": 135,
                 "column": 0
               }
             }
@@ -4518,13 +4518,13 @@ exports[`addTokenPositions > reference 1`] = `
             "text": "You just need to indent an additional four spaces.",
             "position": {
               "start": {
-                "offset": 4674,
-                "line": 126,
+                "offset": 4907,
+                "line": 135,
                 "column": 2
               },
               "end": {
-                "offset": 4728,
-                "line": 126,
+                "offset": 4961,
+                "line": 135,
                 "column": 56
               }
             }
@@ -4532,13 +4532,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 4637,
-            "line": 124,
+            "offset": 4870,
+            "line": 133,
             "column": 0
           },
           "end": {
-            "offset": 4728,
-            "line": 126,
+            "offset": 4961,
+            "line": 135,
             "column": 56
           }
         }
@@ -4546,13 +4546,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 4502,
-        "line": 118,
+        "offset": 4735,
+        "line": 127,
         "column": 0
       },
       "end": {
-        "offset": 4728,
-        "line": 126,
+        "offset": 4961,
+        "line": 135,
         "column": 56
       }
     }
@@ -4562,13 +4562,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n\\n",
     "position": {
       "start": {
-        "offset": 4728,
-        "line": 126,
+        "offset": 4961,
+        "line": 135,
         "column": 56
       },
       "end": {
-        "offset": 4731,
-        "line": 129,
+        "offset": 4964,
+        "line": 138,
         "column": 0
       }
     }
@@ -4586,13 +4586,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 4731,
-            "line": 129,
+            "offset": 4964,
+            "line": 138,
             "column": 0
           },
           "end": {
-            "offset": 4740,
-            "line": 129,
+            "offset": 4973,
+            "line": 138,
             "column": 9
           }
         }
@@ -4600,13 +4600,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 4731,
-        "line": 129,
+        "offset": 4964,
+        "line": 138,
         "column": 0
       },
       "end": {
-        "offset": 4752,
-        "line": 132,
+        "offset": 4985,
+        "line": 141,
         "column": 0
       }
     }
@@ -4624,13 +4624,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 4752,
-            "line": 132,
+            "offset": 4985,
+            "line": 141,
             "column": 0
           },
           "end": {
-            "offset": 4767,
-            "line": 132,
+            "offset": 5000,
+            "line": 141,
             "column": 15
           }
         }
@@ -4638,13 +4638,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 4752,
-        "line": 132,
+        "offset": 4985,
+        "line": 141,
         "column": 0
       },
       "end": {
-        "offset": 4785,
-        "line": 135,
+        "offset": 5018,
+        "line": 144,
         "column": 0
       }
     }
@@ -4661,13 +4661,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 4785,
-            "line": 135,
+            "offset": 5018,
+            "line": 144,
             "column": 0
           },
           "end": {
-            "offset": 4963,
-            "line": 135,
+            "offset": 5196,
+            "line": 144,
             "column": 178
           }
         }
@@ -4675,13 +4675,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 4785,
-        "line": 135,
+        "offset": 5018,
+        "line": 144,
         "column": 0
       },
       "end": {
-        "offset": 4963,
-        "line": 135,
+        "offset": 5196,
+        "line": 144,
         "column": 178
       }
     }
@@ -4691,13 +4691,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 4963,
-        "line": 135,
+        "offset": 5196,
+        "line": 144,
         "column": 178
       },
       "end": {
-        "offset": 4965,
-        "line": 137,
+        "offset": 5198,
+        "line": 146,
         "column": 0
       }
     }
@@ -4707,13 +4707,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "---\\n",
     "position": {
       "start": {
-        "offset": 4965,
-        "line": 137,
+        "offset": 5198,
+        "line": 146,
         "column": 0
       },
       "end": {
-        "offset": 4969,
-        "line": 138,
+        "offset": 5202,
+        "line": 147,
         "column": 0
       }
     }
@@ -4723,13 +4723,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "****************************\\n",
     "position": {
       "start": {
-        "offset": 4969,
-        "line": 138,
+        "offset": 5202,
+        "line": 147,
         "column": 0
       },
       "end": {
-        "offset": 4998,
-        "line": 139,
+        "offset": 5231,
+        "line": 148,
         "column": 0
       }
     }
@@ -4739,13 +4739,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "_ _ _ _ _ _ _",
     "position": {
       "start": {
-        "offset": 4998,
-        "line": 139,
+        "offset": 5231,
+        "line": 148,
         "column": 0
       },
       "end": {
-        "offset": 5011,
-        "line": 139,
+        "offset": 5244,
+        "line": 148,
         "column": 13
       }
     }
@@ -4755,13 +4755,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 5011,
-        "line": 139,
+        "offset": 5244,
+        "line": 148,
         "column": 13
       },
       "end": {
-        "offset": 5013,
-        "line": 141,
+        "offset": 5246,
+        "line": 150,
         "column": 0
       }
     }
@@ -4778,13 +4778,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5013,
-            "line": 141,
+            "offset": 5246,
+            "line": 150,
             "column": 0
           },
           "end": {
-            "offset": 5174,
-            "line": 141,
+            "offset": 5407,
+            "line": 150,
             "column": 161
           }
         }
@@ -4792,13 +4792,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 5013,
-        "line": 141,
+        "offset": 5246,
+        "line": 150,
         "column": 0
       },
       "end": {
-        "offset": 5174,
-        "line": 141,
+        "offset": 5407,
+        "line": 150,
         "column": 161
       }
     }
@@ -4808,13 +4808,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 5174,
-        "line": 141,
+        "offset": 5407,
+        "line": 150,
         "column": 161
       },
       "end": {
-        "offset": 5176,
-        "line": 143,
+        "offset": 5409,
+        "line": 152,
         "column": 0
       }
     }
@@ -4832,13 +4832,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5176,
-            "line": 143,
+            "offset": 5409,
+            "line": 152,
             "column": 0
           },
           "end": {
-            "offset": 5182,
-            "line": 143,
+            "offset": 5415,
+            "line": 152,
             "column": 6
           }
         }
@@ -4846,13 +4846,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 5176,
-        "line": 143,
+        "offset": 5409,
+        "line": 152,
         "column": 0
       },
       "end": {
-        "offset": 5191,
-        "line": 146,
+        "offset": 5424,
+        "line": 155,
         "column": 0
       }
     }
@@ -4869,13 +4869,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5191,
-            "line": 146,
+            "offset": 5424,
+            "line": 155,
             "column": 0
           },
           "end": {
-            "offset": 5307,
-            "line": 146,
+            "offset": 5540,
+            "line": 155,
             "column": 116
           }
         }
@@ -4883,13 +4883,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 5191,
-        "line": 146,
+        "offset": 5424,
+        "line": 155,
         "column": 0
       },
       "end": {
-        "offset": 5307,
-        "line": 146,
+        "offset": 5540,
+        "line": 155,
         "column": 116
       }
     }
@@ -4899,13 +4899,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 5307,
-        "line": 146,
+        "offset": 5540,
+        "line": 155,
         "column": 116
       },
       "end": {
-        "offset": 5309,
-        "line": 148,
+        "offset": 5542,
+        "line": 157,
         "column": 0
       }
     }
@@ -4929,13 +4929,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 5311,
-                "line": 148,
+                "offset": 5544,
+                "line": 157,
                 "column": 2
               },
               "end": {
-                "offset": 5322,
-                "line": 148,
+                "offset": 5555,
+                "line": 157,
                 "column": 13
               }
             }
@@ -4943,13 +4943,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 5309,
-            "line": 148,
+            "offset": 5542,
+            "line": 157,
             "column": 0
           },
           "end": {
-            "offset": 5373,
-            "line": 148,
+            "offset": 5606,
+            "line": 157,
             "column": 64
           }
         }
@@ -4961,13 +4961,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5373,
-            "line": 148,
+            "offset": 5606,
+            "line": 157,
             "column": 64
           },
           "end": {
-            "offset": 5378,
-            "line": 148,
+            "offset": 5611,
+            "line": 157,
             "column": 69
           }
         }
@@ -4986,13 +4986,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 5380,
-                "line": 148,
+                "offset": 5613,
+                "line": 157,
                 "column": 71
               },
               "end": {
-                "offset": 5385,
-                "line": 148,
+                "offset": 5618,
+                "line": 157,
                 "column": 76
               }
             }
@@ -5000,13 +5000,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 5378,
-            "line": 148,
+            "offset": 5611,
+            "line": 157,
             "column": 69
           },
           "end": {
-            "offset": 5386,
-            "line": 148,
+            "offset": 5619,
+            "line": 157,
             "column": 77
           }
         }
@@ -5018,13 +5018,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5386,
-            "line": 148,
+            "offset": 5619,
+            "line": 157,
             "column": 77
           },
           "end": {
-            "offset": 5387,
-            "line": 148,
+            "offset": 5620,
+            "line": 157,
             "column": 78
           }
         }
@@ -5032,13 +5032,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 5309,
-        "line": 148,
+        "offset": 5542,
+        "line": 157,
         "column": 0
       },
       "end": {
-        "offset": 5387,
-        "line": 148,
+        "offset": 5620,
+        "line": 157,
         "column": 78
       }
     }
@@ -5048,13 +5048,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 5387,
-        "line": 148,
+        "offset": 5620,
+        "line": 157,
         "column": 78
       },
       "end": {
-        "offset": 5389,
-        "line": 150,
+        "offset": 5622,
+        "line": 159,
         "column": 0
       }
     }
@@ -5072,13 +5072,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5389,
-            "line": 150,
+            "offset": 5733,
+            "line": 162,
             "column": 0
           },
           "end": {
-            "offset": 5400,
-            "line": 150,
+            "offset": 5744,
+            "line": 162,
             "column": 11
           }
         }
@@ -5086,13 +5086,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 5389,
-        "line": 150,
+        "offset": 5733,
+        "line": 162,
         "column": 0
       },
       "end": {
-        "offset": 5414,
-        "line": 153,
+        "offset": 5758,
+        "line": 165,
         "column": 0
       }
     }
@@ -5109,13 +5109,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5414,
-            "line": 153,
+            "offset": 5758,
+            "line": 165,
             "column": 0
           },
           "end": {
-            "offset": 5472,
-            "line": 153,
+            "offset": 5816,
+            "line": 165,
             "column": 58
           }
         }
@@ -5129,13 +5129,13 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "<strike>",
         "position": {
           "start": {
-            "offset": 5472,
-            "line": 153,
+            "offset": 5816,
+            "line": 165,
             "column": 58
           },
           "end": {
-            "offset": 5480,
-            "line": 153,
+            "offset": 5824,
+            "line": 165,
             "column": 66
           }
         }
@@ -5147,13 +5147,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5480,
-            "line": 153,
+            "offset": 5824,
+            "line": 165,
             "column": 66
           },
           "end": {
-            "offset": 5485,
-            "line": 153,
+            "offset": 5829,
+            "line": 165,
             "column": 71
           }
         }
@@ -5167,13 +5167,13 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "</strike>",
         "position": {
           "start": {
-            "offset": 5485,
-            "line": 153,
+            "offset": 5829,
+            "line": 165,
             "column": 71
           },
           "end": {
-            "offset": 5494,
-            "line": 153,
+            "offset": 5838,
+            "line": 165,
             "column": 80
           }
         }
@@ -5185,13 +5185,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5494,
-            "line": 153,
+            "offset": 5838,
+            "line": 165,
             "column": 80
           },
           "end": {
-            "offset": 5517,
-            "line": 153,
+            "offset": 5861,
+            "line": 165,
             "column": 103
           }
         }
@@ -5205,13 +5205,13 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "<u>",
         "position": {
           "start": {
-            "offset": 5517,
-            "line": 153,
+            "offset": 5861,
+            "line": 165,
             "column": 103
           },
           "end": {
-            "offset": 5520,
-            "line": 153,
+            "offset": 5864,
+            "line": 165,
             "column": 106
           }
         }
@@ -5223,13 +5223,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5520,
-            "line": 153,
+            "offset": 5864,
+            "line": 165,
             "column": 106
           },
           "end": {
-            "offset": 5524,
-            "line": 153,
+            "offset": 5868,
+            "line": 165,
             "column": 110
           }
         }
@@ -5246,13 +5246,13 @@ exports[`addTokenPositions > reference 1`] = `
             "escaped": false,
             "position": {
               "start": {
-                "offset": 5525,
-                "line": 153,
+                "offset": 5869,
+                "line": 165,
                 "column": 111
               },
               "end": {
-                "offset": 5530,
-                "line": 153,
+                "offset": 5874,
+                "line": 165,
                 "column": 116
               }
             }
@@ -5260,13 +5260,13 @@ exports[`addTokenPositions > reference 1`] = `
         ],
         "position": {
           "start": {
-            "offset": 5524,
-            "line": 153,
+            "offset": 5868,
+            "line": 165,
             "column": 110
           },
           "end": {
-            "offset": 5531,
-            "line": 153,
+            "offset": 5875,
+            "line": 165,
             "column": 117
           }
         }
@@ -5278,13 +5278,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5531,
-            "line": 153,
+            "offset": 5875,
+            "line": 165,
             "column": 117
           },
           "end": {
-            "offset": 5544,
-            "line": 153,
+            "offset": 5888,
+            "line": 165,
             "column": 130
           }
         }
@@ -5298,13 +5298,13 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "</u>",
         "position": {
           "start": {
-            "offset": 5544,
-            "line": 153,
+            "offset": 5888,
+            "line": 165,
             "column": 130
           },
           "end": {
-            "offset": 5548,
-            "line": 153,
+            "offset": 5892,
+            "line": 165,
             "column": 134
           }
         }
@@ -5316,13 +5316,13 @@ exports[`addTokenPositions > reference 1`] = `
         "escaped": false,
         "position": {
           "start": {
-            "offset": 5548,
-            "line": 153,
+            "offset": 5892,
+            "line": 165,
             "column": 134
           },
           "end": {
-            "offset": 5680,
-            "line": 153,
+            "offset": 6024,
+            "line": 165,
             "column": 266
           }
         }
@@ -5330,13 +5330,13 @@ exports[`addTokenPositions > reference 1`] = `
     ],
     "position": {
       "start": {
-        "offset": 5414,
-        "line": 153,
+        "offset": 5758,
+        "line": 165,
         "column": 0
       },
       "end": {
-        "offset": 5680,
-        "line": 153,
+        "offset": 6024,
+        "line": 165,
         "column": 266
       }
     }
@@ -5346,13 +5346,13 @@ exports[`addTokenPositions > reference 1`] = `
     "raw": "\\n\\n",
     "position": {
       "start": {
-        "offset": 5680,
-        "line": 153,
+        "offset": 6024,
+        "line": 165,
         "column": 266
       },
       "end": {
-        "offset": 5682,
-        "line": 155,
+        "offset": 6026,
+        "line": 167,
         "column": 0
       }
     }
@@ -5365,13 +5365,13 @@ exports[`addTokenPositions > reference 1`] = `
     "text": "<div style='font-family: \\"Comic Sans MS\\", \\"Comic Sans\\", cursive;'>\\nIt is a pity, but markdown does **not** work in here for most markdown parsers.\\n[Marked] handles it pretty well.\\n</div>\\n",
     "position": {
       "start": {
-        "offset": 5682,
-        "line": 155,
+        "offset": 6026,
+        "line": 167,
         "column": 0
       },
       "end": {
-        "offset": 5869,
-        "line": 159,
+        "offset": 6213,
+        "line": 171,
         "column": 0
       }
     }

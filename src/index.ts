@@ -4,20 +4,30 @@ import type { MarkedExtension, Token, Tokens } from 'marked';
 export interface TokenWithPosition extends Tokens.Generic {
   position: Position;
 }
-
 interface Position {
   /**
-   * position at the beginning of token
+   * Positions for each line of the token. LinePositions will not include the newline character for the line.
+   */
+  lines: LinePosition[]
+  /**
+   * Position at the beginning of token
    */
   start: PositionFields;
   /**
-   * position at the end of token
+   * Position at the end of token
    */
   end: PositionFields;
+}
+
+interface LinePosition {
   /**
-   * positions of each line of the token
+   * Position at the beginning of line
    */
-  lines?: Position[];
+  start: PositionFields;
+  /**
+   * Position at the end of line. Will not include the newline character.
+   */
+  end: PositionFields;
 }
 
 interface PositionFields {
@@ -130,7 +140,7 @@ function addPosition(tokens: Token[], offset: number, line: number, column: numb
 }
 
 function getPosition(offset: number, line: number, column: number, markdown: string, raw: string): Position {
-  let lines: Position[] = [];
+  let lines: LinePosition[] = [];
   const rawLines = raw.split('\n');
   const markdownLines = markdown.split('\n');
 

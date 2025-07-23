@@ -5,11 +5,26 @@ Add `position` field for each token.
 ```ts
 interface Position {
   /**
-   * position at the beginning of token
+   * Positions for each line of the token. LinePositions will not include the newline character for the line.
+   */
+  lines: LinePosition[]
+  /**
+   * Position at the beginning of token
    */
   start: PositionFields;
   /**
-   * position at the end of token
+   * Position at the end of token
+   */
+  end: PositionFields;
+}
+
+interface LinePosition {
+  /**
+   * Position at the beginning of line
+   */
+  start: PositionFields;
+  /**
+   * Position at the end of line. Will not include the newline character.
    */
   end: PositionFields;
 }

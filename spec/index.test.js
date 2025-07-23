@@ -161,7 +161,6 @@ describe('addTokenPositions', () => {
     const md = await getFixture('reference.md');
     const tokens = marked.lexer(md);
     t.assert.snapshot(addTokenPositions(tokens, md));
-    // TODO: enable this when it is passing
-    // checkPositionLines(t, tokens, md);
+    checkPositionLines(t, tokens, md);
   });
 });

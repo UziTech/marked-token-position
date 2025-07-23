@@ -167,6 +167,10 @@ function getPosition(offset: number, line: number, column: number, markdown: str
     break;
   }
 
+  if (lines.length === 0) {
+    throw new Error(`Cannot find ${JSON.stringify(raw)} in ${JSON.stringify(markdown)}`);
+  }
+
   return {
     lines,
     start: lines[0].start,

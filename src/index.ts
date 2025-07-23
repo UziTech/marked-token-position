@@ -181,9 +181,16 @@ function getPosition(offset: number, line: number, column: number, markdown: str
     throw new Error(`Cannot find ${JSON.stringify(raw)} in ${JSON.stringify(markdown)}`);
   }
 
+  const start = lines[0].start;
+  const end = lines.at(-1)!.end;
+
+  if (lines.length > 1 && lines.at(-1)?.start.offset === end.offset) {
+    lines = lines.slice(0, -1);
+  }
+
   return {
     lines,
-    start: lines[0].start,
-    end: lines.at(-1)!.end,
+    start,
+    end,
   };
 }

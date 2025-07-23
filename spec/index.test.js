@@ -26,8 +26,8 @@ function checkPositionLines(t, tokens, markdown) {
     t.assert.equal(endLine, token.position.end.line);
     t.assert.equal(endColumn, token.position.end.column);
 
-    const offsetLines = markdown.substring(token.position.start.offset, token.position.end.offset).split('\n');
-    const rawLines = token.raw.split('\n');
+    const offsetLines = markdown.substring(token.position.start.offset, token.position.end.offset).replace(/\n$/, '').split('\n');
+    const rawLines = token.raw.replace(/\n$/, '').split('\n');
     t.assert.equal(token.position.lines.length, rawLines.length);
     t.assert.equal(token.position.lines.length, offsetLines.length);
 

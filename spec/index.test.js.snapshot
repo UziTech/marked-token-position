@@ -474,18 +474,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 2,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 51,
-            "line": 3,
-            "column": 0
-          },
-          "end": {
-            "offset": 51,
-            "line": 3,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -886,18 +874,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 4,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 300,
-            "line": 5,
-            "column": 0
-          },
-          "end": {
-            "offset": 300,
-            "line": 5,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -986,18 +962,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 405,
             "line": 10,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 406,
-            "line": 11,
-            "column": 0
-          },
-          "end": {
-            "offset": 406,
-            "line": 11,
             "column": 0
           }
         }
@@ -1755,18 +1719,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 12,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 570,
-            "line": 13,
-            "column": 0
-          },
-          "end": {
-            "offset": 570,
-            "line": 13,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -1872,18 +1824,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 649,
             "line": 14,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 650,
-            "line": 15,
-            "column": 0
-          },
-          "end": {
-            "offset": 650,
-            "line": 15,
             "column": 0
           }
         }
@@ -2019,18 +1959,6 @@ exports[`addTokenPositions > reference 1`] = `
               "end": {
                 "offset": 767,
                 "line": 17,
-                "column": 0
-              }
-            },
-            {
-              "start": {
-                "offset": 769,
-                "line": 18,
-                "column": 0
-              },
-              "end": {
-                "offset": 769,
-                "line": 18,
                 "column": 0
               }
             }
@@ -2236,18 +2164,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 816,
             "line": 19,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 817,
-            "line": 20,
-            "column": 0
-          },
-          "end": {
-            "offset": 817,
-            "line": 20,
             "column": 0
           }
         }
@@ -2483,18 +2399,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 21,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 982,
-            "line": 22,
-            "column": 0
-          },
-          "end": {
-            "offset": 982,
-            "line": 22,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -2650,18 +2554,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 25,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 1093,
-            "line": 26,
-            "column": 0
-          },
-          "end": {
-            "offset": 1093,
-            "line": 26,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -2752,18 +2644,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 1379,
             "line": 31,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 1380,
-            "line": 32,
-            "column": 0
-          },
-          "end": {
-            "offset": 1380,
-            "line": 32,
             "column": 0
           }
         }
@@ -2909,18 +2789,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 35,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 1492,
-            "line": 36,
-            "column": 0
-          },
-          "end": {
-            "offset": 1492,
-            "line": 36,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -3009,18 +2877,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 1510,
             "line": 38,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 1511,
-            "line": 39,
-            "column": 0
-          },
-          "end": {
-            "offset": 1511,
-            "line": 39,
             "column": 0
           }
         }
@@ -3193,18 +3049,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 40,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 1848,
-            "line": 41,
-            "column": 0
-          },
-          "end": {
-            "offset": 1848,
-            "line": 41,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -3293,18 +3137,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 1870,
             "line": 43,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 1871,
-            "line": 44,
-            "column": 0
-          },
-          "end": {
-            "offset": 1871,
-            "line": 44,
             "column": 0
           }
         }
@@ -3397,18 +3229,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 46,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 1894,
-            "line": 47,
-            "column": 0
-          },
-          "end": {
-            "offset": 1894,
-            "line": 47,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -3474,18 +3294,6 @@ exports[`addTokenPositions > reference 1`] = `
             "offset": 1906,
             "line": 47,
             "column": 12
-          }
-        },
-        {
-          "start": {
-            "offset": 1907,
-            "line": 48,
-            "column": 0
-          },
-          "end": {
-            "offset": 1907,
-            "line": 48,
-            "column": 0
           }
         }
       ],
@@ -3553,18 +3361,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 48,
             "column": 13
           }
-        },
-        {
-          "start": {
-            "offset": 1921,
-            "line": 49,
-            "column": 0
-          },
-          "end": {
-            "offset": 1921,
-            "line": 49,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -3630,18 +3426,6 @@ exports[`addTokenPositions > reference 1`] = `
             "offset": 1962,
             "line": 49,
             "column": 41
-          }
-        },
-        {
-          "start": {
-            "offset": 1963,
-            "line": 50,
-            "column": 0
-          },
-          "end": {
-            "offset": 1963,
-            "line": 50,
-            "column": 0
           }
         }
       ],
@@ -3709,18 +3493,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 50,
             "column": 26
           }
-        },
-        {
-          "start": {
-            "offset": 1990,
-            "line": 51,
-            "column": 0
-          },
-          "end": {
-            "offset": 1990,
-            "line": 51,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -3786,18 +3558,6 @@ exports[`addTokenPositions > reference 1`] = `
             "offset": 2032,
             "line": 51,
             "column": 42
-          }
-        },
-        {
-          "start": {
-            "offset": 2033,
-            "line": 52,
-            "column": 0
-          },
-          "end": {
-            "offset": 2033,
-            "line": 52,
-            "column": 0
           }
         }
       ],
@@ -3889,18 +3649,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 54,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 2056,
-            "line": 55,
-            "column": 0
-          },
-          "end": {
-            "offset": 2056,
-            "line": 55,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -3989,18 +3737,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 2068,
             "line": 57,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 2069,
-            "line": 58,
-            "column": 0
-          },
-          "end": {
-            "offset": 2069,
-            "line": 58,
             "column": 0
           }
         }
@@ -4772,18 +4508,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 62,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 2618,
-            "line": 63,
-            "column": 0
-          },
-          "end": {
-            "offset": 2618,
-            "line": 63,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -5236,18 +4960,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 69,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 2883,
-            "line": 70,
-            "column": 0
-          },
-          "end": {
-            "offset": 2883,
-            "line": 70,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -5609,18 +5321,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 77,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 3222,
-            "line": 78,
-            "column": 0
-          },
-          "end": {
-            "offset": 3222,
-            "line": 78,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -5709,18 +5409,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 3234,
             "line": 80,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 3235,
-            "line": 81,
-            "column": 0
-          },
-          "end": {
-            "offset": 3235,
-            "line": 81,
             "column": 0
           }
         }
@@ -5829,18 +5517,6 @@ exports[`addTokenPositions > reference 1`] = `
                 "offset": 3260,
                 "line": 81,
                 "column": 25
-              }
-            },
-            {
-              "start": {
-                "offset": 3261,
-                "line": 82,
-                "column": 0
-              },
-              "end": {
-                "offset": 3261,
-                "line": 82,
-                "column": 0
               }
             }
           ],
@@ -5982,18 +5658,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 82,
             "column": 26
           }
-        },
-        {
-          "start": {
-            "offset": 3288,
-            "line": 83,
-            "column": 0
-          },
-          "end": {
-            "offset": 3288,
-            "line": 83,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -6128,18 +5792,6 @@ exports[`addTokenPositions > reference 1`] = `
             "offset": 3314,
             "line": 83,
             "column": 26
-          }
-        },
-        {
-          "start": {
-            "offset": 3315,
-            "line": 84,
-            "column": 0
-          },
-          "end": {
-            "offset": 3315,
-            "line": 84,
-            "column": 0
           }
         }
       ],
@@ -6318,18 +5970,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 85,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 3334,
-            "line": 86,
-            "column": 0
-          },
-          "end": {
-            "offset": 3334,
-            "line": 86,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -6435,18 +6075,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 3396,
             "line": 87,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 3397,
-            "line": 88,
-            "column": 0
-          },
-          "end": {
-            "offset": 3397,
-            "line": 88,
             "column": 0
           }
         }
@@ -6556,18 +6184,6 @@ exports[`addTokenPositions > reference 1`] = `
                 "line": 88,
                 "column": 31
               }
-            },
-            {
-              "start": {
-                "offset": 3429,
-                "line": 89,
-                "column": 0
-              },
-              "end": {
-                "offset": 3429,
-                "line": 89,
-                "column": 0
-              }
             }
           ],
           "start": {
@@ -6668,18 +6284,6 @@ exports[`addTokenPositions > reference 1`] = `
                 "line": 89,
                 "column": 27
               }
-            },
-            {
-              "start": {
-                "offset": 3457,
-                "line": 90,
-                "column": 0
-              },
-              "end": {
-                "offset": 3457,
-                "line": 90,
-                "column": 0
-              }
             }
           ],
           "start": {
@@ -6779,18 +6383,6 @@ exports[`addTokenPositions > reference 1`] = `
                 "offset": 3531,
                 "line": 90,
                 "column": 74
-              }
-            },
-            {
-              "start": {
-                "offset": 3532,
-                "line": 91,
-                "column": 0
-              },
-              "end": {
-                "offset": 3532,
-                "line": 91,
-                "column": 0
               }
             }
           ],
@@ -6998,18 +6590,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 92,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 3566,
-            "line": 93,
-            "column": 0
-          },
-          "end": {
-            "offset": 3566,
-            "line": 93,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -7115,18 +6695,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 3603,
             "line": 94,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 3604,
-            "line": 95,
-            "column": 0
-          },
-          "end": {
-            "offset": 3604,
-            "line": 95,
             "column": 0
           }
         }
@@ -7236,18 +6804,6 @@ exports[`addTokenPositions > reference 1`] = `
                 "line": 95,
                 "column": 50
               }
-            },
-            {
-              "start": {
-                "offset": 3655,
-                "line": 96,
-                "column": 0
-              },
-              "end": {
-                "offset": 3655,
-                "line": 96,
-                "column": 0
-              }
             }
           ],
           "start": {
@@ -7320,18 +6876,6 @@ exports[`addTokenPositions > reference 1`] = `
                     "line": 96,
                     "column": 60
                   }
-                },
-                {
-                  "start": {
-                    "offset": 3716,
-                    "line": 97,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 3716,
-                    "line": 97,
-                    "column": 0
-                  }
                 }
               ],
               "start": {
@@ -7370,18 +6914,6 @@ exports[`addTokenPositions > reference 1`] = `
               "end": {
                 "offset": 3716,
                 "line": 97,
-                "column": 0
-              }
-            },
-            {
-              "start": {
-                "offset": 3717,
-                "line": 98,
-                "column": 0
-              },
-              "end": {
-                "offset": 3717,
-                "line": 98,
                 "column": 0
               }
             }
@@ -7456,18 +6988,6 @@ exports[`addTokenPositions > reference 1`] = `
                     "line": 98,
                     "column": 34
                   }
-                },
-                {
-                  "start": {
-                    "offset": 3752,
-                    "line": 99,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 3752,
-                    "line": 99,
-                    "column": 0
-                  }
                 }
               ],
               "start": {
@@ -7506,18 +7026,6 @@ exports[`addTokenPositions > reference 1`] = `
               "end": {
                 "offset": 3752,
                 "line": 99,
-                "column": 0
-              }
-            },
-            {
-              "start": {
-                "offset": 3753,
-                "line": 100,
-                "column": 0
-              },
-              "end": {
-                "offset": 3753,
-                "line": 100,
                 "column": 0
               }
             }
@@ -7592,18 +7100,6 @@ exports[`addTokenPositions > reference 1`] = `
                     "line": 100,
                     "column": 63
                   }
-                },
-                {
-                  "start": {
-                    "offset": 3817,
-                    "line": 101,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 3817,
-                    "line": 101,
-                    "column": 0
-                  }
                 }
               ],
               "start": {
@@ -7642,18 +7138,6 @@ exports[`addTokenPositions > reference 1`] = `
               "end": {
                 "offset": 3817,
                 "line": 101,
-                "column": 0
-              }
-            },
-            {
-              "start": {
-                "offset": 3818,
-                "line": 102,
-                "column": 0
-              },
-              "end": {
-                "offset": 3818,
-                "line": 102,
                 "column": 0
               }
             }
@@ -7727,18 +7211,6 @@ exports[`addTokenPositions > reference 1`] = `
                     "offset": 3846,
                     "line": 102,
                     "column": 28
-                  }
-                },
-                {
-                  "start": {
-                    "offset": 3847,
-                    "line": 103,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 3847,
-                    "line": 103,
-                    "column": 0
                   }
                 }
               ],
@@ -7847,18 +7319,6 @@ exports[`addTokenPositions > reference 1`] = `
                         "line": 103,
                         "column": 28
                       }
-                    },
-                    {
-                      "start": {
-                        "offset": 3876,
-                        "line": 104,
-                        "column": 0
-                      },
-                      "end": {
-                        "offset": 3876,
-                        "line": 104,
-                        "column": 0
-                      }
                     }
                   ],
                   "start": {
@@ -7958,18 +7418,6 @@ exports[`addTokenPositions > reference 1`] = `
                         "offset": 3916,
                         "line": 104,
                         "column": 40
-                      }
-                    },
-                    {
-                      "start": {
-                        "offset": 3917,
-                        "line": 105,
-                        "column": 0
-                      },
-                      "end": {
-                        "offset": 3917,
-                        "line": 105,
-                        "column": 0
                       }
                     }
                   ],
@@ -8123,18 +7571,6 @@ exports[`addTokenPositions > reference 1`] = `
                     "line": 105,
                     "column": 65
                   }
-                },
-                {
-                  "start": {
-                    "offset": 3983,
-                    "line": 106,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 3983,
-                    "line": 106,
-                    "column": 0
-                  }
                 }
               ],
               "start": {
@@ -8270,18 +7706,6 @@ exports[`addTokenPositions > reference 1`] = `
                     "line": 106,
                     "column": 45
                   }
-                },
-                {
-                  "start": {
-                    "offset": 4029,
-                    "line": 107,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 4029,
-                    "line": 107,
-                    "column": 0
-                  }
                 }
               ],
               "start": {
@@ -8368,18 +7792,6 @@ exports[`addTokenPositions > reference 1`] = `
               "end": {
                 "offset": 4029,
                 "line": 107,
-                "column": 0
-              }
-            },
-            {
-              "start": {
-                "offset": 4030,
-                "line": 108,
-                "column": 0
-              },
-              "end": {
-                "offset": 4030,
-                "line": 108,
                 "column": 0
               }
             }
@@ -8478,18 +7890,6 @@ exports[`addTokenPositions > reference 1`] = `
                     "line": 109,
                     "column": 42
                   }
-                },
-                {
-                  "start": {
-                    "offset": 4148,
-                    "line": 110,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 4148,
-                    "line": 110,
-                    "column": 0
-                  }
                 }
               ],
               "start": {
@@ -8540,18 +7940,6 @@ exports[`addTokenPositions > reference 1`] = `
               "end": {
                 "offset": 4148,
                 "line": 110,
-                "column": 0
-              }
-            },
-            {
-              "start": {
-                "offset": 4149,
-                "line": 111,
-                "column": 0
-              },
-              "end": {
-                "offset": 4149,
-                "line": 111,
                 "column": 0
               }
             }
@@ -8650,18 +8038,6 @@ exports[`addTokenPositions > reference 1`] = `
                     "line": 112,
                     "column": 49
                   }
-                },
-                {
-                  "start": {
-                    "offset": 4247,
-                    "line": 113,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 4247,
-                    "line": 113,
-                    "column": 0
-                  }
                 }
               ],
               "start": {
@@ -8712,18 +8088,6 @@ exports[`addTokenPositions > reference 1`] = `
               "end": {
                 "offset": 4247,
                 "line": 113,
-                "column": 0
-              }
-            },
-            {
-              "start": {
-                "offset": 4248,
-                "line": 114,
-                "column": 0
-              },
-              "end": {
-                "offset": 4248,
-                "line": 114,
                 "column": 0
               }
             }
@@ -8838,18 +8202,6 @@ exports[`addTokenPositions > reference 1`] = `
                   "end": {
                     "offset": 4331,
                     "line": 115,
-                    "column": 0
-                  }
-                },
-                {
-                  "start": {
-                    "offset": 4332,
-                    "line": 116,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 4332,
-                    "line": 116,
                     "column": 0
                   }
                 }
@@ -9167,18 +8519,6 @@ exports[`addTokenPositions > reference 1`] = `
                     "line": 119,
                     "column": 0
                   }
-                },
-                {
-                  "start": {
-                    "offset": 4494,
-                    "line": 120,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 4494,
-                    "line": 120,
-                    "column": 0
-                  }
                 }
               ],
               "start": {
@@ -9332,18 +8672,6 @@ exports[`addTokenPositions > reference 1`] = `
                   "end": {
                     "offset": 4663,
                     "line": 123,
-                    "column": 0
-                  }
-                },
-                {
-                  "start": {
-                    "offset": 4664,
-                    "line": 124,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 4664,
-                    "line": 124,
                     "column": 0
                   }
                 }
@@ -9935,18 +9263,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 124,
             "column": 48
           }
-        },
-        {
-          "start": {
-            "offset": 4713,
-            "line": 125,
-            "column": 0
-          },
-          "end": {
-            "offset": 4713,
-            "line": 125,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -10052,18 +9368,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 4734,
             "line": 126,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 4735,
-            "line": 127,
-            "column": 0
-          },
-          "end": {
-            "offset": 4735,
-            "line": 127,
             "column": 0
           }
         }
@@ -10187,18 +9491,6 @@ exports[`addTokenPositions > reference 1`] = `
                     "line": 128,
                     "column": 0
                   }
-                },
-                {
-                  "start": {
-                    "offset": 4764,
-                    "line": 129,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 4764,
-                    "line": 129,
-                    "column": 0
-                  }
                 }
               ],
               "start": {
@@ -10291,18 +9583,6 @@ exports[`addTokenPositions > reference 1`] = `
                         "offset": 4851,
                         "line": 130,
                         "column": 34
-                      }
-                    },
-                    {
-                      "start": {
-                        "offset": 4852,
-                        "line": 131,
-                        "column": 0
-                      },
-                      "end": {
-                        "offset": 4852,
-                        "line": 131,
-                        "column": 0
                       }
                     }
                   ],
@@ -10492,18 +9772,6 @@ exports[`addTokenPositions > reference 1`] = `
                     "line": 131,
                     "column": 16
                   }
-                },
-                {
-                  "start": {
-                    "offset": 4869,
-                    "line": 132,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 4869,
-                    "line": 132,
-                    "column": 0
-                  }
                 }
               ],
               "start": {
@@ -10590,18 +9858,6 @@ exports[`addTokenPositions > reference 1`] = `
               "end": {
                 "offset": 4869,
                 "line": 132,
-                "column": 0
-              }
-            },
-            {
-              "start": {
-                "offset": 4870,
-                "line": 133,
-                "column": 0
-              },
-              "end": {
-                "offset": 4870,
-                "line": 133,
                 "column": 0
               }
             }
@@ -10716,18 +9972,6 @@ exports[`addTokenPositions > reference 1`] = `
                   "end": {
                     "offset": 4904,
                     "line": 134,
-                    "column": 0
-                  }
-                },
-                {
-                  "start": {
-                    "offset": 4905,
-                    "line": 135,
-                    "column": 0
-                  },
-                  "end": {
-                    "offset": 4905,
-                    "line": 135,
                     "column": 0
                   }
                 }
@@ -10992,18 +10236,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 137,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 4964,
-            "line": 138,
-            "column": 0
-          },
-          "end": {
-            "offset": 4964,
-            "line": 138,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -11094,18 +10326,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 140,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 4985,
-            "line": 141,
-            "column": 0
-          },
-          "end": {
-            "offset": 4985,
-            "line": 141,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -11194,18 +10414,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 5017,
             "line": 143,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 5018,
-            "line": 144,
-            "column": 0
-          },
-          "end": {
-            "offset": 5018,
-            "line": 144,
             "column": 0
           }
         }
@@ -11315,18 +10523,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 145,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 5198,
-            "line": 146,
-            "column": 0
-          },
-          "end": {
-            "offset": 5198,
-            "line": 146,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -11357,18 +10553,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 146,
             "column": 3
           }
-        },
-        {
-          "start": {
-            "offset": 5202,
-            "line": 147,
-            "column": 0
-          },
-          "end": {
-            "offset": 5202,
-            "line": 147,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -11398,18 +10582,6 @@ exports[`addTokenPositions > reference 1`] = `
             "offset": 5230,
             "line": 147,
             "column": 28
-          }
-        },
-        {
-          "start": {
-            "offset": 5231,
-            "line": 148,
-            "column": 0
-          },
-          "end": {
-            "offset": 5231,
-            "line": 148,
-            "column": 0
           }
         }
       ],
@@ -11481,18 +10653,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 5245,
             "line": 149,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 5246,
-            "line": 150,
-            "column": 0
-          },
-          "end": {
-            "offset": 5246,
-            "line": 150,
             "column": 0
           }
         }
@@ -11602,18 +10762,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 151,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 5409,
-            "line": 152,
-            "column": 0
-          },
-          "end": {
-            "offset": 5409,
-            "line": 152,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -11702,18 +10850,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 5423,
             "line": 154,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 5424,
-            "line": 155,
-            "column": 0
-          },
-          "end": {
-            "offset": 5424,
-            "line": 155,
             "column": 0
           }
         }
@@ -11821,18 +10957,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 5541,
             "line": 156,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 5542,
-            "line": 157,
-            "column": 0
-          },
-          "end": {
-            "offset": 5542,
-            "line": 157,
             "column": 0
           }
         }
@@ -12108,18 +11232,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 158,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 5622,
-            "line": 159,
-            "column": 0
-          },
-          "end": {
-            "offset": 5622,
-            "line": 159,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -12208,18 +11320,6 @@ exports[`addTokenPositions > reference 1`] = `
           "end": {
             "offset": 5757,
             "line": 164,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 5758,
-            "line": 165,
-            "column": 0
-          },
-          "end": {
-            "offset": 5758,
-            "line": 165,
             "column": 0
           }
         }
@@ -12690,18 +11790,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 166,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 6026,
-            "line": 167,
-            "column": 0
-          },
-          "end": {
-            "offset": 6026,
-            "line": 167,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -12771,18 +11859,6 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 170,
             "column": 6
           }
-        },
-        {
-          "start": {
-            "offset": 6213,
-            "line": 171,
-            "column": 0
-          },
-          "end": {
-            "offset": 6213,
-            "line": 171,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -12816,18 +11892,6 @@ exports[`markedTokenPosition > childTokens 1`] = `
           "end": {
             "offset": 0,
             "line": 0,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 1,
-            "line": 1,
-            "column": 0
-          },
-          "end": {
-            "offset": 1,
-            "line": 1,
             "column": 0
           }
         }
@@ -12955,18 +12019,6 @@ exports[`markedTokenPosition > childTokens 1`] = `
             "offset": 25,
             "line": 3,
             "column": 1
-          }
-        },
-        {
-          "start": {
-            "offset": 26,
-            "line": 4,
-            "column": 0
-          },
-          "end": {
-            "offset": 26,
-            "line": 4,
-            "column": 0
           }
         }
       ],
@@ -13226,18 +12278,6 @@ exports[`markedTokenPosition > table 1`] = `
             "line": 0,
             "column": 0
           }
-        },
-        {
-          "start": {
-            "offset": 1,
-            "line": 1,
-            "column": 0
-          },
-          "end": {
-            "offset": 1,
-            "line": 1,
-            "column": 0
-          }
         }
       ],
       "start": {
@@ -13457,18 +12497,6 @@ exports[`markedTokenPosition > table 1`] = `
             "offset": 30,
             "line": 3,
             "column": 9
-          }
-        },
-        {
-          "start": {
-            "offset": 31,
-            "line": 4,
-            "column": 0
-          },
-          "end": {
-            "offset": 31,
-            "line": 4,
-            "column": 0
           }
         }
       ],

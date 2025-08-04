@@ -163,4 +163,11 @@ describe('addTokenPositions', () => {
     t.assert.snapshot(addTokenPositions(tokens, md));
     checkPositionLines(t, tokens, md);
   });
+
+  test('wrong md', (t) => {
+    const marked = new Marked();
+    const md = '# test';
+    const tokens = marked.lexer(md);
+    t.assert.throws(() => addTokenPositions(addTokenPositions(tokens, '# wrong markdown')));
+  });
 });

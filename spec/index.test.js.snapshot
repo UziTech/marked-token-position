@@ -889,6 +889,62 @@ exports[`addTokenPositions > reference 1`] = `
     }
   },
   {
+    "type": "def",
+    "tag": "markdown",
+    "raw": "[Markdown]: http://daringfireball.net/projects/markdown/\\n\\n\\n",
+    "href": "http://daringfireball.net/projects/markdown/",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 300,
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "offset": 356,
+            "line": 5,
+            "column": 56
+          }
+        },
+        {
+          "start": {
+            "offset": 357,
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "offset": 357,
+            "line": 6,
+            "column": 0
+          }
+        },
+        {
+          "start": {
+            "offset": 358,
+            "line": 7,
+            "column": 0
+          },
+          "end": {
+            "offset": 358,
+            "line": 7,
+            "column": 0
+          }
+        }
+      ],
+      "start": {
+        "offset": 300,
+        "line": 5,
+        "column": 0
+      },
+      "end": {
+        "offset": 359,
+        "line": 8,
+        "column": 0
+      }
+    }
+  },
+  {
     "type": "heading",
     "raw": "Simple Text Formatting\\n======================\\n\\n",
     "depth": 1,
@@ -4523,6 +4579,82 @@ exports[`addTokenPositions > reference 1`] = `
     }
   },
   {
+    "type": "def",
+    "tag": "1",
+    "raw": "[1]: https://www.wikipedia.org\\n",
+    "href": "https://www.wikipedia.org",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 2618,
+            "line": 63,
+            "column": 0
+          },
+          "end": {
+            "offset": 2648,
+            "line": 63,
+            "column": 30
+          }
+        }
+      ],
+      "start": {
+        "offset": 2618,
+        "line": 63,
+        "column": 0
+      },
+      "end": {
+        "offset": 2649,
+        "line": 64,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "def",
+    "tag": "yahoo",
+    "raw": "[Yahoo]: https://www.yahoo.com\\n\\n",
+    "href": "https://www.yahoo.com",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 2649,
+            "line": 64,
+            "column": 0
+          },
+          "end": {
+            "offset": 2679,
+            "line": 64,
+            "column": 30
+          }
+        },
+        {
+          "start": {
+            "offset": 2680,
+            "line": 65,
+            "column": 0
+          },
+          "end": {
+            "offset": 2680,
+            "line": 65,
+            "column": 0
+          }
+        }
+      ],
+      "start": {
+        "offset": 2649,
+        "line": 64,
+        "column": 0
+      },
+      "end": {
+        "offset": 2681,
+        "line": 66,
+        "column": 0
+      }
+    }
+  },
+  {
     "type": "paragraph",
     "raw": "Title attributes may be added to links by adding text after a link.\\nThis is the [inline link](https://www.bing.com \\"Bing\\") with a \\"Bing\\" title.\\nYou can also go to [W3C] [2] and maybe visit a [friend].",
     "text": "Title attributes may be added to links by adding text after a link.\\nThis is the [inline link](https://www.bing.com \\"Bing\\") with a \\"Bing\\" title.\\nYou can also go to [W3C] [2] and maybe visit a [friend].",
@@ -4970,6 +5102,84 @@ exports[`addTokenPositions > reference 1`] = `
       "end": {
         "offset": 2883,
         "line": 70,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "def",
+    "tag": "2",
+    "raw": "[2]: https://w3c.org (The W3C puts out specs for web-based things)\\n",
+    "href": "https://w3c.org",
+    "title": "The W3C puts out specs for web-based things",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 2883,
+            "line": 70,
+            "column": 0
+          },
+          "end": {
+            "offset": 2949,
+            "line": 70,
+            "column": 66
+          }
+        }
+      ],
+      "start": {
+        "offset": 2883,
+        "line": 70,
+        "column": 0
+      },
+      "end": {
+        "offset": 2950,
+        "line": 71,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "def",
+    "tag": "friend",
+    "raw": "[Friend]: https://facebook.com \\"Facebook!\\"\\n\\n",
+    "href": "https://facebook.com",
+    "title": "Facebook!",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 2950,
+            "line": 71,
+            "column": 0
+          },
+          "end": {
+            "offset": 2992,
+            "line": 71,
+            "column": 42
+          }
+        },
+        {
+          "start": {
+            "offset": 2993,
+            "line": 72,
+            "column": 0
+          },
+          "end": {
+            "offset": 2993,
+            "line": 72,
+            "column": 0
+          }
+        }
+      ],
+      "start": {
+        "offset": 2950,
+        "line": 71,
+        "column": 0
+      },
+      "end": {
+        "offset": 2994,
+        "line": 73,
         "column": 0
       }
     }
@@ -11247,6 +11457,63 @@ exports[`addTokenPositions > reference 1`] = `
     }
   },
   {
+    "type": "def",
+    "tag": "happy",
+    "raw": "[Happy]: https://wpclipart.com/smiley/happy/simple_colors/smiley_face_simple_green_small.png (\\"Smiley face\\")\\n\\n\\n",
+    "href": "https://wpclipart.com/smiley/happy/simple_colors/smiley_face_simple_green_small.png",
+    "title": "\\"Smiley face\\"",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 5622,
+            "line": 159,
+            "column": 0
+          },
+          "end": {
+            "offset": 5730,
+            "line": 159,
+            "column": 108
+          }
+        },
+        {
+          "start": {
+            "offset": 5731,
+            "line": 160,
+            "column": 0
+          },
+          "end": {
+            "offset": 5731,
+            "line": 160,
+            "column": 0
+          }
+        },
+        {
+          "start": {
+            "offset": 5732,
+            "line": 161,
+            "column": 0
+          },
+          "end": {
+            "offset": 5732,
+            "line": 161,
+            "column": 0
+          }
+        }
+      ],
+      "start": {
+        "offset": 5622,
+        "line": 159,
+        "column": 0
+      },
+      "end": {
+        "offset": 5733,
+        "line": 162,
+        "column": 0
+      }
+    }
+  },
+  {
     "type": "heading",
     "raw": "Inline HTML\\n-----------\\n\\n",
     "depth": 2,
@@ -11870,6 +12137,155 @@ exports[`addTokenPositions > reference 1`] = `
         "offset": 6213,
         "line": 171,
         "column": 0
+      }
+    }
+  }
+]
+`;
+
+exports[`addTokenPositions > reflink 1`] = `
+[
+  {
+    "type": "def",
+    "tag": "test",
+    "raw": "[test]: https://example.com\\n\\n",
+    "href": "https://example.com",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 0,
+            "line": 0,
+            "column": 0
+          },
+          "end": {
+            "offset": 27,
+            "line": 0,
+            "column": 27
+          }
+        },
+        {
+          "start": {
+            "offset": 28,
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "offset": 28,
+            "line": 1,
+            "column": 0
+          }
+        }
+      ],
+      "start": {
+        "offset": 0,
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "offset": 29,
+        "line": 2,
+        "column": 0
+      }
+    }
+  },
+  {
+    "type": "paragraph",
+    "raw": "[test]",
+    "text": "[test]",
+    "tokens": [
+      {
+        "type": "link",
+        "raw": "[test]",
+        "href": "https://example.com",
+        "title": null,
+        "text": "test",
+        "tokens": [
+          {
+            "type": "text",
+            "raw": "test",
+            "text": "test",
+            "escaped": false,
+            "position": {
+              "lines": [
+                {
+                  "start": {
+                    "offset": 30,
+                    "line": 2,
+                    "column": 1
+                  },
+                  "end": {
+                    "offset": 34,
+                    "line": 2,
+                    "column": 5
+                  }
+                }
+              ],
+              "start": {
+                "offset": 30,
+                "line": 2,
+                "column": 1
+              },
+              "end": {
+                "offset": 34,
+                "line": 2,
+                "column": 5
+              }
+            }
+          }
+        ],
+        "position": {
+          "lines": [
+            {
+              "start": {
+                "offset": 29,
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "offset": 35,
+                "line": 2,
+                "column": 6
+              }
+            }
+          ],
+          "start": {
+            "offset": 29,
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "offset": 35,
+            "line": 2,
+            "column": 6
+          }
+        }
+      }
+    ],
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 29,
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "offset": 35,
+            "line": 2,
+            "column": 6
+          }
+        }
+      ],
+      "start": {
+        "offset": 29,
+        "line": 2,
+        "column": 0
+      },
+      "end": {
+        "offset": 35,
+        "line": 2,
+        "column": 6
       }
     }
   }

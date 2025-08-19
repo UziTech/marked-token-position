@@ -156,18 +156,19 @@ describe('addTokenPositions', () => {
     checkPositionLines(t, tokens, md);
   });
 
+  test('reflink', (t) => {
+    const marked = new Marked();
+    const md = '[test]: https://example.com\n\n[test]';
+    const tokens = marked.lexer(md);
+    t.assert.snapshot(addTokenPositions(tokens));
+    checkPositionLines(t, tokens, md);
+  });
+
   test('reference', async(t) => {
     const marked = new Marked();
     const md = await getFixture('reference.md');
     const tokens = marked.lexer(md);
-    t.assert.snapshot(addTokenPositions(tokens, md));
+    t.assert.snapshot(addTokenPositions(tokens));
     checkPositionLines(t, tokens, md);
-  });
-
-  test('wrong md', (t) => {
-    const marked = new Marked();
-    const md = '# test';
-    const tokens = marked.lexer(md);
-    t.assert.throws(() => addTokenPositions(addTokenPositions(tokens, '# wrong markdown')));
   });
 });

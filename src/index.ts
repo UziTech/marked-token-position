@@ -1,4 +1,4 @@
-// node:coverage ignore next
+/* node:coverage ignore next */
 import type { MarkedExtension, Token, Tokens } from 'marked';
 
 export interface TokenWithPosition extends Tokens.Generic {
@@ -48,9 +48,8 @@ interface PositionFields {
 /**
  * Add position field to tokens
  */
-export function addTokenPositions(tokens: Token[], markdown?: string) {
-  // adding token.raw doesn't work this way if reflinks are used
-  markdown ??= tokens.map(token => token.raw).join('');
+export function addTokenPositions(tokens: Token[]) {
+  const markdown = tokens.map(token => token.raw).join('');
   return addPosition(tokens, 0, 0, 0, markdown).tokens;
 }
 
@@ -58,15 +57,10 @@ export function addTokenPositions(tokens: Token[], markdown?: string) {
  * Marked extension to add position field to tokens
  */
 export default function(options = {}): MarkedExtension {
-  let originalMarkdown = '';
   return {
     hooks: {
-      preprocess(md) {
-        originalMarkdown = md;
-        return md;
-      },
       processAllTokens(tokens) {
-        return addTokenPositions(tokens, originalMarkdown);
+        return addTokenPositions(tokens);
       },
     },
   };
@@ -177,14 +171,16 @@ function getPosition(offset: number, line: number, column: number, markdown: str
     break;
   }
 
+  /* node:coverage ignore next 4 */
   if (lines.length === 0) {
+    // This shouldn't ever happen but if it does it would be nice to have a good error message
     throw new Error(`Cannot find ${JSON.stringify(raw)} in ${JSON.stringify(markdown)}`);
   }
 
   const start = lines[0].start;
   const end = lines.at(-1)!.end;
 
-  if (lines.length > 1 && lines.at(-1)?.start.offset === end.offset) {
+  if (lines.length > 1 && lines.at(-1)!.start.offset === end.offset) {
     lines = lines.slice(0, -1);
   }
 

@@ -152,12 +152,9 @@ import {addTokenPositions} from "marked-token-position";
 
 
 const marked = new Marked();
-const markdown = "# example markdown";
-const tokens = marked.lexer(markdown);
+const tokens = marked.lexer("# example markdown");
 
-addTokenPositions(tokens, markdown);
+addTokenPositions(tokens);
 
 // tokens now have a `position` field
 ```
-
-

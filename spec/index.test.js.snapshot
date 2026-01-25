@@ -6936,7 +6936,7 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "This top-level list is wrapped in paragraph tags",
         "tokens": [
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "This top-level list is wrapped in paragraph tags",
             "text": "This top-level list is wrapped in paragraph tags",
             "tokens": [
@@ -7036,7 +7036,7 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "This generates an extra space between each top-level item.\\n",
         "tokens": [
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "This generates an extra space between each top-level item.\\n",
             "text": "This generates an extra space between each top-level item.",
             "tokens": [
@@ -7148,7 +7148,7 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "You do it by adding a blank line\\n",
         "tokens": [
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "You do it by adding a blank line\\n",
             "text": "You do it by adding a blank line",
             "tokens": [
@@ -7260,7 +7260,7 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "This nested list also has blank lines between the list items.\\n",
         "tokens": [
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "This nested list also has blank lines between the list items.\\n",
             "text": "This nested list also has blank lines between the list items.",
             "tokens": [
@@ -7372,7 +7372,7 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "How to create nested lists\\n1. Start your regular list\\n2. Indent nested lists with two spaces\\n3. Further nesting means you should indent with two more spaces\\n  * This line is indented with four spaces.\\n",
         "tokens": [
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "How to create nested lists\\n",
             "text": "How to create nested lists",
             "tokens": [
@@ -8026,7 +8026,7 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "List items can be quite lengthy. You can keep typing and either continue\\nthem on the next line with no indentation.\\n",
         "tokens": [
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "List items can be quite lengthy. You can keep typing and either continue\\nthem on the next line with no indentation.\\n",
             "text": "List items can be quite lengthy. You can keep typing and either continue\\nthem on the next line with no indentation.",
             "tokens": [
@@ -8174,7 +8174,7 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "Alternately, if that looks ugly, you can also\\nindent the next line a bit for a prettier look.\\n",
         "tokens": [
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "Alternately, if that looks ugly, you can also\\nindent the next line a bit for a prettier look.\\n",
             "text": "Alternately, if that looks ugly, you can also\\nindent the next line a bit for a prettier look.",
             "tokens": [
@@ -8322,7 +8322,7 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "You can put large blocks of text in your list by just indenting with two spaces.\\n\\nThis is formatted the same as code, but you can inspect the HTML\\nand find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\nas preformatted text.\\n\\nYou can keep adding more and more paragraphs to a single\\nlist item by adding the traditional blank line and then keep\\non indenting the paragraphs with two spaces.\\n\\nYou really only need to indent the first line,",
         "tokens": [
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "You can put large blocks of text in your list by just indenting with two spaces.",
             "text": "You can put large blocks of text in your list by just indenting with two spaces.",
             "tokens": [
@@ -8429,7 +8429,7 @@ exports[`addTokenPositions > reference 1`] = `
             }
           },
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "This is formatted the same as code, but you can inspect the HTML\\nand find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\nas preformatted text.",
             "text": "This is formatted the same as code, but you can inspect the HTML\\nand find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\nas preformatted text.",
             "tokens": [
@@ -8744,7 +8744,7 @@ exports[`addTokenPositions > reference 1`] = `
             }
           },
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "You can keep adding more and more paragraphs to a single\\nlist item by adding the traditional blank line and then keep\\non indenting the paragraphs with two spaces.",
             "text": "You can keep adding more and more paragraphs to a single\\nlist item by adding the traditional blank line and then keep\\non indenting the paragraphs with two spaces.",
             "tokens": [
@@ -8899,7 +8899,7 @@ exports[`addTokenPositions > reference 1`] = `
             }
           },
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "You really only need to indent the first line,",
             "text": "You really only need to indent the first line,",
             "tokens": [
@@ -9609,7 +9609,7 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "Lists support blockquotes\\n\\n> Just like this example here. By the way, you can\\n> nest lists inside blockquotes!\\n> - Fantastic!\\n",
         "tokens": [
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "Lists support blockquotes",
             "text": "Lists support blockquotes",
             "tokens": [
@@ -10092,7 +10092,7 @@ exports[`addTokenPositions > reference 1`] = `
         "text": "Lists support preformatted text\\n\\n    You just need to indent an additional four spaces.",
         "tokens": [
           {
-            "type": "text",
+            "type": "paragraph",
             "raw": "Lists support preformatted text",
             "text": "Lists support preformatted text",
             "tokens": [

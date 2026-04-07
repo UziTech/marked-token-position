@@ -400,7 +400,7 @@ exports[`addTokenPositions > reference 1`] = `
 [
   {
     "type": "heading",
-    "raw": "Markdown Quick Reference\\n========================\\n\\n",
+    "raw": "Markdown Quick Reference\\n========================",
     "depth": 1,
     "text": "Markdown Quick Reference",
     "tokens": [
@@ -462,6 +462,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 1,
             "column": 24
           }
+        }
+      ],
+      "start": {
+        "offset": 0,
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "offset": 49,
+        "line": 1,
+        "column": 24
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 49,
+            "line": 1,
+            "column": 24
+          },
+          "end": {
+            "offset": 49,
+            "line": 1,
+            "column": 24
+          }
         },
         {
           "start": {
@@ -477,9 +507,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 0,
-        "line": 0,
-        "column": 0
+        "offset": 49,
+        "line": 1,
+        "column": 24
       },
       "end": {
         "offset": 51,
@@ -891,7 +921,7 @@ exports[`addTokenPositions > reference 1`] = `
   {
     "type": "def",
     "tag": "markdown",
-    "raw": "[Markdown]: http://daringfireball.net/projects/markdown/\\n\\n\\n",
+    "raw": "[Markdown]: http://daringfireball.net/projects/markdown/",
     "href": "http://daringfireball.net/projects/markdown/",
     "position": {
       "lines": [
@@ -900,6 +930,36 @@ exports[`addTokenPositions > reference 1`] = `
             "offset": 300,
             "line": 5,
             "column": 0
+          },
+          "end": {
+            "offset": 356,
+            "line": 5,
+            "column": 56
+          }
+        }
+      ],
+      "start": {
+        "offset": 300,
+        "line": 5,
+        "column": 0
+      },
+      "end": {
+        "offset": 356,
+        "line": 5,
+        "column": 56
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 356,
+            "line": 5,
+            "column": 56
           },
           "end": {
             "offset": 356,
@@ -933,9 +993,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 300,
+        "offset": 356,
         "line": 5,
-        "column": 0
+        "column": 56
       },
       "end": {
         "offset": 359,
@@ -946,7 +1006,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "heading",
-    "raw": "Simple Text Formatting\\n======================\\n\\n",
+    "raw": "Simple Text Formatting\\n======================",
     "depth": 1,
     "text": "Simple Text Formatting",
     "tokens": [
@@ -1008,6 +1068,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 9,
             "column": 22
           }
+        }
+      ],
+      "start": {
+        "offset": 359,
+        "line": 8,
+        "column": 0
+      },
+      "end": {
+        "offset": 404,
+        "line": 9,
+        "column": 22
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 404,
+            "line": 9,
+            "column": 22
+          },
+          "end": {
+            "offset": 404,
+            "line": 9,
+            "column": 22
+          }
         },
         {
           "start": {
@@ -1023,9 +1113,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 359,
-        "line": 8,
-        "column": 0
+        "offset": 404,
+        "line": 9,
+        "column": 22
       },
       "end": {
         "offset": 406,
@@ -2626,7 +2716,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "code",
-    "raw": "    Extra spaces work here too.\\n    This is also called preformatted text and it is useful for showing examples.\\n    The text will stay as text, so any *markdown* or <u>HTML</u> you add will\\n    not show up formatted. This way you can show markdown examples in a\\n    markdown document.\\n\\n",
+    "raw": "    Extra spaces work here too.\\n    This is also called preformatted text and it is useful for showing examples.\\n    The text will stay as text, so any *markdown* or <u>HTML</u> you add will\\n    not show up formatted. This way you can show markdown examples in a\\n    markdown document.",
     "codeBlockStyle": "indented",
     "text": "Extra spaces work here too.\\nThis is also called preformatted text and it is useful for showing examples.\\nThe text will stay as text, so any *markdown* or <u>HTML</u> you add will\\nnot show up formatted. This way you can show markdown examples in a\\nmarkdown document.",
     "position": {
@@ -2690,6 +2780,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 30,
             "column": 22
           }
+        }
+      ],
+      "start": {
+        "offset": 1093,
+        "line": 26,
+        "column": 0
+      },
+      "end": {
+        "offset": 1378,
+        "line": 30,
+        "column": 22
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 1378,
+            "line": 30,
+            "column": 22
+          },
+          "end": {
+            "offset": 1378,
+            "line": 30,
+            "column": 22
+          }
         },
         {
           "start": {
@@ -2705,9 +2825,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 1093,
-        "line": 26,
-        "column": 0
+        "offset": 1378,
+        "line": 30,
+        "column": 22
       },
       "end": {
         "offset": 1380,
@@ -2861,7 +2981,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "heading",
-    "raw": "Headings\\n========\\n\\n",
+    "raw": "Headings\\n========",
     "depth": 1,
     "text": "Headings",
     "tokens": [
@@ -2923,6 +3043,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 37,
             "column": 8
           }
+        }
+      ],
+      "start": {
+        "offset": 1492,
+        "line": 36,
+        "column": 0
+      },
+      "end": {
+        "offset": 1509,
+        "line": 37,
+        "column": 8
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 1509,
+            "line": 37,
+            "column": 8
+          },
+          "end": {
+            "offset": 1509,
+            "line": 37,
+            "column": 8
+          }
         },
         {
           "start": {
@@ -2938,9 +3088,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 1492,
-        "line": 36,
-        "column": 0
+        "offset": 1509,
+        "line": 37,
+        "column": 8
       },
       "end": {
         "offset": 1511,
@@ -3121,7 +3271,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "heading",
-    "raw": "This is H1\\n==========\\n\\n",
+    "raw": "This is H1\\n==========",
     "depth": 1,
     "text": "This is H1",
     "tokens": [
@@ -3183,6 +3333,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 42,
             "column": 10
           }
+        }
+      ],
+      "start": {
+        "offset": 1848,
+        "line": 41,
+        "column": 0
+      },
+      "end": {
+        "offset": 1869,
+        "line": 42,
+        "column": 10
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 1869,
+            "line": 42,
+            "column": 10
+          },
+          "end": {
+            "offset": 1869,
+            "line": 42,
+            "column": 10
+          }
         },
         {
           "start": {
@@ -3198,9 +3378,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 1848,
-        "line": 41,
-        "column": 0
+        "offset": 1869,
+        "line": 42,
+        "column": 10
       },
       "end": {
         "offset": 1871,
@@ -3211,7 +3391,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "heading",
-    "raw": "This is H2\\n----------\\n\\n",
+    "raw": "This is H2\\n----------",
     "depth": 2,
     "text": "This is H2",
     "tokens": [
@@ -3273,6 +3453,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 45,
             "column": 10
           }
+        }
+      ],
+      "start": {
+        "offset": 1871,
+        "line": 44,
+        "column": 0
+      },
+      "end": {
+        "offset": 1892,
+        "line": 45,
+        "column": 10
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 1892,
+            "line": 45,
+            "column": 10
+          },
+          "end": {
+            "offset": 1892,
+            "line": 45,
+            "column": 10
+          }
         },
         {
           "start": {
@@ -3288,9 +3498,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 1871,
-        "line": 44,
-        "column": 0
+        "offset": 1892,
+        "line": 45,
+        "column": 10
       },
       "end": {
         "offset": 1894,
@@ -3631,7 +3841,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "heading",
-    "raw": "###### H6 is the max\\n\\n\\n",
+    "raw": "###### H6 is the max",
     "depth": 6,
     "text": "H6 is the max",
     "tokens": [
@@ -3681,6 +3891,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 52,
             "column": 20
           }
+        }
+      ],
+      "start": {
+        "offset": 2033,
+        "line": 52,
+        "column": 0
+      },
+      "end": {
+        "offset": 2053,
+        "line": 52,
+        "column": 20
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 2053,
+            "line": 52,
+            "column": 20
+          },
+          "end": {
+            "offset": 2053,
+            "line": 52,
+            "column": 20
+          }
         },
         {
           "start": {
@@ -3708,9 +3948,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 2033,
+        "offset": 2053,
         "line": 52,
-        "column": 0
+        "column": 20
       },
       "end": {
         "offset": 2056,
@@ -3721,7 +3961,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "heading",
-    "raw": "Links\\n=====\\n\\n",
+    "raw": "Links\\n=====",
     "depth": 1,
     "text": "Links",
     "tokens": [
@@ -3783,6 +4023,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 56,
             "column": 5
           }
+        }
+      ],
+      "start": {
+        "offset": 2056,
+        "line": 55,
+        "column": 0
+      },
+      "end": {
+        "offset": 2067,
+        "line": 56,
+        "column": 5
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 2067,
+            "line": 56,
+            "column": 5
+          },
+          "end": {
+            "offset": 2067,
+            "line": 56,
+            "column": 5
+          }
         },
         {
           "start": {
@@ -3798,9 +4068,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 2056,
-        "line": 55,
-        "column": 0
+        "offset": 2067,
+        "line": 56,
+        "column": 5
       },
       "end": {
         "offset": 2069,
@@ -4613,7 +4883,7 @@ exports[`addTokenPositions > reference 1`] = `
   {
     "type": "def",
     "tag": "yahoo",
-    "raw": "[Yahoo]: https://www.yahoo.com\\n\\n",
+    "raw": "[Yahoo]: https://www.yahoo.com",
     "href": "https://www.yahoo.com",
     "position": {
       "lines": [
@@ -4622,6 +4892,36 @@ exports[`addTokenPositions > reference 1`] = `
             "offset": 2649,
             "line": 64,
             "column": 0
+          },
+          "end": {
+            "offset": 2679,
+            "line": 64,
+            "column": 30
+          }
+        }
+      ],
+      "start": {
+        "offset": 2649,
+        "line": 64,
+        "column": 0
+      },
+      "end": {
+        "offset": 2679,
+        "line": 64,
+        "column": 30
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 2679,
+            "line": 64,
+            "column": 30
           },
           "end": {
             "offset": 2679,
@@ -4643,9 +4943,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 2649,
+        "offset": 2679,
         "line": 64,
-        "column": 0
+        "column": 30
       },
       "end": {
         "offset": 2681,
@@ -5142,7 +5442,7 @@ exports[`addTokenPositions > reference 1`] = `
   {
     "type": "def",
     "tag": "friend",
-    "raw": "[Friend]: https://facebook.com \\"Facebook!\\"\\n\\n",
+    "raw": "[Friend]: https://facebook.com \\"Facebook!\\"",
     "href": "https://facebook.com",
     "title": "Facebook!",
     "position": {
@@ -5152,6 +5452,36 @@ exports[`addTokenPositions > reference 1`] = `
             "offset": 2950,
             "line": 71,
             "column": 0
+          },
+          "end": {
+            "offset": 2992,
+            "line": 71,
+            "column": 42
+          }
+        }
+      ],
+      "start": {
+        "offset": 2950,
+        "line": 71,
+        "column": 0
+      },
+      "end": {
+        "offset": 2992,
+        "line": 71,
+        "column": 42
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 2992,
+            "line": 71,
+            "column": 42
           },
           "end": {
             "offset": 2992,
@@ -5173,9 +5503,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 2950,
+        "offset": 2992,
         "line": 71,
-        "column": 0
+        "column": 42
       },
       "end": {
         "offset": 2994,
@@ -5547,7 +5877,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "heading",
-    "raw": "Lists\\n=====\\n\\n",
+    "raw": "Lists\\n=====",
     "depth": 1,
     "text": "Lists",
     "tokens": [
@@ -5609,6 +5939,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 79,
             "column": 5
           }
+        }
+      ],
+      "start": {
+        "offset": 3222,
+        "line": 78,
+        "column": 0
+      },
+      "end": {
+        "offset": 3233,
+        "line": 79,
+        "column": 5
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 3233,
+            "line": 79,
+            "column": 5
+          },
+          "end": {
+            "offset": 3233,
+            "line": 79,
+            "column": 5
+          }
         },
         {
           "start": {
@@ -5624,9 +5984,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 3222,
-        "line": 78,
-        "column": 0
+        "offset": 3233,
+        "line": 79,
+        "column": 5
       },
       "end": {
         "offset": 3235,
@@ -6923,7 +7283,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "list",
-    "raw": "- This top-level list is wrapped in paragraph tags\\n- This generates an extra space between each top-level item.\\n\\n- You do it by adding a blank line\\n\\n- This nested list also has blank lines between the list items.\\n\\n- How to create nested lists\\n  1. Start your regular list\\n  2. Indent nested lists with two spaces\\n  3. Further nesting means you should indent with two more spaces\\n    * This line is indented with four spaces.\\n\\n- List items can be quite lengthy. You can keep typing and either continue\\nthem on the next line with no indentation.\\n\\n- Alternately, if that looks ugly, you can also\\n  indent the next line a bit for a prettier look.\\n\\n- You can put large blocks of text in your list by just indenting with two spaces.\\n\\n  This is formatted the same as code, but you can inspect the HTML\\n  and find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\n  as preformatted text.\\n\\n  You can keep adding more and more paragraphs to a single\\n  list item by adding the traditional blank line and then keep\\n  on indenting the paragraphs with two spaces.\\n\\n  You really only need to indent the first line,\\n",
+    "raw": "- This top-level list is wrapped in paragraph tags\\n- This generates an extra space between each top-level item.\\n\\n- You do it by adding a blank line\\n\\n- This nested list also has blank lines between the list items.\\n\\n- How to create nested lists\\n  1. Start your regular list\\n  2. Indent nested lists with two spaces\\n  3. Further nesting means you should indent with two more spaces\\n    * This line is indented with four spaces.\\n\\n- List items can be quite lengthy. You can keep typing and either continue\\nthem on the next line with no indentation.\\n\\n- Alternately, if that looks ugly, you can also\\n  indent the next line a bit for a prettier look.\\n\\n- You can put large blocks of text in your list by just indenting with two spaces.\\n\\n  This is formatted the same as code, but you can inspect the HTML\\n  and find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\n  as preformatted text.\\n\\n  You can keep adding more and more paragraphs to a single\\n  list item by adding the traditional blank line and then keep\\n  on indenting the paragraphs with two spaces.\\n\\n  You really only need to indent the first line,\\nbut that looks ugly.\\n\\n- Lists support blockquotes\\n\\n  > Just like this example here. By the way, you can\\n  > nest lists inside blockquotes!\\n  > - Fantastic!\\n\\n- Lists support preformatted text\\n\\n      You just need to indent an additional four spaces.",
     "ordered": false,
     "start": "",
     "loose": true,
@@ -8316,10 +8676,10 @@ exports[`addTokenPositions > reference 1`] = `
       },
       {
         "type": "list_item",
-        "raw": "- You can put large blocks of text in your list by just indenting with two spaces.\\n\\n  This is formatted the same as code, but you can inspect the HTML\\n  and find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\n  as preformatted text.\\n\\n  You can keep adding more and more paragraphs to a single\\n  list item by adding the traditional blank line and then keep\\n  on indenting the paragraphs with two spaces.\\n\\n  You really only need to indent the first line,",
+        "raw": "- You can put large blocks of text in your list by just indenting with two spaces.\\n\\n  This is formatted the same as code, but you can inspect the HTML\\n  and find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\n  as preformatted text.\\n\\n  You can keep adding more and more paragraphs to a single\\n  list item by adding the traditional blank line and then keep\\n  on indenting the paragraphs with two spaces.\\n\\n  You really only need to indent the first line,\\nbut that looks ugly.\\n\\n",
         "task": false,
         "loose": true,
-        "text": "You can put large blocks of text in your list by just indenting with two spaces.\\n\\nThis is formatted the same as code, but you can inspect the HTML\\nand find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\nas preformatted text.\\n\\nYou can keep adding more and more paragraphs to a single\\nlist item by adding the traditional blank line and then keep\\non indenting the paragraphs with two spaces.\\n\\nYou really only need to indent the first line,",
+        "text": "You can put large blocks of text in your list by just indenting with two spaces.\\n\\nThis is formatted the same as code, but you can inspect the HTML\\nand find that it's just wrapped in a \`<p>\` tag and *won't* be shown\\nas preformatted text.\\n\\nYou can keep adding more and more paragraphs to a single\\nlist item by adding the traditional blank line and then keep\\non indenting the paragraphs with two spaces.\\n\\nYou really only need to indent the first line,\\nbut that looks ugly.\\n",
         "tokens": [
           {
             "type": "paragraph",
@@ -8900,13 +9260,13 @@ exports[`addTokenPositions > reference 1`] = `
           },
           {
             "type": "paragraph",
-            "raw": "You really only need to indent the first line,",
-            "text": "You really only need to indent the first line,",
+            "raw": "You really only need to indent the first line,\\nbut that looks ugly.\\n",
+            "text": "You really only need to indent the first line,\\nbut that looks ugly.",
             "tokens": [
               {
                 "type": "text",
-                "raw": "You really only need to indent the first line,",
-                "text": "You really only need to indent the first line,",
+                "raw": "You really only need to indent the first line,\\nbut that looks ugly.",
+                "text": "You really only need to indent the first line,\\nbut that looks ugly.",
                 "escaped": false,
                 "position": {
                   "lines": [
@@ -8921,6 +9281,18 @@ exports[`addTokenPositions > reference 1`] = `
                         "line": 124,
                         "column": 48
                       }
+                    },
+                    {
+                      "start": {
+                        "offset": 4713,
+                        "line": 125,
+                        "column": 0
+                      },
+                      "end": {
+                        "offset": 4733,
+                        "line": 125,
+                        "column": 20
+                      }
                     }
                   ],
                   "start": {
@@ -8929,9 +9301,9 @@ exports[`addTokenPositions > reference 1`] = `
                     "column": 2
                   },
                   "end": {
-                    "offset": 4712,
-                    "line": 124,
-                    "column": 48
+                    "offset": 4733,
+                    "line": 125,
+                    "column": 20
                   }
                 }
               }
@@ -8949,6 +9321,18 @@ exports[`addTokenPositions > reference 1`] = `
                     "line": 124,
                     "column": 48
                   }
+                },
+                {
+                  "start": {
+                    "offset": 4713,
+                    "line": 125,
+                    "column": 0
+                  },
+                  "end": {
+                    "offset": 4733,
+                    "line": 125,
+                    "column": 20
+                  }
                 }
               ],
               "start": {
@@ -8957,9 +9341,9 @@ exports[`addTokenPositions > reference 1`] = `
                 "column": 2
               },
               "end": {
-                "offset": 4712,
-                "line": 124,
-                "column": 48
+                "offset": 4734,
+                "line": 126,
+                "column": 0
               }
             }
           }
@@ -9097,408 +9481,7 @@ exports[`addTokenPositions > reference 1`] = `
                 "line": 124,
                 "column": 48
               }
-            }
-          ],
-          "start": {
-            "offset": 4248,
-            "line": 114,
-            "column": 0
-          },
-          "end": {
-            "offset": 4712,
-            "line": 124,
-            "column": 48
-          }
-        }
-      }
-    ],
-    "position": {
-      "lines": [
-        {
-          "start": {
-            "offset": 3604,
-            "line": 95,
-            "column": 0
-          },
-          "end": {
-            "offset": 3654,
-            "line": 95,
-            "column": 50
-          }
-        },
-        {
-          "start": {
-            "offset": 3655,
-            "line": 96,
-            "column": 0
-          },
-          "end": {
-            "offset": 3715,
-            "line": 96,
-            "column": 60
-          }
-        },
-        {
-          "start": {
-            "offset": 3716,
-            "line": 97,
-            "column": 0
-          },
-          "end": {
-            "offset": 3716,
-            "line": 97,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 3717,
-            "line": 98,
-            "column": 0
-          },
-          "end": {
-            "offset": 3751,
-            "line": 98,
-            "column": 34
-          }
-        },
-        {
-          "start": {
-            "offset": 3752,
-            "line": 99,
-            "column": 0
-          },
-          "end": {
-            "offset": 3752,
-            "line": 99,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 3753,
-            "line": 100,
-            "column": 0
-          },
-          "end": {
-            "offset": 3816,
-            "line": 100,
-            "column": 63
-          }
-        },
-        {
-          "start": {
-            "offset": 3817,
-            "line": 101,
-            "column": 0
-          },
-          "end": {
-            "offset": 3817,
-            "line": 101,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 3818,
-            "line": 102,
-            "column": 0
-          },
-          "end": {
-            "offset": 3846,
-            "line": 102,
-            "column": 28
-          }
-        },
-        {
-          "start": {
-            "offset": 3847,
-            "line": 103,
-            "column": 0
-          },
-          "end": {
-            "offset": 3875,
-            "line": 103,
-            "column": 28
-          }
-        },
-        {
-          "start": {
-            "offset": 3876,
-            "line": 104,
-            "column": 0
-          },
-          "end": {
-            "offset": 3916,
-            "line": 104,
-            "column": 40
-          }
-        },
-        {
-          "start": {
-            "offset": 3917,
-            "line": 105,
-            "column": 0
-          },
-          "end": {
-            "offset": 3982,
-            "line": 105,
-            "column": 65
-          }
-        },
-        {
-          "start": {
-            "offset": 3983,
-            "line": 106,
-            "column": 0
-          },
-          "end": {
-            "offset": 4028,
-            "line": 106,
-            "column": 45
-          }
-        },
-        {
-          "start": {
-            "offset": 4029,
-            "line": 107,
-            "column": 0
-          },
-          "end": {
-            "offset": 4029,
-            "line": 107,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 4030,
-            "line": 108,
-            "column": 0
-          },
-          "end": {
-            "offset": 4104,
-            "line": 108,
-            "column": 74
-          }
-        },
-        {
-          "start": {
-            "offset": 4105,
-            "line": 109,
-            "column": 0
-          },
-          "end": {
-            "offset": 4147,
-            "line": 109,
-            "column": 42
-          }
-        },
-        {
-          "start": {
-            "offset": 4148,
-            "line": 110,
-            "column": 0
-          },
-          "end": {
-            "offset": 4148,
-            "line": 110,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 4149,
-            "line": 111,
-            "column": 0
-          },
-          "end": {
-            "offset": 4196,
-            "line": 111,
-            "column": 47
-          }
-        },
-        {
-          "start": {
-            "offset": 4197,
-            "line": 112,
-            "column": 0
-          },
-          "end": {
-            "offset": 4246,
-            "line": 112,
-            "column": 49
-          }
-        },
-        {
-          "start": {
-            "offset": 4247,
-            "line": 113,
-            "column": 0
-          },
-          "end": {
-            "offset": 4247,
-            "line": 113,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 4248,
-            "line": 114,
-            "column": 0
-          },
-          "end": {
-            "offset": 4330,
-            "line": 114,
-            "column": 82
-          }
-        },
-        {
-          "start": {
-            "offset": 4331,
-            "line": 115,
-            "column": 0
-          },
-          "end": {
-            "offset": 4331,
-            "line": 115,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 4332,
-            "line": 116,
-            "column": 0
-          },
-          "end": {
-            "offset": 4398,
-            "line": 116,
-            "column": 66
-          }
-        },
-        {
-          "start": {
-            "offset": 4399,
-            "line": 117,
-            "column": 0
-          },
-          "end": {
-            "offset": 4468,
-            "line": 117,
-            "column": 69
-          }
-        },
-        {
-          "start": {
-            "offset": 4469,
-            "line": 118,
-            "column": 0
-          },
-          "end": {
-            "offset": 4492,
-            "line": 118,
-            "column": 23
-          }
-        },
-        {
-          "start": {
-            "offset": 4493,
-            "line": 119,
-            "column": 0
-          },
-          "end": {
-            "offset": 4493,
-            "line": 119,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 4494,
-            "line": 120,
-            "column": 0
-          },
-          "end": {
-            "offset": 4552,
-            "line": 120,
-            "column": 58
-          }
-        },
-        {
-          "start": {
-            "offset": 4553,
-            "line": 121,
-            "column": 0
-          },
-          "end": {
-            "offset": 4615,
-            "line": 121,
-            "column": 62
-          }
-        },
-        {
-          "start": {
-            "offset": 4616,
-            "line": 122,
-            "column": 0
-          },
-          "end": {
-            "offset": 4662,
-            "line": 122,
-            "column": 46
-          }
-        },
-        {
-          "start": {
-            "offset": 4663,
-            "line": 123,
-            "column": 0
-          },
-          "end": {
-            "offset": 4663,
-            "line": 123,
-            "column": 0
-          }
-        },
-        {
-          "start": {
-            "offset": 4664,
-            "line": 124,
-            "column": 0
-          },
-          "end": {
-            "offset": 4712,
-            "line": 124,
-            "column": 48
-          }
-        }
-      ],
-      "start": {
-        "offset": 3604,
-        "line": 95,
-        "column": 0
-      },
-      "end": {
-        "offset": 4713,
-        "line": 125,
-        "column": 0
-      }
-    }
-  },
-  {
-    "type": "paragraph",
-    "raw": "but that looks ugly.",
-    "text": "but that looks ugly.",
-    "tokens": [
-      {
-        "type": "text",
-        "raw": "but that looks ugly.",
-        "text": "but that looks ugly.",
-        "escaped": false,
-        "position": {
-          "lines": [
+            },
             {
               "start": {
                 "offset": 4713,
@@ -9510,97 +9493,32 @@ exports[`addTokenPositions > reference 1`] = `
                 "line": 125,
                 "column": 20
               }
+            },
+            {
+              "start": {
+                "offset": 4734,
+                "line": 126,
+                "column": 0
+              },
+              "end": {
+                "offset": 4734,
+                "line": 126,
+                "column": 0
+              }
             }
           ],
           "start": {
-            "offset": 4713,
-            "line": 125,
+            "offset": 4248,
+            "line": 114,
             "column": 0
           },
           "end": {
-            "offset": 4733,
-            "line": 125,
-            "column": 20
-          }
-        }
-      }
-    ],
-    "position": {
-      "lines": [
-        {
-          "start": {
-            "offset": 4713,
-            "line": 125,
+            "offset": 4735,
+            "line": 127,
             "column": 0
-          },
-          "end": {
-            "offset": 4733,
-            "line": 125,
-            "column": 20
           }
         }
-      ],
-      "start": {
-        "offset": 4713,
-        "line": 125,
-        "column": 0
       },
-      "end": {
-        "offset": 4733,
-        "line": 125,
-        "column": 20
-      }
-    }
-  },
-  {
-    "type": "space",
-    "raw": "\\n\\n",
-    "position": {
-      "lines": [
-        {
-          "start": {
-            "offset": 4733,
-            "line": 125,
-            "column": 20
-          },
-          "end": {
-            "offset": 4733,
-            "line": 125,
-            "column": 20
-          }
-        },
-        {
-          "start": {
-            "offset": 4734,
-            "line": 126,
-            "column": 0
-          },
-          "end": {
-            "offset": 4734,
-            "line": 126,
-            "column": 0
-          }
-        }
-      ],
-      "start": {
-        "offset": 4733,
-        "line": 125,
-        "column": 20
-      },
-      "end": {
-        "offset": 4735,
-        "line": 127,
-        "column": 0
-      }
-    }
-  },
-  {
-    "type": "list",
-    "raw": "- Lists support blockquotes\\n\\n  > Just like this example here. By the way, you can\\n  > nest lists inside blockquotes!\\n  > - Fantastic!\\n\\n- Lists support preformatted text\\n\\n      You just need to indent an additional four spaces.",
-    "ordered": false,
-    "start": "",
-    "loose": true,
-    "items": [
       {
         "type": "list_item",
         "raw": "- Lists support blockquotes\\n\\n  > Just like this example here. By the way, you can\\n  > nest lists inside blockquotes!\\n  > - Fantastic!\\n\\n",
@@ -10287,6 +10205,390 @@ exports[`addTokenPositions > reference 1`] = `
       "lines": [
         {
           "start": {
+            "offset": 3604,
+            "line": 95,
+            "column": 0
+          },
+          "end": {
+            "offset": 3654,
+            "line": 95,
+            "column": 50
+          }
+        },
+        {
+          "start": {
+            "offset": 3655,
+            "line": 96,
+            "column": 0
+          },
+          "end": {
+            "offset": 3715,
+            "line": 96,
+            "column": 60
+          }
+        },
+        {
+          "start": {
+            "offset": 3716,
+            "line": 97,
+            "column": 0
+          },
+          "end": {
+            "offset": 3716,
+            "line": 97,
+            "column": 0
+          }
+        },
+        {
+          "start": {
+            "offset": 3717,
+            "line": 98,
+            "column": 0
+          },
+          "end": {
+            "offset": 3751,
+            "line": 98,
+            "column": 34
+          }
+        },
+        {
+          "start": {
+            "offset": 3752,
+            "line": 99,
+            "column": 0
+          },
+          "end": {
+            "offset": 3752,
+            "line": 99,
+            "column": 0
+          }
+        },
+        {
+          "start": {
+            "offset": 3753,
+            "line": 100,
+            "column": 0
+          },
+          "end": {
+            "offset": 3816,
+            "line": 100,
+            "column": 63
+          }
+        },
+        {
+          "start": {
+            "offset": 3817,
+            "line": 101,
+            "column": 0
+          },
+          "end": {
+            "offset": 3817,
+            "line": 101,
+            "column": 0
+          }
+        },
+        {
+          "start": {
+            "offset": 3818,
+            "line": 102,
+            "column": 0
+          },
+          "end": {
+            "offset": 3846,
+            "line": 102,
+            "column": 28
+          }
+        },
+        {
+          "start": {
+            "offset": 3847,
+            "line": 103,
+            "column": 0
+          },
+          "end": {
+            "offset": 3875,
+            "line": 103,
+            "column": 28
+          }
+        },
+        {
+          "start": {
+            "offset": 3876,
+            "line": 104,
+            "column": 0
+          },
+          "end": {
+            "offset": 3916,
+            "line": 104,
+            "column": 40
+          }
+        },
+        {
+          "start": {
+            "offset": 3917,
+            "line": 105,
+            "column": 0
+          },
+          "end": {
+            "offset": 3982,
+            "line": 105,
+            "column": 65
+          }
+        },
+        {
+          "start": {
+            "offset": 3983,
+            "line": 106,
+            "column": 0
+          },
+          "end": {
+            "offset": 4028,
+            "line": 106,
+            "column": 45
+          }
+        },
+        {
+          "start": {
+            "offset": 4029,
+            "line": 107,
+            "column": 0
+          },
+          "end": {
+            "offset": 4029,
+            "line": 107,
+            "column": 0
+          }
+        },
+        {
+          "start": {
+            "offset": 4030,
+            "line": 108,
+            "column": 0
+          },
+          "end": {
+            "offset": 4104,
+            "line": 108,
+            "column": 74
+          }
+        },
+        {
+          "start": {
+            "offset": 4105,
+            "line": 109,
+            "column": 0
+          },
+          "end": {
+            "offset": 4147,
+            "line": 109,
+            "column": 42
+          }
+        },
+        {
+          "start": {
+            "offset": 4148,
+            "line": 110,
+            "column": 0
+          },
+          "end": {
+            "offset": 4148,
+            "line": 110,
+            "column": 0
+          }
+        },
+        {
+          "start": {
+            "offset": 4149,
+            "line": 111,
+            "column": 0
+          },
+          "end": {
+            "offset": 4196,
+            "line": 111,
+            "column": 47
+          }
+        },
+        {
+          "start": {
+            "offset": 4197,
+            "line": 112,
+            "column": 0
+          },
+          "end": {
+            "offset": 4246,
+            "line": 112,
+            "column": 49
+          }
+        },
+        {
+          "start": {
+            "offset": 4247,
+            "line": 113,
+            "column": 0
+          },
+          "end": {
+            "offset": 4247,
+            "line": 113,
+            "column": 0
+          }
+        },
+        {
+          "start": {
+            "offset": 4248,
+            "line": 114,
+            "column": 0
+          },
+          "end": {
+            "offset": 4330,
+            "line": 114,
+            "column": 82
+          }
+        },
+        {
+          "start": {
+            "offset": 4331,
+            "line": 115,
+            "column": 0
+          },
+          "end": {
+            "offset": 4331,
+            "line": 115,
+            "column": 0
+          }
+        },
+        {
+          "start": {
+            "offset": 4332,
+            "line": 116,
+            "column": 0
+          },
+          "end": {
+            "offset": 4398,
+            "line": 116,
+            "column": 66
+          }
+        },
+        {
+          "start": {
+            "offset": 4399,
+            "line": 117,
+            "column": 0
+          },
+          "end": {
+            "offset": 4468,
+            "line": 117,
+            "column": 69
+          }
+        },
+        {
+          "start": {
+            "offset": 4469,
+            "line": 118,
+            "column": 0
+          },
+          "end": {
+            "offset": 4492,
+            "line": 118,
+            "column": 23
+          }
+        },
+        {
+          "start": {
+            "offset": 4493,
+            "line": 119,
+            "column": 0
+          },
+          "end": {
+            "offset": 4493,
+            "line": 119,
+            "column": 0
+          }
+        },
+        {
+          "start": {
+            "offset": 4494,
+            "line": 120,
+            "column": 0
+          },
+          "end": {
+            "offset": 4552,
+            "line": 120,
+            "column": 58
+          }
+        },
+        {
+          "start": {
+            "offset": 4553,
+            "line": 121,
+            "column": 0
+          },
+          "end": {
+            "offset": 4615,
+            "line": 121,
+            "column": 62
+          }
+        },
+        {
+          "start": {
+            "offset": 4616,
+            "line": 122,
+            "column": 0
+          },
+          "end": {
+            "offset": 4662,
+            "line": 122,
+            "column": 46
+          }
+        },
+        {
+          "start": {
+            "offset": 4663,
+            "line": 123,
+            "column": 0
+          },
+          "end": {
+            "offset": 4663,
+            "line": 123,
+            "column": 0
+          }
+        },
+        {
+          "start": {
+            "offset": 4664,
+            "line": 124,
+            "column": 0
+          },
+          "end": {
+            "offset": 4712,
+            "line": 124,
+            "column": 48
+          }
+        },
+        {
+          "start": {
+            "offset": 4713,
+            "line": 125,
+            "column": 0
+          },
+          "end": {
+            "offset": 4733,
+            "line": 125,
+            "column": 20
+          }
+        },
+        {
+          "start": {
+            "offset": 4734,
+            "line": 126,
+            "column": 0
+          },
+          "end": {
+            "offset": 4734,
+            "line": 126,
+            "column": 0
+          }
+        },
+        {
+          "start": {
             "offset": 4735,
             "line": 127,
             "column": 0
@@ -10395,8 +10697,8 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 4735,
-        "line": 127,
+        "offset": 3604,
+        "line": 95,
         "column": 0
       },
       "end": {
@@ -10462,7 +10764,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "heading",
-    "raw": "Even More\\n=========\\n\\n",
+    "raw": "Even More\\n=========",
     "depth": 1,
     "text": "Even More",
     "tokens": [
@@ -10524,6 +10826,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 139,
             "column": 9
           }
+        }
+      ],
+      "start": {
+        "offset": 4964,
+        "line": 138,
+        "column": 0
+      },
+      "end": {
+        "offset": 4983,
+        "line": 139,
+        "column": 9
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 4983,
+            "line": 139,
+            "column": 9
+          },
+          "end": {
+            "offset": 4983,
+            "line": 139,
+            "column": 9
+          }
         },
         {
           "start": {
@@ -10539,9 +10871,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 4964,
-        "line": 138,
-        "column": 0
+        "offset": 4983,
+        "line": 139,
+        "column": 9
       },
       "end": {
         "offset": 4985,
@@ -10552,7 +10884,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "heading",
-    "raw": "Horizontal Rule\\n---------------\\n\\n",
+    "raw": "Horizontal Rule\\n---------------",
     "depth": 2,
     "text": "Horizontal Rule",
     "tokens": [
@@ -10614,6 +10946,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 142,
             "column": 15
           }
+        }
+      ],
+      "start": {
+        "offset": 4985,
+        "line": 141,
+        "column": 0
+      },
+      "end": {
+        "offset": 5016,
+        "line": 142,
+        "column": 15
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 5016,
+            "line": 142,
+            "column": 15
+          },
+          "end": {
+            "offset": 5016,
+            "line": 142,
+            "column": 15
+          }
         },
         {
           "start": {
@@ -10629,9 +10991,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 4985,
-        "line": 141,
-        "column": 0
+        "offset": 5016,
+        "line": 142,
+        "column": 15
       },
       "end": {
         "offset": 5018,
@@ -10988,7 +11350,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "heading",
-    "raw": "Images\\n------\\n\\n",
+    "raw": "Images\\n------",
     "depth": 2,
     "text": "Images",
     "tokens": [
@@ -11050,6 +11412,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 153,
             "column": 6
           }
+        }
+      ],
+      "start": {
+        "offset": 5409,
+        "line": 152,
+        "column": 0
+      },
+      "end": {
+        "offset": 5422,
+        "line": 153,
+        "column": 6
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 5422,
+            "line": 153,
+            "column": 6
+          },
+          "end": {
+            "offset": 5422,
+            "line": 153,
+            "column": 6
+          }
         },
         {
           "start": {
@@ -11065,9 +11457,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 5409,
-        "line": 152,
-        "column": 0
+        "offset": 5422,
+        "line": 153,
+        "column": 6
       },
       "end": {
         "offset": 5424,
@@ -11459,7 +11851,7 @@ exports[`addTokenPositions > reference 1`] = `
   {
     "type": "def",
     "tag": "happy",
-    "raw": "[Happy]: https://wpclipart.com/smiley/happy/simple_colors/smiley_face_simple_green_small.png (\\"Smiley face\\")\\n\\n\\n",
+    "raw": "[Happy]: https://wpclipart.com/smiley/happy/simple_colors/smiley_face_simple_green_small.png (\\"Smiley face\\")",
     "href": "https://wpclipart.com/smiley/happy/simple_colors/smiley_face_simple_green_small.png",
     "title": "\\"Smiley face\\"",
     "position": {
@@ -11469,6 +11861,36 @@ exports[`addTokenPositions > reference 1`] = `
             "offset": 5622,
             "line": 159,
             "column": 0
+          },
+          "end": {
+            "offset": 5730,
+            "line": 159,
+            "column": 108
+          }
+        }
+      ],
+      "start": {
+        "offset": 5622,
+        "line": 159,
+        "column": 0
+      },
+      "end": {
+        "offset": 5730,
+        "line": 159,
+        "column": 108
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 5730,
+            "line": 159,
+            "column": 108
           },
           "end": {
             "offset": 5730,
@@ -11502,9 +11924,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 5622,
+        "offset": 5730,
         "line": 159,
-        "column": 0
+        "column": 108
       },
       "end": {
         "offset": 5733,
@@ -11515,7 +11937,7 @@ exports[`addTokenPositions > reference 1`] = `
   },
   {
     "type": "heading",
-    "raw": "Inline HTML\\n-----------\\n\\n",
+    "raw": "Inline HTML\\n-----------",
     "depth": 2,
     "text": "Inline HTML",
     "tokens": [
@@ -11577,6 +11999,36 @@ exports[`addTokenPositions > reference 1`] = `
             "line": 163,
             "column": 11
           }
+        }
+      ],
+      "start": {
+        "offset": 5733,
+        "line": 162,
+        "column": 0
+      },
+      "end": {
+        "offset": 5756,
+        "line": 163,
+        "column": 11
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 5756,
+            "line": 163,
+            "column": 11
+          },
+          "end": {
+            "offset": 5756,
+            "line": 163,
+            "column": 11
+          }
         },
         {
           "start": {
@@ -11592,9 +12044,9 @@ exports[`addTokenPositions > reference 1`] = `
         }
       ],
       "start": {
-        "offset": 5733,
-        "line": 162,
-        "column": 0
+        "offset": 5756,
+        "line": 163,
+        "column": 11
       },
       "end": {
         "offset": 5758,
@@ -12148,7 +12600,7 @@ exports[`addTokenPositions > reflink 1`] = `
   {
     "type": "def",
     "tag": "test",
-    "raw": "[test]: https://example.com\\n\\n",
+    "raw": "[test]: https://example.com",
     "href": "https://example.com",
     "position": {
       "lines": [
@@ -12157,6 +12609,36 @@ exports[`addTokenPositions > reflink 1`] = `
             "offset": 0,
             "line": 0,
             "column": 0
+          },
+          "end": {
+            "offset": 27,
+            "line": 0,
+            "column": 27
+          }
+        }
+      ],
+      "start": {
+        "offset": 0,
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "offset": 27,
+        "line": 0,
+        "column": 27
+      }
+    }
+  },
+  {
+    "type": "space",
+    "raw": "\\n\\n",
+    "position": {
+      "lines": [
+        {
+          "start": {
+            "offset": 27,
+            "line": 0,
+            "column": 27
           },
           "end": {
             "offset": 27,
@@ -12178,9 +12660,9 @@ exports[`addTokenPositions > reflink 1`] = `
         }
       ],
       "start": {
-        "offset": 0,
+        "offset": 27,
         "line": 0,
-        "column": 0
+        "column": 27
       },
       "end": {
         "offset": 29,

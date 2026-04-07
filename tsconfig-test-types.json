@@ -1,14 +1,14 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "baseUrl": ".",
     "paths": {
       "marked-token-position": [
-        "lib/index.d.ts"
+        "./lib/index.d.ts"
       ]
-    }
+    },
+    "rootDir": "./spec/"
   },
   "include": [
-    "spec/*.test-types.ts"
+    "./spec/*.test-types.ts"
   ]
 }

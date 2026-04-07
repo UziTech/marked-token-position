@@ -5,7 +5,8 @@
       "marked-token-position": [
         "./lib/index.d.ts"
       ]
-    }
+    },
+    "rootDir": "./spec/"
   },
   "include": [
     "./spec/*.test-types.ts"

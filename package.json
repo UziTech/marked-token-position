@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/UziTech/marked-token-position#readme",
   "peerDependencies": {
-    "marked": ">=16.2.0 <18"
+    "marked": ">=16.2.0 <19"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.2",
@@ -59,8 +59,8 @@
     "esbuild": "^0.28.0",
     "esbuild-plugin-umd-wrapper": "^3.0.0",
     "eslint": "^10.2.0",
-    "marked": "^17.0.1",
+    "marked": "^18.0.0",
     "semantic-release": "^25.0.3",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   }
 }

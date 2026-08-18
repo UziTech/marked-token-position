@@ -27,11 +27,11 @@
     "build:types": "tsc && dts-bundle-generator --export-referenced-types --project tsconfig.json -o lib/index.d.ts src/index.ts",
     "format": "eslint --fix",
     "lint": "eslint",
-    "test": "npm run build:esbuild && node --experimental-transform-types ./spec/test.config.js",
-    "test:cover": "npm run build:esbuild && node --experimental-transform-types --experimental-test-coverage ./spec/test.config.js -- --cover",
-    "test:only": "npm run build:esbuild && node --experimental-transform-types ./spec/test.config.js -- --only",
+    "test": "npm run build:esbuild && node ./spec/test.config.js",
+    "test:cover": "npm run build:esbuild && node --experimental-test-coverage ./spec/test.config.js -- --cover",
+    "test:only": "npm run build:esbuild && node ./spec/test.config.js -- --only",
     "test:types": "npm run build:types && tsc --project tsconfig-test-types.json && attw -P --entrypoints . --profile esm-only",
-    "test:update": "npm run build:esbuild && node --experimental-transform-types --test-update-snapshots ./spec/test.config.js"
+    "test:update": "npm run build:esbuild && node --test-update-snapshots ./spec/test.config.js"
   },
   "repository": {
     "type": "git",
@@ -47,20 +47,20 @@
     "marked": ">=16.2.0 <19"
   },
   "devDependencies": {
-    "@arethetypeswrong/cli": "^0.18.2",
+    "@arethetypeswrong/cli": "^0.18.5",
     "@markedjs/eslint-config": "^1.0.14",
-    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/changelog": "7.0.0",
     "@semantic-release/commit-analyzer": "^13.0.1",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^12.0.6",
+    "@semantic-release/git": "11.0.1",
+    "@semantic-release/github": "^12.0.9",
     "@semantic-release/npm": "^13.1.5",
-    "@semantic-release/release-notes-generator": "^14.1.0",
+    "@semantic-release/release-notes-generator": "^14.1.1",
     "dts-bundle-generator": "^9.5.1",
-    "esbuild": "^0.28.0",
+    "esbuild": "^0.28.2",
     "esbuild-plugin-umd-wrapper": "^3.0.0",
-    "eslint": "^10.3.0",
-    "marked": "^18.0.3",
-    "semantic-release": "^25.0.3",
+    "eslint": "^10.8.1",
+    "marked": "^18.0.10",
+    "semantic-release": "^25.0.9",
     "typescript": "^6.0.3"
   }
 }
